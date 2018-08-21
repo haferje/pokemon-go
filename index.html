@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="">
+
+		<title>Pokemon Go Viewer</title>
+
+		<!-- styles -->
+		<style>
+			* { font-size: 8pt; }
+			td.indent { padding-left:40px; }
+		</style>
+	</head>
+
+	<body>
+
+		<!-- main app -->
+		<div id="app">
+			<!-- <table border="1">
+				<tr v-for="monster in pokemon">
+					<td>
+						<monster v-model="monster"/>
+					</td>
+				</tr>
+			</table> -->
+			<!-- <monster
+				v-for="monster in pokemon"
+				:key="monster.id"
+				:monster="monster"
+			></monster> -->
+			<pokemon />
+		</div>
+
+		<!-- scripts -->
+		<script src="client/vue.min.js"></script>
+		<script src="client/lodash.min.js"></script>
+		<script src="client/jquery.min.js"></script>
+		<script src="data/pokemon.js"></script>
+		<script src="data/moves.js"></script>
+		<script src="data/types.js"></script>
+
+		<!-- item template -->
+		<script type="text/x-template" id="pokemon-template">
+
+			<table border="1">
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Egg</th>
+					<th>Max CP</th>
+					<th>Quick Move</th>
+					<th>Charge Move</th>
+					<th>Family</th>
+					<th>Types</th>
+					<th>ATK</th>
+					<th>DEF</th>
+					<th>STA</th>
+					<th>Rarity</th>
+					<th>Flee</th>
+					<th>Capture</th>
+					<th>Effectiveness</th>
+					<th>Gender M/F</th>
+				</tr>
+				<monster
+					v-for="monster in top5pokemon"
+					:key="monster.id"
+					:monster="monster"
+				>
+				</tr>
+			</table>
+
+		</script>
+		<!-- <script type="text/x-template" id="monster-template">
+
+			<table border="1">
+				<tr>
+					<td>{{monster.dex}}</td>
+					<td>{{monster.name}}</td>
+					<td>{{monster.kmBuddyDistance}}</td>
+					<td>{{monster.maxCP}}</td>
+					<td>
+						<div v-for="move in monster.quickMoves">{{move.name}}</div>
+					</td>
+					<td>
+						<div v-for="move in monster.cinematicMoves">{{move.name}}</div>
+					</td>
+					<td>{{monster.family.name}}</td>
+					<td>{{monster.stats.baseAttack}}</td>
+					<td>{{monster.stats.baseDefense}}</td>
+					<td>{{monster.stats.baseStamina}}</td>
+					<td>{{monster.rarity && monster.rarity.name || ''}}</td>
+					<td>{{monster.encounter.baseFleeRate}}</td>
+					<td>{{monster.encounter.baseCaptureRate}}</td>
+				</tr>
+			</table>
+
+		</script> -->
+		<script type="text/x-template" id="monster-template">
+
+			<!-- <tbody> is sort-of a hack so we can output multiple <tr>s in a template (yes, multiple tbody in a table is fine) -->
+
+			<tbody>
+				<tr>
+					<td>{{monster.dex}}</td>
+					<td>{{monster.name}}</td>
+					<td>{{monster.kmBuddyDistance}}km</td>
+					<td>{{monster.maxCP}}</td>
+					<td>
+						<move v-for="move in monster.quickMoves"
+							:key="move.id"
+							:moveID="move.id"
+						/>
+					</td>
+					<td>
+						<move v-for="move in monster.cinematicMoves"
+							:key="move.id"
+							:moveID="move.id"
+						/>
+					</td>
+					<td>{{monster.family.name}}</td>
+					<td>
+						<div v-for="type in monster.types">{{type.name}}</div>
+					</td>
+					<td>{{monster.stats.baseAttack}}</td>
+					<td>{{monster.stats.baseDefense}}</td>
+					<td>{{monster.stats.baseStamina}}</td>
+					<td>{{monster.rarity && monster.rarity.name || ''}}</td>
+					<td>{{Math.floor(monster.encounter.baseFleeRate * 100)}}%</td>
+					<td>{{Math.floor(monster.encounter.baseCaptureRate * 100)}}%</td>
+					<td>
+						<div v-for="type in monster.types">
+							<!-- <div v-for="d in _.find(types, { id: type.id }).damage">
+								{{d.id}}
+							</div> -->
+						</div>
+					</td>
+					<td>
+						<div v-if="monster.encounter.gender">
+							{{monster.encounter.gender && monster.encounter.gender.malePercent}} /
+							{{monster.encounter.gender && monster.encounter.gender.femalePercent}}
+						</div>
+						<div v-else>
+							generless
+						</div>
+					</td>
+				</tr>
+				<tr v-if="monster.evolution && monster.evolution.futureBranches">
+					<td colspan="16" class="indent">
+						<evolution v-for="evolution in monster.evolution.futureBranches"
+							:key="evolution.id"
+							:monsterID="evolution.id" />
+					</td>
+				</tr>
+			</tbody>
+
+		</script>
+
+		<script type="text/x-template" id="move-template">
+
+			<div>
+				{{move.name}} ({{move.pokemonType.name}}) {{move.power}} {{move.criticalChance}}
+			</div>
+
+		</script>
+
+		<script type="text/x-template" id="evolution-template">
+
+			<table border="1">
+				<tr>
+					<td>{{monster.dex}}</td>
+					<td>{{monster.name}}</td>
+					<td>
+						<img :src="image" />
+					</td>
+				</tr>
+				<tr v-if="monster.evolution && monster.evolution.futureBranches">
+					<td colspan="3" class="indent">
+						<evolution v-for="evolution in monster.evolution.futureBranches"
+							:key="evolution.id"
+							:monsterID="evolution.id" />
+					</td>
+				</tr>
+			</table>
+
+		</script>
+
+		<!-- Vue scripts -->
+		<script src="client/components.js"></script>
+
+		<script>
+
+			// main app
+			var app = new Vue({
+				el: '#app',
+				data: {
+					pokemon,
+				},
+				mounted() {
+				},
+				methods: {
+				},
+				created: function () {
+				},
+				// filters: {
+				// 	top: function (array, count) {
+				// 	    return _.take(array, count);
+				// 	}
+				// }
+			});
+
+		</script>
+
+	</body>
+</html>
