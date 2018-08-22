@@ -1,12 +1,4 @@
 
-Vue.directive('popover', function(el, binding){
-	$(el).popover({ trigger: 'focus', html: true });
-});
-
-// Vue.filter('top', function (array, count) {
-//     return _.take(array, count);
-// });
-
 Vue.component('pokemon', {
 	template: '#pokemon-template',
 	computed: {
@@ -28,7 +20,6 @@ Vue.component('move', {
 	props: ['moveID'],
 	data: function() {
 		return {
-			// move: _.find(moves, { id: this.$vnode.key })
 			move: _.find(moves, { id: this.moveID })
 		};
 	},
@@ -44,6 +35,27 @@ Vue.component('evolution', {
 		return {
 			monster,
 			image: `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`,
+		};
+	},
+});
+
+Vue.component('effectiveness', {
+	template: '#effectiveness-template',
+	props: ['monster'],
+	data: function() {
+		var effective = _.map(this.monster.types, type => _.find(types, { id: type.id }));
+		var flatened = _.concat(effective[0].damage, effective[1] && effective[1].damage || []);
+		var grouped = _.groupBy(flatened, type => type.id);
+		var summed = _.map(grouped, group => {
+			return { id: group[0].id, attackScalar: _.reduce(_.map(group, 'attackScalar'), (a,b)=>a*b) };
+		});
+		var ordered = _.orderBy(summed, ['attackScalar', 'id'], ['desc', 'asc']);
+		effects = _.groupBy(ordered, eff => eff.attackScalar.toFixed(3));
+// debugger;
+		console.log(effects);
+
+		return {
+			effects,
 		};
 	},
 });

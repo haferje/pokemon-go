@@ -20,18 +20,6 @@
 
 		<!-- main app -->
 		<div id="app">
-			<!-- <table border="1">
-				<tr v-for="monster in pokemon">
-					<td>
-						<monster v-model="monster"/>
-					</td>
-				</tr>
-			</table> -->
-			<!-- <monster
-				v-for="monster in pokemon"
-				:key="monster.id"
-				:monster="monster"
-			></monster> -->
 			<pokemon />
 		</div>
 
@@ -74,31 +62,7 @@
 			</table>
 
 		</script>
-		<!-- <script type="text/x-template" id="monster-template">
 
-			<table border="1">
-				<tr>
-					<td>{{monster.dex}}</td>
-					<td>{{monster.name}}</td>
-					<td>{{monster.kmBuddyDistance}}</td>
-					<td>{{monster.maxCP}}</td>
-					<td>
-						<div v-for="move in monster.quickMoves">{{move.name}}</div>
-					</td>
-					<td>
-						<div v-for="move in monster.cinematicMoves">{{move.name}}</div>
-					</td>
-					<td>{{monster.family.name}}</td>
-					<td>{{monster.stats.baseAttack}}</td>
-					<td>{{monster.stats.baseDefense}}</td>
-					<td>{{monster.stats.baseStamina}}</td>
-					<td>{{monster.rarity && monster.rarity.name || ''}}</td>
-					<td>{{monster.encounter.baseFleeRate}}</td>
-					<td>{{monster.encounter.baseCaptureRate}}</td>
-				</tr>
-			</table>
-
-		</script> -->
 		<script type="text/x-template" id="monster-template">
 
 			<!-- <tbody> is sort-of a hack so we can output multiple <tr>s in a template (yes, multiple tbody in a table is fine) -->
@@ -132,11 +96,7 @@
 					<td>{{Math.floor(monster.encounter.baseFleeRate * 100)}}%</td>
 					<td>{{Math.floor(monster.encounter.baseCaptureRate * 100)}}%</td>
 					<td>
-						<div v-for="type in monster.types">
-							<!-- <div v-for="d in _.find(types, { id: type.id }).damage">
-								{{d.id}}
-							</div> -->
-						</div>
+						<effectiveness :monster="monster" />
 					</td>
 					<td>
 						<div v-if="monster.encounter.gender">
@@ -185,6 +145,19 @@
 					</td>
 				</tr>
 			</table>
+
+		</script>
+
+		<script type="text/x-template" id="effectiveness-template">
+
+			<div>
+				<template v-for="(group, power) in effects">
+					{{power}}
+					<div border="1">
+						<span v-for="effect in group">{{effect.id}}</span>
+					</div>
+				</template>
+			</div>
 
 		</script>
 
