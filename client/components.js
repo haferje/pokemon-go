@@ -11,7 +11,20 @@ Vue.component('pokemon', {
 Vue.component('monster', {
 	template: '#monster-template',
 	props: ['monster'],
+	data: function() {
+		var monster = this.monster;
+		var paddedDex = ("00"+monster.dex).slice(-3);
+
+		return {
+			showEvolution: false,
+			monster,
+			image: `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`,
+		};
+	},
 	methods: {
+		toggleEvolution() {
+			this.showEvolution = !this.showEvolution;
+		},
 	},
 });
 
@@ -27,7 +40,10 @@ Vue.component('move', {
 
 Vue.component('evolution', {
 	template: '#evolution-template',
-	props: ['monsterID'],
+	props: [
+		'monsterID',
+		'evolution',
+	],
 	data: function() {
 		var monster = _.find(pokemon, { id: this.monsterID });
 		var paddedDex = ("00"+monster.dex).slice(-3);
@@ -43,19 +59,41 @@ Vue.component('effectiveness', {
 	template: '#effectiveness-template',
 	props: ['monster'],
 	data: function() {
-		var effective = _.map(this.monster.types, type => _.find(types, { id: type.id }));
-		var flatened = _.concat(effective[0].damage, effective[1] && effective[1].damage || []);
-		var grouped = _.groupBy(flatened, type => type.id);
-		var summed = _.map(grouped, group => {
-			return { id: group[0].id, attackScalar: _.reduce(_.map(group, 'attackScalar'), (a,b)=>a*b) };
-		});
-		var ordered = _.orderBy(summed, ['attackScalar', 'id'], ['desc', 'asc']);
-		effects = _.groupBy(ordered, eff => eff.attackScalar.toFixed(3));
-// debugger;
-		console.log(effects);
+		var effects = _(this.monster.types)
+			.map(type => _.find(types, { id: type.id }).damage)
+			.flatten()
+			.groupBy('id')
+			.map((group, key) => ({
+				// id: key,
+				name:			_.find(types, { id: key }).name,
+				attackScalar:	_.multiply.apply(null, _.map(group, 'attackScalar')).toFixed(3),
+			}))
+			.orderBy(['attackScalar', 'name'], ['desc', 'asc'])
+			.groupBy('attackScalar')
+			.value();
+
+			console.log(effects);
 
 		return {
 			effects,
+		};
+	},
+});
+
+Vue.component('type-tag', {
+	template: '#type-tag-template',
+	props: ['name'],
+});
+
+Vue.component('photo', {
+	template: '#photo-template',
+	props: ['monsterID'],
+	data: function() {
+		var monster = _.find(pokemon, { id: this.monsterID });
+		var paddedDex = ("00"+monster.dex).slice(-3);
+
+		return {
+			image: `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`,
 		};
 	},
 });

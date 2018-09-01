@@ -12,7 +12,46 @@
 		<!-- styles -->
 		<style>
 			* { font-size: 8pt; }
+
 			td.indent { padding-left:40px; }
+
+			.type {
+				display: inline-block;
+				padding: 3px;
+				border-radius: 3px;
+				margin-right: 1px;
+			}
+			.type__xx{
+				border: 1px solid black; /* in case browser doesn't understand rgba */
+				border: 1px solid rgba(0, 0, 0, .5);
+				/* ensure the border remains transparent even if a solid background color is applied */
+				-webkit-background-clip: padding-box; /* for Safari */
+				background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+			}
+			.type.type-bug		{ background-color: #9cb820; }
+			.type.type-dark		{ background-color: #504843; }
+			.type.type-dragon	{ background-color: #7038f8; }
+			.type.type-electric	{ background-color: #f8d030; }
+			.type.type-fairy	{ background-color: #f09ad9; }
+			.type.type-fighting	{ background-color: #c03028; }
+			.type.type-fire		{ background-color: #f08030; }
+			.type.type-flying	{ background-color: #9096f0; }
+			.type.type-ghost	{ background-color: #705898; }
+			.type.type-grass	{ background-color: #22c02a; }
+			.type.type-ground	{ background-color: #e0b668; }
+			.type.type-ice		{ background-color: #98d8d8; }
+			.type.type-normal	{ background-color: #a8a8a8; }
+			.type.type-poison	{ background-color: #a040a0; }
+			.type.type-psychic	{ background-color: #f85888; }
+			.type.type-rock		{ background-color: #b8a038; }
+			.type.type-steel	{ background-color: #6d8f9c; }
+			.type.type-water	{ background-color: #6890f0; }
+
+			img.photo {
+				max-height: 64px;
+				width: auto;
+				height: auto;
+			}
 		</style>
 	</head>
 
@@ -38,6 +77,7 @@
 				<tr>
 					<th>#</th>
 					<th>Name</th>
+					<th>Image</th>
 					<th>Egg</th>
 					<th>Max CP</th>
 					<th>Quick Move</th>
@@ -71,6 +111,9 @@
 				<tr>
 					<td>{{monster.dex}}</td>
 					<td>{{monster.name}}</td>
+					<td>
+						<photo :monsterID="monster.id" />
+					</td>
 					<td>{{monster.kmBuddyDistance}}km</td>
 					<td>{{monster.maxCP}}</td>
 					<td>
@@ -87,7 +130,9 @@
 					</td>
 					<td>{{monster.family.name}}</td>
 					<td>
-						<div v-for="type in monster.types">{{type.name}}</div>
+						<div v-for="type in monster.types">
+							<type-tag :name="type.name" />
+						</div>
 					</td>
 					<td>{{monster.stats.baseAttack}}</td>
 					<td>{{monster.stats.baseDefense}}</td>
@@ -109,10 +154,14 @@
 					</td>
 				</tr>
 				<tr v-if="monster.evolution && monster.evolution.futureBranches">
-					<td colspan="16" class="indent">
-						<evolution v-for="evolution in monster.evolution.futureBranches"
-							:key="evolution.id"
-							:monsterID="evolution.id" />
+					<td colspan="17" class="indent">
+						<div style="text-align:center;" @click="toggleEvolution()">show evolutions</div>
+						<div v-show="showEvolution">
+							<evolution v-for="evolution in monster.evolution.futureBranches"
+								:key="evolution.id"
+								:monsterID="evolution.id"
+								:evolution="evolution" />
+						</div>
 					</td>
 				</tr>
 			</tbody>
@@ -122,7 +171,9 @@
 		<script type="text/x-template" id="move-template">
 
 			<div>
-				{{move.name}} ({{move.pokemonType.name}}) {{move.power}} {{move.criticalChance}}
+				{{move.name}}
+				<type-tag :name="move.pokemonType.name" />
+				{{move.power}} {{move.criticalChance}}
 			</div>
 
 		</script>
@@ -134,14 +185,21 @@
 					<td>{{monster.dex}}</td>
 					<td>{{monster.name}}</td>
 					<td>
-						<img :src="image" />
+						<photo :monsterID="monster.id" />
+					</td>
+					<td>
+						{{evolution.costToEvolve.candyCost || ''}}
+						<span v-if="evolution.costToEvolve.evolutionItem">
+							{{evolution.costToEvolve.evolutionItem.name}}
+						</span>
 					</td>
 				</tr>
 				<tr v-if="monster.evolution && monster.evolution.futureBranches">
 					<td colspan="3" class="indent">
 						<evolution v-for="evolution in monster.evolution.futureBranches"
 							:key="evolution.id"
-							:monsterID="evolution.id" />
+							:monsterID="evolution.id"
+							:evolution="evolution" />
 					</td>
 				</tr>
 			</table>
@@ -152,12 +210,45 @@
 
 			<div>
 				<template v-for="(group, power) in effects">
-					{{power}}
-					<div border="1">
-						<span v-for="effect in group">{{effect.id}}</span>
+					<div v-if="power >= 1.96">
+						Super Effective
 					</div>
+					<div v-else-if="power >= 1.4">
+						Effective
+					</div>
+					<div v-else-if="power >= 1">
+						Neutral
+					</div>
+					<div v-else-if="power >= 0.714">
+						Ineffective
+					</div>
+					<div v-else-if="power >= 0.51">
+						Immune
+					</div>
+					<div v-else-if="power >= 0.364">
+						Super Ineffective
+					</div>
+					<div v-else-if="power >= 0.26">
+						Super Immune
+					</div>
+					<type-tag v-for="attack in group"
+						:name="attack.name" />
 				</template>
 			</div>
+
+		</script>
+
+		<script type="text/x-template" id="type-tag-template">
+
+			<span :class="`type type-${name.toLowerCase()}`">
+				{{name}}
+			</span>
+
+		</script>
+
+		<script type="text/x-template" id="photo-template">
+
+			<img class="photo" :src="image" />
 
 		</script>
 
