@@ -17,7 +17,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.9,
         "modelScale": 1.09,
-        "maxCP": 981,
+        "maxCP": 1115,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -52,8 +52,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 118,
-            "baseDefense": 118,
-            "baseStamina": 90
+            "baseDefense": 111,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -111,7 +111,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BULBASAUR"
+        "id": "BULBASAUR",
+        "forms": []
     },
     {
         "dex": 2,
@@ -131,7 +132,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 13,
         "modelScale": 0.85,
-        "maxCP": 1552,
+        "maxCP": 1699,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -166,8 +167,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 151,
-            "baseDefense": 151,
-            "baseStamina": 120
+            "baseDefense": 143,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -223,7 +224,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "IVYSAUR"
+        "id": "IVYSAUR",
+        "forms": []
     },
     {
         "dex": 3,
@@ -243,7 +245,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 100,
         "modelScale": 0.69,
-        "maxCP": 2568,
+        "maxCP": 2720,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -260,6 +262,11 @@ var pokemon = [
             {
                 "name": "Solar Beam",
                 "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Frenzy Plant",
+                "id": "FRENZY_PLANT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -278,8 +285,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 198,
-            "baseDefense": 198,
-            "baseStamina": 160
+            "baseDefense": 189,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -333,7 +340,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "VENUSAUR"
+        "id": "VENUSAUR",
+        "forms": []
     },
     {
         "dex": 4,
@@ -353,7 +361,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.5,
         "modelScale": 1.25,
-        "maxCP": 831,
+        "maxCP": 980,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -388,8 +396,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 116,
-            "baseDefense": 96,
-            "baseStamina": 78
+            "baseDefense": 93,
+            "baseStamina": 118
         },
         "types": [
             {
@@ -443,7 +451,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CHARMANDER"
+        "id": "CHARMANDER",
+        "forms": []
     },
     {
         "dex": 5,
@@ -463,7 +472,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19,
         "modelScale": 1.03,
-        "maxCP": 1484,
+        "maxCP": 1653,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -498,8 +507,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 158,
-            "baseDefense": 129,
-            "baseStamina": 116
+            "baseDefense": 126,
+            "baseStamina": 151
         },
         "types": [
             {
@@ -551,7 +560,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CHARMELEON"
+        "id": "CHARMELEON",
+        "forms": []
     },
     {
         "dex": 6,
@@ -571,7 +581,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 90.5,
         "modelScale": 0.81,
-        "maxCP": 2686,
+        "maxCP": 2889,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -588,6 +598,11 @@ var pokemon = [
             {
                 "name": "Overheat",
                 "id": "OVERHEAT"
+            },
+            {
+                "name": "Blast Burn",
+                "id": "BLAST_BURN",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -606,8 +621,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 176,
-            "baseStamina": 156
+            "baseDefense": 173,
+            "baseStamina": 186
         },
         "types": [
             {
@@ -662,7 +677,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "CHARIZARD"
+        "id": "CHARIZARD",
+        "forms": []
     },
     {
         "dex": 7,
@@ -682,7 +698,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9,
         "modelScale": 1.53,
-        "maxCP": 808,
+        "maxCP": 946,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -717,8 +733,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 94,
-            "baseDefense": 122,
-            "baseStamina": 88
+            "baseDefense": 121,
+            "baseStamina": 127
         },
         "types": [
             {
@@ -772,7 +788,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SQUIRTLE"
+        "id": "SQUIRTLE",
+        "forms": []
     },
     {
         "dex": 8,
@@ -792,7 +809,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 22.5,
         "modelScale": 1,
-        "maxCP": 1324,
+        "maxCP": 1488,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -828,7 +845,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 126,
             "baseDefense": 155,
-            "baseStamina": 118
+            "baseStamina": 153
         },
         "types": [
             {
@@ -880,7 +897,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WARTORTLE"
+        "id": "WARTORTLE",
+        "forms": []
     },
     {
         "dex": 9,
@@ -900,7 +918,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 85.5,
         "modelScale": 0.94,
-        "maxCP": 2291,
+        "maxCP": 2466,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -917,6 +935,11 @@ var pokemon = [
             {
                 "name": "Hydro Pump",
                 "id": "HYDRO_PUMP"
+            },
+            {
+                "name": "Hydro Cannon",
+                "id": "HYDRO_CANNON",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -935,8 +958,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 171,
-            "baseDefense": 210,
-            "baseStamina": 158
+            "baseDefense": 207,
+            "baseStamina": 188
         },
         "types": [
             {
@@ -986,7 +1009,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "BLASTOISE"
+        "id": "BLASTOISE",
+        "forms": []
     },
     {
         "dex": 10,
@@ -1006,7 +1030,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 2.9,
         "modelScale": 2.04,
-        "maxCP": 393,
+        "maxCP": 437,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -1033,8 +1057,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 55,
-            "baseDefense": 62,
-            "baseStamina": 90
+            "baseDefense": 55,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -1087,7 +1111,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CATERPIE"
+        "id": "CATERPIE",
+        "forms": []
     },
     {
         "dex": 11,
@@ -1107,7 +1132,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 9.9,
         "modelScale": 1.17,
-        "maxCP": 419,
+        "maxCP": 450,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -1134,8 +1159,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 45,
-            "baseDefense": 94,
-            "baseStamina": 100
+            "baseDefense": 80,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -1182,7 +1207,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "METAPOD"
+        "id": "METAPOD",
+        "forms": []
     },
     {
         "dex": 12,
@@ -1202,7 +1228,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 32,
         "modelScale": 1.11,
-        "maxCP": 1701,
+        "maxCP": 1827,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -1237,8 +1263,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 151,
-            "baseStamina": 120
+            "baseDefense": 137,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -1293,7 +1319,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "BUTTERFREE"
+        "id": "BUTTERFREE",
+        "forms": []
     },
     {
         "dex": 13,
@@ -1313,7 +1340,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3.2,
         "modelScale": 2.09,
-        "maxCP": 397,
+        "maxCP": 456,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -1340,8 +1367,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 63,
-            "baseDefense": 55,
-            "baseStamina": 80
+            "baseDefense": 50,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -1399,7 +1426,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WEEDLE"
+        "id": "WEEDLE",
+        "forms": []
     },
     {
         "dex": 14,
@@ -1419,7 +1447,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 10,
         "modelScale": 1.25,
-        "maxCP": 392,
+        "maxCP": 432,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -1446,8 +1474,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 46,
-            "baseDefense": 86,
-            "baseStamina": 90
+            "baseDefense": 75,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -1498,7 +1526,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KAKUNA"
+        "id": "KAKUNA",
+        "forms": []
     },
     {
         "dex": 15,
@@ -1518,7 +1547,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 29.5,
         "modelScale": 0.77,
-        "maxCP": 1777,
+        "maxCP": 1846,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -1553,8 +1582,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 169,
-            "baseDefense": 150,
-            "baseStamina": 130
+            "baseDefense": 130,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -1609,7 +1638,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "BEEDRILL"
+        "id": "BEEDRILL",
+        "forms": []
     },
     {
         "dex": 16,
@@ -1629,7 +1659,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 1.8,
         "modelScale": 1.68,
-        "maxCP": 580,
+        "maxCP": 680,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -1664,8 +1694,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 85,
-            "baseDefense": 76,
-            "baseStamina": 80
+            "baseDefense": 73,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -1723,7 +1753,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PIDGEY"
+        "id": "PIDGEY",
+        "forms": []
     },
     {
         "dex": 17,
@@ -1743,7 +1774,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 30,
         "modelScale": 0.79,
-        "maxCP": 1085,
+        "maxCP": 1194,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -1778,8 +1809,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 117,
-            "baseDefense": 108,
-            "baseStamina": 126
+            "baseDefense": 105,
+            "baseStamina": 160
         },
         "types": [
             {
@@ -1836,7 +1867,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PIDGEOTTO"
+        "id": "PIDGEOTTO",
+        "forms": []
     },
     {
         "dex": 18,
@@ -1856,7 +1888,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 39.5,
         "modelScale": 0.72,
-        "maxCP": 1994,
+        "maxCP": 2129,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -1891,8 +1923,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 166,
-            "baseDefense": 157,
-            "baseStamina": 166
+            "baseDefense": 154,
+            "baseStamina": 195
         },
         "types": [
             {
@@ -1947,7 +1979,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PIDGEOT"
+        "id": "PIDGEOT",
+        "forms": []
     },
     {
         "dex": 19,
@@ -1967,7 +2000,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3.5,
         "modelScale": 1.26,
-        "maxCP": 588,
+        "maxCP": 734,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2003,7 +2036,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 103,
             "baseDefense": 70,
-            "baseStamina": 60
+            "baseStamina": 102
         },
         "types": [
             {
@@ -2048,7 +2081,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "RATTATA"
+        "id": "RATTATA",
+        "forms": [
+            {
+                "id": "RATTATA",
+                "name": "Rattata"
+            },
+            {
+                "id": "RATTATA_ALOLA",
+                "name": "Rattata Alola"
+            }
+        ]
     },
     {
         "dex": 19,
@@ -2068,7 +2111,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3.8,
         "modelScale": 1.26,
-        "maxCP": 588,
+        "maxCP": 734,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2104,7 +2147,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 103,
             "baseDefense": 70,
-            "baseStamina": 60
+            "baseStamina": 102
         },
         "types": [
             {
@@ -2153,7 +2196,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "RATTATA_ALOLA"
+        "id": "RATTATA_ALOLA",
+        "forms": [
+            {
+                "id": "RATTATA",
+                "name": "Rattata"
+            },
+            {
+                "id": "RATTATA_ALOLA",
+                "name": "Rattata Alola"
+            }
+        ]
     },
     {
         "dex": 20,
@@ -2173,7 +2226,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 18.5,
         "modelScale": 1.17,
-        "maxCP": 1549,
+        "maxCP": 1730,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2208,8 +2261,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 161,
-            "baseDefense": 144,
-            "baseStamina": 110
+            "baseDefense": 139,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -2252,7 +2305,17 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "RATICATE"
+        "id": "RATICATE",
+        "forms": [
+            {
+                "id": "RATICATE",
+                "name": "Raticate"
+            },
+            {
+                "id": "RATICATE_ALOLA",
+                "name": "Raticate Alola"
+            }
+        ]
     },
     {
         "dex": 20,
@@ -2272,7 +2335,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 25.5,
         "modelScale": 1.17,
-        "maxCP": 1587,
+        "maxCP": 1705,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2307,8 +2370,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 135,
-            "baseDefense": 159,
-            "baseStamina": 150
+            "baseDefense": 154,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -2355,7 +2418,17 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "RATICATE_ALOLA"
+        "id": "RATICATE_ALOLA",
+        "forms": [
+            {
+                "id": "RATICATE",
+                "name": "Raticate"
+            },
+            {
+                "id": "RATICATE_ALOLA",
+                "name": "Raticate Alola"
+            }
+        ]
     },
     {
         "dex": 21,
@@ -2375,7 +2448,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 2,
         "modelScale": 1.48,
-        "maxCP": 673,
+        "maxCP": 798,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -2410,8 +2483,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 112,
-            "baseDefense": 61,
-            "baseStamina": 80
+            "baseDefense": 60,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -2460,7 +2533,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SPEAROW"
+        "id": "SPEAROW",
+        "forms": []
     },
     {
         "dex": 22,
@@ -2480,7 +2554,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 38,
         "modelScale": 0.84,
-        "maxCP": 1814,
+        "maxCP": 1997,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -2515,8 +2589,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 182,
-            "baseDefense": 135,
-            "baseStamina": 130
+            "baseDefense": 133,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -2564,7 +2638,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "FEAROW"
+        "id": "FEAROW",
+        "forms": []
     },
     {
         "dex": 23,
@@ -2584,7 +2659,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.9,
         "modelScale": 1.73,
-        "maxCP": 778,
+        "maxCP": 927,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2619,8 +2694,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 110,
-            "baseDefense": 102,
-            "baseStamina": 70
+            "baseDefense": 97,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -2665,7 +2740,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "EKANS"
+        "id": "EKANS",
+        "forms": []
     },
     {
         "dex": 24,
@@ -2685,7 +2761,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 65,
         "modelScale": 0.82,
-        "maxCP": 1737,
+        "maxCP": 1921,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -2720,8 +2796,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 158,
-            "baseStamina": 120
+            "baseDefense": 153,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -2764,7 +2840,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "ARBOK"
+        "id": "ARBOK",
+        "forms": []
     },
     {
         "dex": 25,
@@ -2784,7 +2861,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 6,
         "modelScale": 1.48,
-        "maxCP": 787,
+        "maxCP": 938,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -2801,6 +2878,11 @@ var pokemon = [
             {
                 "name": "Wild Charge",
                 "id": "WILD_CHARGE"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -2819,8 +2901,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 112,
-            "baseDefense": 101,
-            "baseStamina": 70
+            "baseDefense": 96,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -2872,7 +2954,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PIKACHU"
+        "id": "PIKACHU",
+        "forms": []
     },
     {
         "dex": 26,
@@ -2892,7 +2975,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 30,
         "modelScale": 1.08,
-        "maxCP": 2025,
+        "maxCP": 2182,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -2927,8 +3010,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 193,
-            "baseDefense": 165,
-            "baseStamina": 120
+            "baseDefense": 151,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -2978,7 +3061,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "RAICHU"
+        "id": "RAICHU",
+        "forms": [
+            {
+                "id": "RAICHU",
+                "name": "Raichu"
+            },
+            {
+                "id": "RAICHU_ALOLA",
+                "name": "Raichu Alola"
+            }
+        ]
     },
     {
         "dex": 26,
@@ -2998,7 +3091,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 21,
         "modelScale": 1.08,
-        "maxCP": 2143,
+        "maxCP": 2286,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3033,8 +3126,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 201,
-            "baseDefense": 172,
-            "baseStamina": 120
+            "baseDefense": 154,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -3073,7 +3166,17 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "RAICHU_ALOLA"
+        "id": "RAICHU_ALOLA",
+        "forms": [
+            {
+                "id": "RAICHU",
+                "name": "Raichu"
+            },
+            {
+                "id": "RAICHU_ALOLA",
+                "name": "Raichu Alola"
+            }
+        ]
     },
     {
         "dex": 27,
@@ -3093,7 +3196,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12,
         "modelScale": 1.29,
-        "maxCP": 1194,
+        "maxCP": 1261,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3128,8 +3231,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 126,
-            "baseDefense": 145,
-            "baseStamina": 100
+            "baseDefense": 120,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -3174,7 +3277,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SANDSHREW"
+        "id": "SANDSHREW",
+        "forms": [
+            {
+                "id": "SANDSHREW",
+                "name": "Sandshrew"
+            },
+            {
+                "id": "SANDSHREW_ALOLA",
+                "name": "Sandshrew Alola"
+            }
+        ]
     },
     {
         "dex": 27,
@@ -3194,7 +3307,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 40,
         "modelScale": 1.29,
-        "maxCP": 1219,
+        "maxCP": 1293,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3229,8 +3342,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 125,
-            "baseDefense": 154,
-            "baseStamina": 100
+            "baseDefense": 129,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -3279,7 +3392,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SANDSHREW_ALOLA"
+        "id": "SANDSHREW_ALOLA",
+        "forms": [
+            {
+                "id": "SANDSHREW",
+                "name": "Sandshrew"
+            },
+            {
+                "id": "SANDSHREW_ALOLA",
+                "name": "Sandshrew Alola"
+            }
+        ]
     },
     {
         "dex": 28,
@@ -3299,7 +3422,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 29.5,
         "modelScale": 1,
-        "maxCP": 2328,
+        "maxCP": 2374,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3334,8 +3457,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 182,
-            "baseDefense": 202,
-            "baseStamina": 150
+            "baseDefense": 175,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -3378,7 +3501,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SANDSLASH"
+        "id": "SANDSLASH",
+        "forms": [
+            {
+                "id": "SANDSLASH",
+                "name": "Sandslash"
+            },
+            {
+                "id": "SANDSLASH_ALOLA",
+                "name": "Sandslash Alola"
+            }
+        ]
     },
     {
         "dex": 28,
@@ -3398,7 +3531,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 55,
         "modelScale": 1,
-        "maxCP": 2366,
+        "maxCP": 2432,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3433,8 +3566,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 177,
-            "baseDefense": 221,
-            "baseStamina": 150
+            "baseDefense": 195,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -3481,7 +3614,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SANDSLASH_ALOLA"
+        "id": "SANDSLASH_ALOLA",
+        "forms": [
+            {
+                "id": "SANDSLASH",
+                "name": "Sandslash"
+            },
+            {
+                "id": "SANDSLASH_ALOLA",
+                "name": "Sandslash Alola"
+            }
+        ]
     },
     {
         "dex": 29,
@@ -3501,7 +3644,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 7,
         "modelScale": 1.48,
-        "maxCP": 736,
+        "maxCP": 816,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3536,8 +3679,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 86,
-            "baseDefense": 94,
-            "baseStamina": 110
+            "baseDefense": 89,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -3591,7 +3734,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NIDORAN_FEMALE"
+        "id": "NIDORAN_FEMALE",
+        "forms": []
     },
     {
         "dex": 30,
@@ -3611,7 +3755,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 20,
         "modelScale": 1.17,
-        "maxCP": 1218,
+        "maxCP": 1309,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3646,8 +3790,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 117,
-            "baseDefense": 126,
-            "baseStamina": 140
+            "baseDefense": 120,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -3699,7 +3843,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NIDORINA"
+        "id": "NIDORINA",
+        "forms": []
     },
     {
         "dex": 31,
@@ -3719,7 +3864,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 60,
         "modelScale": 0.91,
-        "maxCP": 2338,
+        "maxCP": 2488,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -3754,8 +3899,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 180,
-            "baseDefense": 174,
-            "baseStamina": 180
+            "baseDefense": 173,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -3809,7 +3954,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "NIDOQUEEN"
+        "id": "NIDOQUEEN",
+        "forms": []
     },
     {
         "dex": 32,
@@ -3829,7 +3975,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9,
         "modelScale": 1.26,
-        "maxCP": 739,
+        "maxCP": 860,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3865,7 +4011,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 105,
             "baseDefense": 76,
-            "baseStamina": 92
+            "baseStamina": 130
         },
         "types": [
             {
@@ -3919,7 +4065,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NIDORAN_MALE"
+        "id": "NIDORAN_MALE",
+        "forms": []
     },
     {
         "dex": 33,
@@ -3939,7 +4086,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.5,
         "modelScale": 0.99,
-        "maxCP": 1252,
+        "maxCP": 1393,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -3974,8 +4121,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 137,
-            "baseDefense": 112,
-            "baseStamina": 122
+            "baseDefense": 111,
+            "baseStamina": 156
         },
         "types": [
             {
@@ -4027,7 +4174,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NIDORINO"
+        "id": "NIDORINO",
+        "forms": []
     },
     {
         "dex": 34,
@@ -4047,7 +4195,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 62,
         "modelScale": 0.87,
-        "maxCP": 2386,
+        "maxCP": 2567,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -4082,8 +4230,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 204,
-            "baseDefense": 157,
-            "baseStamina": 162
+            "baseDefense": 156,
+            "baseStamina": 191
         },
         "types": [
             {
@@ -4137,7 +4285,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "NIDOKING"
+        "id": "NIDOKING",
+        "forms": []
     },
     {
         "dex": 35,
@@ -4157,7 +4306,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 7.5,
         "modelScale": 1.25,
-        "maxCP": 1085,
+        "maxCP": 1155,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -4192,8 +4341,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 107,
-            "baseDefense": 116,
-            "baseStamina": 140
+            "baseDefense": 108,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -4245,7 +4394,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CLEFAIRY"
+        "id": "CLEFAIRY",
+        "forms": []
     },
     {
         "dex": 36,
@@ -4265,7 +4415,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 40,
         "modelScale": 0.89,
-        "maxCP": 2353,
+        "maxCP": 2437,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -4300,8 +4450,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 178,
-            "baseDefense": 171,
-            "baseStamina": 190
+            "baseDefense": 162,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -4351,7 +4501,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CLEFABLE"
+        "id": "CLEFABLE",
+        "forms": []
     },
     {
         "dex": 37,
@@ -4371,7 +4522,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9.9,
         "modelScale": 1.26,
-        "maxCP": 774,
+        "maxCP": 883,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -4406,8 +4557,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 96,
-            "baseDefense": 122,
-            "baseStamina": 76
+            "baseDefense": 109,
+            "baseStamina": 116
         },
         "types": [
             {
@@ -4452,7 +4603,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VULPIX"
+        "id": "VULPIX",
+        "forms": [
+            {
+                "id": "VULPIX",
+                "name": "Vulpix"
+            },
+            {
+                "id": "VULPIX_ALOLA",
+                "name": "Vulpix Alola"
+            }
+        ]
     },
     {
         "dex": 37,
@@ -4472,7 +4633,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9.9,
         "modelScale": 1.26,
-        "maxCP": 774,
+        "maxCP": 883,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -4507,8 +4668,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 96,
-            "baseDefense": 122,
-            "baseStamina": 76
+            "baseDefense": 109,
+            "baseStamina": 116
         },
         "types": [
             {
@@ -4553,7 +4714,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VULPIX_ALOLA"
+        "id": "VULPIX_ALOLA",
+        "forms": [
+            {
+                "id": "VULPIX",
+                "name": "Vulpix"
+            },
+            {
+                "id": "VULPIX_ALOLA",
+                "name": "Vulpix Alola"
+            }
+        ]
     },
     {
         "dex": 38,
@@ -4573,7 +4744,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.9,
         "modelScale": 0.96,
-        "maxCP": 2157,
+        "maxCP": 2279,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -4608,8 +4779,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 169,
-            "baseDefense": 204,
-            "baseStamina": 146
+            "baseDefense": 190,
+            "baseStamina": 177
         },
         "types": [
             {
@@ -4652,7 +4823,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "NINETALES"
+        "id": "NINETALES",
+        "forms": [
+            {
+                "id": "NINETALES",
+                "name": "Ninetales"
+            },
+            {
+                "id": "NINETALES_ALOLA",
+                "name": "Ninetales Alola"
+            }
+        ]
     },
     {
         "dex": 38,
@@ -4672,7 +4853,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.9,
         "modelScale": 0.96,
-        "maxCP": 2184,
+        "maxCP": 2309,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -4707,8 +4888,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 170,
-            "baseDefense": 207,
-            "baseStamina": 146
+            "baseDefense": 193,
+            "baseStamina": 177
         },
         "types": [
             {
@@ -4755,7 +4936,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "NINETALES_ALOLA"
+        "id": "NINETALES_ALOLA",
+        "forms": [
+            {
+                "id": "NINETALES",
+                "name": "Ninetales"
+            },
+            {
+                "id": "NINETALES_ALOLA",
+                "name": "Ninetales Alola"
+            }
+        ]
     },
     {
         "dex": 39,
@@ -4775,7 +4966,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 5.5,
         "modelScale": 1.28,
-        "maxCP": 713,
+        "maxCP": 724,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -4810,8 +5001,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 80,
-            "baseDefense": 44,
-            "baseStamina": 230
+            "baseDefense": 41,
+            "baseStamina": 251
         },
         "types": [
             {
@@ -4867,7 +5058,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "JIGGLYPUFF"
+        "id": "JIGGLYPUFF",
+        "forms": []
     },
     {
         "dex": 40,
@@ -4887,7 +5079,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 12,
         "modelScale": 0.89,
-        "maxCP": 1906,
+        "maxCP": 1926,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -4922,8 +5114,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 156,
-            "baseDefense": 93,
-            "baseStamina": 280
+            "baseDefense": 90,
+            "baseStamina": 295
         },
         "types": [
             {
@@ -4977,7 +5169,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "WIGGLYTUFF"
+        "id": "WIGGLYTUFF",
+        "forms": []
     },
     {
         "dex": 41,
@@ -4997,7 +5190,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 7.5,
         "modelScale": 1.07,
-        "maxCP": 569,
+        "maxCP": 667,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -5032,8 +5225,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 83,
-            "baseDefense": 76,
-            "baseStamina": 80
+            "baseDefense": 73,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -5092,7 +5285,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ZUBAT"
+        "id": "ZUBAT",
+        "forms": []
     },
     {
         "dex": 42,
@@ -5112,7 +5306,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 55,
         "modelScale": 0.71,
-        "maxCP": 1830,
+        "maxCP": 1976,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -5147,8 +5341,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 161,
-            "baseDefense": 153,
-            "baseStamina": 150
+            "baseDefense": 150,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -5205,7 +5399,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GOLBAT"
+        "id": "GOLBAT",
+        "forms": []
     },
     {
         "dex": 43,
@@ -5225,7 +5420,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5.4,
         "modelScale": 1.35,
-        "maxCP": 1069,
+        "maxCP": 1228,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -5260,8 +5455,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 131,
-            "baseDefense": 116,
-            "baseStamina": 90
+            "baseDefense": 112,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -5330,7 +5525,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ODDISH"
+        "id": "ODDISH",
+        "forms": []
     },
     {
         "dex": 44,
@@ -5350,7 +5546,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.6,
         "modelScale": 1.1,
-        "maxCP": 1512,
+        "maxCP": 1681,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -5385,8 +5581,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 153,
-            "baseDefense": 139,
-            "baseStamina": 120
+            "baseDefense": 136,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -5453,7 +5649,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GLOOM"
+        "id": "GLOOM",
+        "forms": []
     },
     {
         "dex": 45,
@@ -5473,7 +5670,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 18.6,
         "modelScale": 0.92,
-        "maxCP": 2367,
+        "maxCP": 2559,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -5508,8 +5705,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 202,
-            "baseDefense": 170,
-            "baseStamina": 150
+            "baseDefense": 167,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -5563,7 +5760,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "VILEPLUME"
+        "id": "VILEPLUME",
+        "forms": []
     },
     {
         "dex": 46,
@@ -5583,7 +5781,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5.4,
         "modelScale": 1.28,
-        "maxCP": 836,
+        "maxCP": 1018,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -5619,7 +5817,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 121,
             "baseDefense": 99,
-            "baseStamina": 70
+            "baseStamina": 111
         },
         "types": [
             {
@@ -5668,7 +5866,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PARAS"
+        "id": "PARAS",
+        "forms": []
     },
     {
         "dex": 47,
@@ -5688,7 +5887,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 29.5,
         "modelScale": 1.01,
-        "maxCP": 1657,
+        "maxCP": 1859,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -5724,7 +5923,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 165,
             "baseDefense": 146,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -5771,7 +5970,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PARASECT"
+        "id": "PARASECT",
+        "forms": []
     },
     {
         "dex": 48,
@@ -5791,7 +5991,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 30,
         "modelScale": 0.71,
-        "maxCP": 902,
+        "maxCP": 1004,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -5826,8 +6026,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 100,
-            "baseDefense": 102,
-            "baseStamina": 120
+            "baseDefense": 100,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -5876,7 +6076,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VENONAT"
+        "id": "VENONAT",
+        "forms": []
     },
     {
         "dex": 49,
@@ -5896,7 +6097,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12.5,
         "modelScale": 0.72,
-        "maxCP": 1937,
+        "maxCP": 2082,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -5931,8 +6132,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 179,
-            "baseDefense": 150,
-            "baseStamina": 140
+            "baseDefense": 143,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -5980,7 +6181,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "VENOMOTH"
+        "id": "VENOMOTH",
+        "forms": []
     },
     {
         "dex": 50,
@@ -6000,7 +6202,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 0.8,
         "modelScale": 2,
-        "maxCP": 465,
+        "maxCP": 676,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6035,8 +6237,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 109,
-            "baseDefense": 88,
-            "baseStamina": 20
+            "baseDefense": 78,
+            "baseStamina": 67
         },
         "types": [
             {
@@ -6076,7 +6278,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DIGLETT"
+        "id": "DIGLETT",
+        "forms": [
+            {
+                "id": "DIGLETT",
+                "name": "Diglett"
+            },
+            {
+                "id": "DIGLETT_ALOLA",
+                "name": "Diglett Alola"
+            }
+        ]
     },
     {
         "dex": 50,
@@ -6096,7 +6308,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1,
         "modelScale": 2,
-        "maxCP": 467,
+        "maxCP": 681,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6130,9 +6342,9 @@ var pokemon = [
             "name": "Diglett"
         },
         "stats": {
-            "baseAttack": 109,
-            "baseDefense": 89,
-            "baseStamina": 20
+            "baseAttack": 108,
+            "baseDefense": 81,
+            "baseStamina": 67
         },
         "types": [
             {
@@ -6176,7 +6388,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DIGLETT_ALOLA"
+        "id": "DIGLETT_ALOLA",
+        "forms": [
+            {
+                "id": "DIGLETT",
+                "name": "Diglett"
+            },
+            {
+                "id": "DIGLETT_ALOLA",
+                "name": "Diglett Alola"
+            }
+        ]
     },
     {
         "dex": 51,
@@ -6196,7 +6418,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 33.3,
         "modelScale": 1.12,
-        "maxCP": 1333,
+        "maxCP": 1557,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -6231,8 +6453,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 147,
-            "baseStamina": 70
+            "baseDefense": 134,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -6270,7 +6492,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DUGTRIO"
+        "id": "DUGTRIO",
+        "forms": [
+            {
+                "id": "DUGTRIO",
+                "name": "Dugtrio"
+            },
+            {
+                "id": "DUGTRIO_ALOLA",
+                "name": "Dugtrio Alola"
+            }
+        ]
     },
     {
         "dex": 51,
@@ -6290,7 +6522,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 66.6,
         "modelScale": 1.12,
-        "maxCP": 1587,
+        "maxCP": 1897,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -6325,8 +6557,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 201,
-            "baseDefense": 148,
-            "baseStamina": 70
+            "baseDefense": 142,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -6368,7 +6600,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DUGTRIO_ALOLA"
+        "id": "DUGTRIO_ALOLA",
+        "forms": [
+            {
+                "id": "DUGTRIO",
+                "name": "Dugtrio"
+            },
+            {
+                "id": "DUGTRIO_ALOLA",
+                "name": "Dugtrio Alola"
+            }
+        ]
     },
     {
         "dex": 52,
@@ -6388,7 +6630,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4.2,
         "modelScale": 1.6,
-        "maxCP": 638,
+        "maxCP": 748,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6423,8 +6665,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 92,
-            "baseDefense": 81,
-            "baseStamina": 80
+            "baseDefense": 78,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -6469,7 +6711,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MEOWTH"
+        "id": "MEOWTH",
+        "forms": [
+            {
+                "id": "MEOWTH",
+                "name": "Meowth"
+            },
+            {
+                "id": "MEOWTH_ALOLA",
+                "name": "Meowth Alola"
+            }
+        ]
     },
     {
         "dex": 52,
@@ -6489,7 +6741,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4.2,
         "modelScale": 1.6,
-        "maxCP": 679,
+        "maxCP": 797,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6524,8 +6776,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 99,
-            "baseDefense": 81,
-            "baseStamina": 80
+            "baseDefense": 78,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -6570,7 +6822,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MEOWTH_ALOLA"
+        "id": "MEOWTH_ALOLA",
+        "forms": [
+            {
+                "id": "MEOWTH",
+                "name": "Meowth"
+            },
+            {
+                "id": "MEOWTH_ALOLA",
+                "name": "Meowth Alola"
+            }
+        ]
     },
     {
         "dex": 53,
@@ -6590,7 +6852,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32,
         "modelScale": 0.82,
-        "maxCP": 1539,
+        "maxCP": 1689,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6625,8 +6887,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 150,
-            "baseDefense": 139,
-            "baseStamina": 130
+            "baseDefense": 136,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -6669,7 +6931,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PERSIAN"
+        "id": "PERSIAN",
+        "forms": [
+            {
+                "id": "PERSIAN",
+                "name": "Persian"
+            },
+            {
+                "id": "PERSIAN_ALOLA",
+                "name": "Persian Alola"
+            }
+        ]
     },
     {
         "dex": 53,
@@ -6689,7 +6961,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 33,
         "modelScale": 0.82,
-        "maxCP": 1614,
+        "maxCP": 1771,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6724,8 +6996,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 158,
-            "baseDefense": 139,
-            "baseStamina": 130
+            "baseDefense": 136,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -6768,7 +7040,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PERSIAN_ALOLA"
+        "id": "PERSIAN_ALOLA",
+        "forms": [
+            {
+                "id": "PERSIAN",
+                "name": "Persian"
+            },
+            {
+                "id": "PERSIAN_ALOLA",
+                "name": "Persian Alola"
+            }
+        ]
     },
     {
         "dex": 54,
@@ -6788,7 +7070,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.6,
         "modelScale": 0.97,
-        "maxCP": 966,
+        "maxCP": 1106,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -6823,8 +7105,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 122,
-            "baseDefense": 96,
-            "baseStamina": 100
+            "baseDefense": 95,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -6869,7 +7151,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PSYDUCK"
+        "id": "PSYDUCK",
+        "forms": []
     },
     {
         "dex": 55,
@@ -6889,7 +7172,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 76.6,
         "modelScale": 0.93,
-        "maxCP": 2270,
+        "maxCP": 2450,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -6924,8 +7207,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 191,
-            "baseDefense": 163,
-            "baseStamina": 160
+            "baseDefense": 162,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -6968,7 +7251,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "GOLDUCK"
+        "id": "GOLDUCK",
+        "forms": []
     },
     {
         "dex": 56,
@@ -6988,7 +7272,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28,
         "modelScale": 1.29,
-        "maxCP": 1002,
+        "maxCP": 1164,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -7023,8 +7307,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 87,
-            "baseStamina": 80
+            "baseDefense": 82,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -7069,7 +7353,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MANKEY"
+        "id": "MANKEY",
+        "forms": []
     },
     {
         "dex": 57,
@@ -7089,7 +7374,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32,
         "modelScale": 0.92,
-        "maxCP": 2105,
+        "maxCP": 2288,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7124,8 +7409,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 207,
-            "baseDefense": 144,
-            "baseStamina": 130
+            "baseDefense": 138,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -7168,7 +7453,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PRIMEAPE"
+        "id": "PRIMEAPE",
+        "forms": []
     },
     {
         "dex": 58,
@@ -7188,7 +7474,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19,
         "modelScale": 1.17,
-        "maxCP": 1110,
+        "maxCP": 1243,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -7223,8 +7509,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 136,
-            "baseDefense": 96,
-            "baseStamina": 110
+            "baseDefense": 93,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -7269,7 +7555,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GROWLITHE"
+        "id": "GROWLITHE",
+        "forms": []
     },
     {
         "dex": 59,
@@ -7289,7 +7576,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 155,
         "modelScale": 0.74,
-        "maxCP": 2839,
+        "maxCP": 3029,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7325,7 +7612,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 227,
             "baseDefense": 166,
-            "baseStamina": 180
+            "baseStamina": 207
         },
         "types": [
             {
@@ -7368,7 +7655,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "ARCANINE"
+        "id": "ARCANINE",
+        "forms": []
     },
     {
         "dex": 60,
@@ -7388,7 +7676,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12.4,
         "modelScale": 1.25,
-        "maxCP": 695,
+        "maxCP": 829,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -7424,7 +7712,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 101,
             "baseDefense": 82,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -7489,7 +7777,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "POLIWAG"
+        "id": "POLIWAG",
+        "forms": []
     },
     {
         "dex": 61,
@@ -7509,7 +7798,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 20,
         "modelScale": 0.98,
-        "maxCP": 1313,
+        "maxCP": 1419,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7544,8 +7833,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 130,
-            "baseDefense": 130,
-            "baseStamina": 130
+            "baseDefense": 123,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -7608,7 +7897,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "POLIWHIRL"
+        "id": "POLIWHIRL",
+        "forms": []
     },
     {
         "dex": 62,
@@ -7628,7 +7918,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 54,
         "modelScale": 0.86,
-        "maxCP": 2441,
+        "maxCP": 2586,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7663,8 +7953,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 182,
-            "baseDefense": 187,
-            "baseStamina": 180
+            "baseDefense": 184,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -7718,7 +8008,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "POLIWRATH"
+        "id": "POLIWRATH",
+        "forms": []
     },
     {
         "dex": 63,
@@ -7738,7 +8029,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.5,
         "modelScale": 1.12,
-        "maxCP": 1148,
+        "maxCP": 1342,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -7773,8 +8064,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 195,
-            "baseDefense": 103,
-            "baseStamina": 50
+            "baseDefense": 82,
+            "baseStamina": 93
         },
         "types": [
             {
@@ -7829,7 +8120,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ABRA"
+        "id": "ABRA",
+        "forms": []
     },
     {
         "dex": 64,
@@ -7849,7 +8141,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 56.5,
         "modelScale": 0.89,
-        "maxCP": 1859,
+        "maxCP": 2059,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7884,8 +8176,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 232,
-            "baseDefense": 138,
-            "baseStamina": 80
+            "baseDefense": 117,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -7937,7 +8229,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KADABRA"
+        "id": "KADABRA",
+        "forms": []
     },
     {
         "dex": 65,
@@ -7957,7 +8250,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 48,
         "modelScale": 0.85,
-        "maxCP": 2887,
+        "maxCP": 3057,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -7992,8 +8285,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 271,
-            "baseDefense": 194,
-            "baseStamina": 110
+            "baseDefense": 167,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -8043,7 +8336,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "ALAKAZAM"
+        "id": "ALAKAZAM",
+        "forms": []
     },
     {
         "dex": 66,
@@ -8063,7 +8357,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.5,
         "modelScale": 1.1,
-        "maxCP": 1199,
+        "maxCP": 1278,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -8098,8 +8392,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 137,
-            "baseDefense": 88,
-            "baseStamina": 140
+            "baseDefense": 82,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -8153,7 +8447,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MACHOP"
+        "id": "MACHOP",
+        "forms": []
     },
     {
         "dex": 67,
@@ -8173,7 +8468,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 70.5,
         "modelScale": 0.91,
-        "maxCP": 1910,
+        "maxCP": 2031,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -8208,8 +8503,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 177,
-            "baseDefense": 130,
-            "baseStamina": 160
+            "baseDefense": 125,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -8261,7 +8556,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MACHOKE"
+        "id": "MACHOKE",
+        "forms": []
     },
     {
         "dex": 68,
@@ -8281,7 +8577,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 130,
         "modelScale": 0.89,
-        "maxCP": 2889,
+        "maxCP": 3056,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -8316,8 +8612,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 234,
-            "baseDefense": 162,
-            "baseStamina": 180
+            "baseDefense": 159,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -8367,7 +8663,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "MACHAMP"
+        "id": "MACHAMP",
+        "forms": []
     },
     {
         "dex": 69,
@@ -8387,7 +8684,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4,
         "modelScale": 1.29,
-        "maxCP": 916,
+        "maxCP": 1033,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -8422,8 +8719,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 139,
-            "baseDefense": 64,
-            "baseStamina": 100
+            "baseDefense": 61,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -8481,7 +8778,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BELLSPROUT"
+        "id": "BELLSPROUT",
+        "forms": []
     },
     {
         "dex": 70,
@@ -8501,7 +8799,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.4,
         "modelScale": 1,
-        "maxCP": 1475,
+        "maxCP": 1611,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -8536,8 +8834,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 172,
-            "baseDefense": 95,
-            "baseStamina": 130
+            "baseDefense": 92,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -8594,7 +8892,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WEEPINBELL"
+        "id": "WEEPINBELL",
+        "forms": []
     },
     {
         "dex": 71,
@@ -8614,7 +8913,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15.5,
         "modelScale": 0.84,
-        "maxCP": 2268,
+        "maxCP": 2431,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -8649,8 +8948,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 207,
-            "baseDefense": 138,
-            "baseStamina": 160
+            "baseDefense": 135,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -8705,7 +9004,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "VICTREEBEL"
+        "id": "VICTREEBEL",
+        "forms": []
     },
     {
         "dex": 72,
@@ -8725,7 +9025,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 45.5,
         "modelScale": 1.05,
-        "maxCP": 956,
+        "maxCP": 1040,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -8760,8 +9060,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 97,
-            "baseDefense": 182,
-            "baseStamina": 80
+            "baseDefense": 149,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -8811,7 +9111,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TENTACOOL"
+        "id": "TENTACOOL",
+        "forms": []
     },
     {
         "dex": 73,
@@ -8831,7 +9132,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 55,
         "modelScale": 0.82,
-        "maxCP": 2374,
+        "maxCP": 2422,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -8866,8 +9167,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 166,
-            "baseDefense": 237,
-            "baseStamina": 160
+            "baseDefense": 209,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -8915,7 +9216,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "TENTACRUEL"
+        "id": "TENTACRUEL",
+        "forms": []
     },
     {
         "dex": 74,
@@ -8935,7 +9237,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 20,
         "modelScale": 0.87,
-        "maxCP": 1193,
+        "maxCP": 1293,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -8970,8 +9272,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 132,
-            "baseDefense": 163,
-            "baseStamina": 80
+            "baseDefense": 132,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -9030,7 +9332,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GEODUDE"
+        "id": "GEODUDE",
+        "forms": [
+            {
+                "id": "GEODUDE",
+                "name": "Geodude"
+            },
+            {
+                "id": "GEODUDE_ALOLA",
+                "name": "Geodude Alola"
+            }
+        ]
     },
     {
         "dex": 74,
@@ -9050,7 +9362,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 20.3,
         "modelScale": 0.87,
-        "maxCP": 1193,
+        "maxCP": 1293,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -9085,8 +9397,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 132,
-            "baseDefense": 163,
-            "baseStamina": 80
+            "baseDefense": 132,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -9145,7 +9457,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GEODUDE_ALOLA"
+        "id": "GEODUDE_ALOLA",
+        "forms": [
+            {
+                "id": "GEODUDE",
+                "name": "Geodude"
+            },
+            {
+                "id": "GEODUDE_ALOLA",
+                "name": "Geodude Alola"
+            }
+        ]
     },
     {
         "dex": 75,
@@ -9165,7 +9487,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 105,
         "modelScale": 0.82,
-        "maxCP": 1815,
+        "maxCP": 1897,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9200,8 +9522,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 164,
-            "baseDefense": 196,
-            "baseStamina": 110
+            "baseDefense": 164,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -9257,7 +9579,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GRAVELER"
+        "id": "GRAVELER",
+        "forms": [
+            {
+                "id": "GRAVELER",
+                "name": "Graveler"
+            },
+            {
+                "id": "GRAVELER_ALOLA",
+                "name": "Graveler Alola"
+            }
+        ]
     },
     {
         "dex": 75,
@@ -9277,7 +9609,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 110,
         "modelScale": 0.82,
-        "maxCP": 1815,
+        "maxCP": 1897,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9312,8 +9644,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 164,
-            "baseDefense": 196,
-            "baseStamina": 110
+            "baseDefense": 164,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -9369,7 +9701,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GRAVELER_ALOLA"
+        "id": "GRAVELER_ALOLA",
+        "forms": [
+            {
+                "id": "GRAVELER",
+                "name": "Graveler"
+            },
+            {
+                "id": "GRAVELER_ALOLA",
+                "name": "Graveler Alola"
+            }
+        ]
     },
     {
         "dex": 76,
@@ -9389,7 +9731,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 300,
         "modelScale": 0.84,
-        "maxCP": 2916,
+        "maxCP": 2949,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9424,8 +9766,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 211,
-            "baseDefense": 229,
-            "baseStamina": 160
+            "baseDefense": 198,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -9479,7 +9821,17 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "GOLEM"
+        "id": "GOLEM",
+        "forms": [
+            {
+                "id": "GOLEM",
+                "name": "Golem"
+            },
+            {
+                "id": "GOLEM_ALOLA",
+                "name": "Golem Alola"
+            }
+        ]
     },
     {
         "dex": 76,
@@ -9499,7 +9851,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 316,
         "modelScale": 0.84,
-        "maxCP": 2916,
+        "maxCP": 2949,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9534,8 +9886,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 211,
-            "baseDefense": 229,
-            "baseStamina": 160
+            "baseDefense": 198,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -9589,7 +9941,17 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "GOLEM_ALOLA"
+        "id": "GOLEM_ALOLA",
+        "forms": [
+            {
+                "id": "GOLEM",
+                "name": "Golem"
+            },
+            {
+                "id": "GOLEM_ALOLA",
+                "name": "Golem Alola"
+            }
+        ]
     },
     {
         "dex": 77,
@@ -9609,7 +9971,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 30,
         "modelScale": 1.01,
-        "maxCP": 1502,
+        "maxCP": 1697,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -9644,8 +10006,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 170,
-            "baseDefense": 132,
-            "baseStamina": 100
+            "baseDefense": 127,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -9690,7 +10052,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PONYTA"
+        "id": "PONYTA",
+        "forms": []
     },
     {
         "dex": 78,
@@ -9710,7 +10073,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 95,
         "modelScale": 0.81,
-        "maxCP": 2252,
+        "maxCP": 2461,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9745,8 +10108,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 207,
-            "baseDefense": 167,
-            "baseStamina": 130
+            "baseDefense": 162,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -9789,7 +10152,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "RAPIDASH"
+        "id": "RAPIDASH",
+        "forms": []
     },
     {
         "dex": 79,
@@ -9809,7 +10173,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 36,
         "modelScale": 0.79,
-        "maxCP": 1204,
+        "maxCP": 1226,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -9844,8 +10208,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 109,
-            "baseDefense": 109,
-            "baseStamina": 180
+            "baseDefense": 98,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -9905,7 +10269,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SLOWPOKE"
+        "id": "SLOWPOKE",
+        "forms": []
     },
     {
         "dex": 80,
@@ -9925,7 +10290,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 78.5,
         "modelScale": 0.85,
-        "maxCP": 2482,
+        "maxCP": 2545,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -9960,8 +10325,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 177,
-            "baseDefense": 194,
-            "baseStamina": 190
+            "baseDefense": 180,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -10008,7 +10373,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SLOWBRO"
+        "id": "SLOWBRO",
+        "forms": []
     },
     {
         "dex": 81,
@@ -10028,7 +10394,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6,
         "modelScale": 1.52,
-        "maxCP": 1083,
+        "maxCP": 1362,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -10063,8 +10429,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 165,
-            "baseDefense": 128,
-            "baseStamina": 50
+            "baseDefense": 121,
+            "baseStamina": 93
         },
         "types": [
             {
@@ -10110,7 +10476,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MAGNEMITE"
+        "id": "MAGNEMITE",
+        "forms": []
     },
     {
         "dex": 82,
@@ -10130,7 +10497,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 60,
         "modelScale": 1.1,
-        "maxCP": 2237,
+        "maxCP": 2485,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -10165,8 +10532,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 182,
-            "baseStamina": 100
+            "baseDefense": 169,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -10210,7 +10577,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MAGNETON"
+        "id": "MAGNETON",
+        "forms": []
     },
     {
         "dex": 83,
@@ -10230,7 +10598,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15,
         "modelScale": 1.13,
-        "maxCP": 1092,
+        "maxCP": 1236,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -10265,8 +10633,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 124,
-            "baseDefense": 118,
-            "baseStamina": 104
+            "baseDefense": 115,
+            "baseStamina": 141
         },
         "types": [
             {
@@ -10305,7 +10673,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "FARFETCHD"
+        "id": "FARFETCHD",
+        "forms": []
     },
     {
         "dex": 84,
@@ -10325,7 +10694,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 39.2,
         "modelScale": 0.88,
-        "maxCP": 1011,
+        "maxCP": 1200,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -10360,8 +10729,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 158,
-            "baseDefense": 88,
-            "baseStamina": 70
+            "baseDefense": 83,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -10410,7 +10779,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DODUO"
+        "id": "DODUO",
+        "forms": []
     },
     {
         "dex": 85,
@@ -10430,7 +10800,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 85.2,
         "modelScale": 0.78,
-        "maxCP": 2138,
+        "maxCP": 2362,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -10465,8 +10835,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 218,
-            "baseDefense": 145,
-            "baseStamina": 120
+            "baseDefense": 140,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -10513,7 +10883,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DODRIO"
+        "id": "DODRIO",
+        "forms": []
     },
     {
         "dex": 86,
@@ -10533,7 +10904,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 90,
         "modelScale": 1.1,
-        "maxCP": 899,
+        "maxCP": 971,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -10568,8 +10939,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 85,
-            "baseDefense": 128,
-            "baseStamina": 130
+            "baseDefense": 121,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -10614,7 +10985,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SEEL"
+        "id": "SEEL",
+        "forms": []
     },
     {
         "dex": 87,
@@ -10634,7 +11006,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 120,
         "modelScale": 1.05,
-        "maxCP": 1894,
+        "maxCP": 1985,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -10669,8 +11041,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 139,
-            "baseDefense": 184,
-            "baseStamina": 180
+            "baseDefense": 177,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -10718,7 +11090,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DEWGONG"
+        "id": "DEWGONG",
+        "forms": []
     },
     {
         "dex": 88,
@@ -10738,7 +11111,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 30,
         "modelScale": 0.98,
-        "maxCP": 1269,
+        "maxCP": 1374,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -10774,7 +11147,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 135,
             "baseDefense": 90,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -10819,7 +11192,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GRIMER"
+        "id": "GRIMER",
+        "forms": [
+            {
+                "id": "GRIMER",
+                "name": "Grimer"
+            },
+            {
+                "id": "GRIMER_ALOLA",
+                "name": "Grimer Alola"
+            }
+        ]
     },
     {
         "dex": 88,
@@ -10839,7 +11222,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 42,
         "modelScale": 0.98,
-        "maxCP": 1269,
+        "maxCP": 1374,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -10875,7 +11258,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 135,
             "baseDefense": 90,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -10924,7 +11307,17 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GRIMER_ALOLA"
+        "id": "GRIMER_ALOLA",
+        "forms": [
+            {
+                "id": "GRIMER",
+                "name": "Grimer"
+            },
+            {
+                "id": "GRIMER_ALOLA",
+                "name": "Grimer Alola"
+            }
+        ]
     },
     {
         "dex": 89,
@@ -10944,7 +11337,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 30,
         "modelScale": 0.76,
-        "maxCP": 2709,
+        "maxCP": 2757,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -10979,8 +11372,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 190,
-            "baseDefense": 184,
-            "baseStamina": 210
+            "baseDefense": 172,
+            "baseStamina": 233
         },
         "types": [
             {
@@ -11023,7 +11416,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MUK"
+        "id": "MUK",
+        "forms": [
+            {
+                "id": "MUK",
+                "name": "Muk"
+            },
+            {
+                "id": "MUK_ALOLA",
+                "name": "Muk Alola"
+            }
+        ]
     },
     {
         "dex": 89,
@@ -11043,7 +11446,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 52,
         "modelScale": 0.76,
-        "maxCP": 2709,
+        "maxCP": 2757,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11078,8 +11481,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 190,
-            "baseDefense": 184,
-            "baseStamina": 210
+            "baseDefense": 172,
+            "baseStamina": 233
         },
         "types": [
             {
@@ -11126,7 +11529,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MUK_ALOLA"
+        "id": "MUK_ALOLA",
+        "forms": [
+            {
+                "id": "MUK",
+                "name": "Muk"
+            },
+            {
+                "id": "MUK_ALOLA",
+                "name": "Muk Alola"
+            }
+        ]
     },
     {
         "dex": 90,
@@ -11146,7 +11559,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4,
         "modelScale": 1.68,
-        "maxCP": 958,
+        "maxCP": 1080,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -11181,8 +11594,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 116,
-            "baseDefense": 168,
-            "baseStamina": 60
+            "baseDefense": 134,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -11227,7 +11640,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SHELLDER"
+        "id": "SHELLDER",
+        "forms": []
     },
     {
         "dex": 91,
@@ -11247,7 +11661,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 132.5,
         "modelScale": 0.84,
-        "maxCP": 2475,
+        "maxCP": 2547,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11282,8 +11696,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 186,
-            "baseDefense": 323,
-            "baseStamina": 100
+            "baseDefense": 256,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -11331,7 +11745,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CLOYSTER"
+        "id": "CLOYSTER",
+        "forms": []
     },
     {
         "dex": 92,
@@ -11351,7 +11766,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 0.1,
         "modelScale": 1,
-        "maxCP": 1002,
+        "maxCP": 1229,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -11386,8 +11801,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 186,
-            "baseDefense": 70,
-            "baseStamina": 60
+            "baseDefense": 67,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -11446,7 +11861,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GASTLY"
+        "id": "GASTLY",
+        "forms": []
     },
     {
         "dex": 93,
@@ -11466,7 +11882,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 0.1,
         "modelScale": 0.68,
-        "maxCP": 1716,
+        "maxCP": 1963,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -11501,8 +11917,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 112,
-            "baseStamina": 90
+            "baseDefense": 107,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -11559,7 +11975,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "HAUNTER"
+        "id": "HAUNTER",
+        "forms": []
     },
     {
         "dex": 94,
@@ -11579,7 +11996,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 40.5,
         "modelScale": 0.84,
-        "maxCP": 2619,
+        "maxCP": 2878,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11614,8 +12031,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 261,
-            "baseDefense": 156,
-            "baseStamina": 120
+            "baseDefense": 149,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -11669,7 +12086,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "GENGAR"
+        "id": "GENGAR",
+        "forms": []
     },
     {
         "dex": 95,
@@ -11689,7 +12107,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 210,
         "modelScale": 0.47,
-        "maxCP": 1002,
+        "maxCP": 1101,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11724,8 +12142,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 85,
-            "baseDefense": 288,
-            "baseStamina": 70
+            "baseDefense": 232,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -11774,7 +12192,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ONIX"
+        "id": "ONIX",
+        "forms": []
     },
     {
         "dex": 96,
@@ -11794,7 +12213,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32.4,
         "modelScale": 1.05,
-        "maxCP": 992,
+        "maxCP": 1040,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11829,8 +12248,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 89,
-            "baseDefense": 158,
-            "baseStamina": 120
+            "baseDefense": 136,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -11875,7 +12294,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DROWZEE"
+        "id": "DROWZEE",
+        "forms": []
     },
     {
         "dex": 97,
@@ -11895,7 +12315,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 75.6,
         "modelScale": 0.83,
-        "maxCP": 2048,
+        "maxCP": 2090,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -11930,8 +12350,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 144,
-            "baseDefense": 215,
-            "baseStamina": 170
+            "baseDefense": 193,
+            "baseStamina": 198
         },
         "types": [
             {
@@ -11974,7 +12394,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "HYPNO"
+        "id": "HYPNO",
+        "forms": []
     },
     {
         "dex": 98,
@@ -11994,7 +12415,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.5,
         "modelScale": 1.16,
-        "maxCP": 1386,
+        "maxCP": 1561,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12029,8 +12450,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 181,
-            "baseDefense": 156,
-            "baseStamina": 60
+            "baseDefense": 124,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -12075,7 +12496,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KRABBY"
+        "id": "KRABBY",
+        "forms": []
     },
     {
         "dex": 99,
@@ -12095,7 +12517,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 60,
         "modelScale": 0.87,
-        "maxCP": 2694,
+        "maxCP": 2829,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -12130,8 +12552,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 240,
-            "baseDefense": 214,
-            "baseStamina": 110
+            "baseDefense": 181,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -12174,7 +12596,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "KINGLER"
+        "id": "KINGLER",
+        "forms": []
     },
     {
         "dex": 100,
@@ -12194,7 +12617,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 10.4,
         "modelScale": 1.35,
-        "maxCP": 857,
+        "maxCP": 1010,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12229,8 +12652,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 109,
-            "baseDefense": 114,
-            "baseStamina": 80
+            "baseDefense": 111,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -12271,7 +12694,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VOLTORB"
+        "id": "VOLTORB",
+        "forms": []
     },
     {
         "dex": 101,
@@ -12291,7 +12715,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 66.6,
         "modelScale": 0.92,
-        "maxCP": 1900,
+        "maxCP": 2099,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -12326,8 +12750,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 173,
-            "baseDefense": 179,
-            "baseStamina": 120
+            "baseDefense": 173,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -12366,7 +12790,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "ELECTRODE"
+        "id": "ELECTRODE",
+        "forms": []
     },
     {
         "dex": 102,
@@ -12386,7 +12811,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2.5,
         "modelScale": 1.03,
-        "maxCP": 1102,
+        "maxCP": 1175,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12421,8 +12846,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 107,
-            "baseDefense": 140,
-            "baseStamina": 120
+            "baseDefense": 125,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -12471,7 +12896,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "EXEGGCUTE"
+        "id": "EXEGGCUTE",
+        "forms": []
     },
     {
         "dex": 103,
@@ -12491,7 +12917,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 120,
         "modelScale": 0.78,
-        "maxCP": 2916,
+        "maxCP": 3014,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -12526,8 +12952,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 233,
-            "baseDefense": 158,
-            "baseStamina": 190
+            "baseDefense": 149,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -12574,7 +13000,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "EXEGGUTOR"
+        "id": "EXEGGUTOR",
+        "forms": [
+            {
+                "id": "EXEGGUTOR",
+                "name": "Exeggutor"
+            },
+            {
+                "id": "EXEGGUTOR_ALOLA",
+                "name": "Exeggutor Alola"
+            }
+        ]
     },
     {
         "dex": 103,
@@ -12594,7 +13030,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 415.6,
         "modelScale": 0.78,
-        "maxCP": 2881,
+        "maxCP": 3014,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -12629,8 +13065,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 230,
-            "baseDefense": 158,
-            "baseStamina": 190
+            "baseDefense": 153,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -12669,7 +13105,17 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "EXEGGUTOR_ALOLA"
+        "id": "EXEGGUTOR_ALOLA",
+        "forms": [
+            {
+                "id": "EXEGGUTOR",
+                "name": "Exeggutor"
+            },
+            {
+                "id": "EXEGGUTOR_ALOLA",
+                "name": "Exeggutor Alola"
+            }
+        ]
     },
     {
         "dex": 104,
@@ -12689,7 +13135,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.5,
         "modelScale": 1.48,
-        "maxCP": 943,
+        "maxCP": 1019,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12724,8 +13170,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 90,
-            "baseDefense": 165,
-            "baseStamina": 100
+            "baseDefense": 144,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -12770,7 +13216,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CUBONE"
+        "id": "CUBONE",
+        "forms": []
     },
     {
         "dex": 105,
@@ -12790,7 +13237,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 45,
         "modelScale": 1,
-        "maxCP": 1691,
+        "maxCP": 1835,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12825,8 +13272,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 144,
-            "baseDefense": 200,
-            "baseStamina": 120
+            "baseDefense": 186,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -12869,7 +13316,17 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MAROWAK"
+        "id": "MAROWAK",
+        "forms": [
+            {
+                "id": "MAROWAK",
+                "name": "Marowak"
+            },
+            {
+                "id": "MAROWAK_ALOLA",
+                "name": "Marowak Alola"
+            }
+        ]
     },
     {
         "dex": 105,
@@ -12889,7 +13346,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 34,
         "modelScale": 1,
-        "maxCP": 1691,
+        "maxCP": 1835,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -12924,8 +13381,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 144,
-            "baseDefense": 200,
-            "baseStamina": 120
+            "baseDefense": 186,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -12964,7 +13421,17 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MAROWAK_ALOLA"
+        "id": "MAROWAK_ALOLA",
+        "forms": [
+            {
+                "id": "MAROWAK",
+                "name": "Marowak"
+            },
+            {
+                "id": "MAROWAK_ALOLA",
+                "name": "Marowak Alola"
+            }
+        ]
     },
     {
         "dex": 106,
@@ -12984,7 +13451,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 49.8,
         "modelScale": 0.83,
-        "maxCP": 2406,
+        "maxCP": 2576,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13019,8 +13486,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 224,
-            "baseDefense": 211,
-            "baseStamina": 100
+            "baseDefense": 181,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -13063,7 +13530,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "HITMONLEE"
+        "id": "HITMONLEE",
+        "forms": []
     },
     {
         "dex": 107,
@@ -13083,7 +13551,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 50.2,
         "modelScale": 1.02,
-        "maxCP": 2098,
+        "maxCP": 2332,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13122,8 +13590,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 193,
-            "baseDefense": 212,
-            "baseStamina": 100
+            "baseDefense": 197,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -13166,7 +13634,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "HITMONCHAN"
+        "id": "HITMONCHAN",
+        "forms": []
     },
     {
         "dex": 108,
@@ -13186,7 +13655,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 65.5,
         "modelScale": 0.92,
-        "maxCP": 1322,
+        "maxCP": 1411,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -13222,7 +13691,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 108,
             "baseDefense": 137,
-            "baseStamina": 180
+            "baseStamina": 207
         },
         "types": [
             {
@@ -13257,7 +13726,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LICKITUNG"
+        "id": "LICKITUNG",
+        "forms": []
     },
     {
         "dex": 109,
@@ -13277,7 +13747,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1,
         "modelScale": 1.2,
-        "maxCP": 1091,
+        "maxCP": 1214,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13312,8 +13782,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 119,
-            "baseDefense": 164,
-            "baseStamina": 80
+            "baseDefense": 141,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -13359,7 +13829,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KOFFING"
+        "id": "KOFFING",
+        "forms": []
     },
     {
         "dex": 110,
@@ -13379,7 +13850,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9.5,
         "modelScale": 1.24,
-        "maxCP": 2183,
+        "maxCP": 2293,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13414,8 +13885,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 174,
-            "baseDefense": 221,
-            "baseStamina": 130
+            "baseDefense": 197,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -13459,7 +13930,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "WEEZING"
+        "id": "WEEZING",
+        "forms": []
     },
     {
         "dex": 111,
@@ -13479,7 +13951,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 115,
         "modelScale": 1,
-        "maxCP": 1679,
+        "maxCP": 1651,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13514,8 +13986,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 140,
-            "baseDefense": 157,
-            "baseStamina": 160
+            "baseDefense": 127,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -13558,13 +14030,27 @@ var pokemon = [
                 {
                     "name": "Rhydon",
                     "id": "RHYDON",
+                    "futureBranches": [
+                        {
+                            "name": "Rhyperior",
+                            "id": "RHYPERIOR",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
-                        "candyCost": 50
+                        "candyCost": 25
                     }
                 }
             ]
         },
-        "id": "RHYHORN"
+        "id": "RHYHORN",
+        "forms": []
     },
     {
         "dex": 112,
@@ -13584,7 +14070,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 120,
         "modelScale": 0.79,
-        "maxCP": 3300,
+        "maxCP": 3179,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13619,8 +14105,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 222,
-            "baseDefense": 206,
-            "baseStamina": 210
+            "baseDefense": 171,
+            "baseStamina": 233
         },
         "types": [
             {
@@ -13664,10 +14150,24 @@ var pokemon = [
                 "id": "RHYHORN"
             },
             "costToEvolve": {
-                "candyCost": 50
-            }
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Rhyperior",
+                    "id": "RHYPERIOR",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "RHYDON"
+        "id": "RHYDON",
+        "forms": []
     },
     {
         "dex": 113,
@@ -13687,7 +14187,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 34.6,
         "modelScale": 0.96,
-        "maxCP": 1469,
+        "maxCP": 1255,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13722,8 +14222,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 60,
-            "baseDefense": 176,
-            "baseStamina": 500
+            "baseDefense": 128,
+            "baseStamina": 487
         },
         "types": [
             {
@@ -13758,6 +14258,13 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {
+            "pastBranch": {
+                "name": "Happiny",
+                "id": "HAPPINY"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
             "futureBranches": [
                 {
                     "name": "Blissey",
@@ -13768,7 +14275,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CHANSEY"
+        "id": "CHANSEY",
+        "forms": []
     },
     {
         "dex": 114,
@@ -13788,7 +14296,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 35,
         "modelScale": 1,
-        "maxCP": 2208,
+        "maxCP": 2238,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -13823,8 +14331,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 183,
-            "baseDefense": 205,
-            "baseStamina": 130
+            "baseDefense": 169,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -13859,7 +14367,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "TANGELA"
+        "id": "TANGELA",
+        "forms": []
     },
     {
         "dex": 115,
@@ -13879,7 +14388,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 80,
         "modelScale": 0.72,
-        "maxCP": 2463,
+        "maxCP": 2586,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -13915,7 +14424,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 181,
             "baseDefense": 165,
-            "baseStamina": 210
+            "baseStamina": 233
         },
         "types": [
             {
@@ -13950,7 +14459,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "KANGASKHAN"
+        "id": "KANGASKHAN",
+        "forms": []
     },
     {
         "dex": 116,
@@ -13970,7 +14480,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8,
         "modelScale": 1.48,
-        "maxCP": 921,
+        "maxCP": 1056,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -14005,8 +14515,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 129,
-            "baseDefense": 125,
-            "baseStamina": 60
+            "baseDefense": 103,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -14065,7 +14575,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "HORSEA"
+        "id": "HORSEA",
+        "forms": []
     },
     {
         "dex": 117,
@@ -14085,7 +14596,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 25,
         "modelScale": 0.92,
-        "maxCP": 1979,
+        "maxCP": 2093,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14120,8 +14631,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 187,
-            "baseDefense": 182,
-            "baseStamina": 110
+            "baseDefense": 156,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -14178,7 +14689,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SEADRA"
+        "id": "SEADRA",
+        "forms": []
     },
     {
         "dex": 118,
@@ -14198,7 +14710,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15,
         "modelScale": 1.35,
-        "maxCP": 1006,
+        "maxCP": 1152,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -14233,8 +14745,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 123,
-            "baseDefense": 115,
-            "baseStamina": 90
+            "baseDefense": 110,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -14280,7 +14792,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GOLDEEN"
+        "id": "GOLDEEN",
+        "forms": []
     },
     {
         "dex": 119,
@@ -14300,7 +14813,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 39,
         "modelScale": 0.88,
-        "maxCP": 2040,
+        "maxCP": 2162,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14335,8 +14848,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 175,
-            "baseDefense": 154,
-            "baseStamina": 160
+            "baseDefense": 147,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -14380,7 +14893,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SEAKING"
+        "id": "SEAKING",
+        "forms": []
     },
     {
         "dex": 120,
@@ -14400,7 +14914,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 34.5,
         "modelScale": 1.1,
-        "maxCP": 926,
+        "maxCP": 1157,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14436,7 +14950,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 137,
             "baseDefense": 112,
-            "baseStamina": 60
+            "baseStamina": 102
         },
         "types": [
             {
@@ -14477,7 +14991,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "STARYU"
+        "id": "STARYU",
+        "forms": []
     },
     {
         "dex": 121,
@@ -14497,7 +15012,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 80,
         "modelScale": 0.97,
-        "maxCP": 2303,
+        "maxCP": 2584,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14533,7 +15048,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 210,
             "baseDefense": 184,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -14576,7 +15091,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "STARMIE"
+        "id": "STARMIE",
+        "forms": []
     },
     {
         "dex": 122,
@@ -14596,7 +15112,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 54.5,
         "modelScale": 0.89,
-        "maxCP": 1984,
+        "maxCP": 2228,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -14631,8 +15147,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 192,
-            "baseDefense": 233,
-            "baseStamina": 80
+            "baseDefense": 205,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -14670,8 +15186,17 @@ var pokemon = [
             "diskRadius": 0.6675,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "MR_MIME"
+        "evolution": {
+            "pastBranch": {
+                "name": "Mime Jr",
+                "id": "MIME_JR"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "MR_MIME",
+        "forms": []
     },
     {
         "dex": 123,
@@ -14691,7 +15216,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 56,
         "modelScale": 0.8,
-        "maxCP": 2464,
+        "maxCP": 2706,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14727,7 +15252,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 218,
             "baseDefense": 170,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -14781,7 +15306,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SCYTHER"
+        "id": "SCYTHER",
+        "forms": []
     },
     {
         "dex": 124,
@@ -14801,7 +15327,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 40.6,
         "modelScale": 0.87,
-        "maxCP": 2512,
+        "maxCP": 2555,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14836,8 +15362,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 182,
-            "baseStamina": 130
+            "baseDefense": 151,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -14884,7 +15410,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "JYNX"
+        "id": "JYNX",
+        "forms": []
     },
     {
         "dex": 125,
@@ -14904,7 +15431,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 30,
         "modelScale": 0.98,
-        "maxCP": 2196,
+        "maxCP": 2334,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -14939,8 +15466,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 198,
-            "baseDefense": 173,
-            "baseStamina": 130
+            "baseDefense": 158,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -14981,9 +15508,23 @@ var pokemon = [
             },
             "costToEvolve": {
                 "candyCost": 25
-            }
+            },
+            "futureBranches": [
+                {
+                    "name": "Electivire",
+                    "id": "ELECTIVIRE",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "ELECTABUZZ"
+        "id": "ELECTABUZZ",
+        "forms": []
     },
     {
         "dex": 126,
@@ -15003,7 +15544,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 44.5,
         "modelScale": 0.88,
-        "maxCP": 2254,
+        "maxCP": 2394,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -15038,8 +15579,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 206,
-            "baseDefense": 169,
-            "baseStamina": 130
+            "baseDefense": 154,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -15080,9 +15621,23 @@ var pokemon = [
             },
             "costToEvolve": {
                 "candyCost": 25
-            }
+            },
+            "futureBranches": [
+                {
+                    "name": "Magmortar",
+                    "id": "MAGMORTAR",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "MAGMAR"
+        "id": "MAGMAR",
+        "forms": []
     },
     {
         "dex": 127,
@@ -15102,7 +15657,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 55,
         "modelScale": 0.87,
-        "maxCP": 2770,
+        "maxCP": 2959,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -15137,8 +15692,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 238,
-            "baseDefense": 197,
-            "baseStamina": 130
+            "baseDefense": 182,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -15173,7 +15728,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "PINSIR"
+        "id": "PINSIR",
+        "forms": []
     },
     {
         "dex": 128,
@@ -15193,7 +15749,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 88.4,
         "modelScale": 0.87,
-        "maxCP": 2488,
+        "maxCP": 2620,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -15228,8 +15784,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 198,
-            "baseDefense": 197,
-            "baseStamina": 150
+            "baseDefense": 183,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -15264,7 +15820,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "TAUROS"
+        "id": "TAUROS",
+        "forms": []
     },
     {
         "dex": 129,
@@ -15284,7 +15841,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 10,
         "modelScale": 1.07,
-        "maxCP": 220,
+        "maxCP": 274,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -15307,8 +15864,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 29,
-            "baseDefense": 102,
-            "baseStamina": 40
+            "baseDefense": 85,
+            "baseStamina": 85
         },
         "types": [
             {
@@ -15350,7 +15907,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MAGIKARP"
+        "id": "MAGIKARP",
+        "forms": []
     },
     {
         "dex": 130,
@@ -15370,7 +15928,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 235,
         "modelScale": 0.48,
-        "maxCP": 3281,
+        "maxCP": 3391,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -15405,8 +15963,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 237,
-            "baseDefense": 197,
-            "baseStamina": 190
+            "baseDefense": 186,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -15454,7 +16012,8 @@ var pokemon = [
                 "candyCost": 400
             }
         },
-        "id": "GYARADOS"
+        "id": "GYARADOS",
+        "forms": []
     },
     {
         "dex": 131,
@@ -15474,7 +16033,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 220,
         "modelScale": 0.7,
-        "maxCP": 2603,
+        "maxCP": 2641,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -15509,8 +16068,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 165,
-            "baseDefense": 180,
-            "baseStamina": 260
+            "baseDefense": 174,
+            "baseStamina": 277
         },
         "types": [
             {
@@ -15549,7 +16108,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LAPRAS"
+        "id": "LAPRAS",
+        "forms": []
     },
     {
         "dex": 132,
@@ -15569,7 +16129,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4,
         "modelScale": 1.61,
-        "maxCP": 718,
+        "maxCP": 832,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -15593,7 +16153,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 91,
             "baseDefense": 91,
-            "baseStamina": 96
+            "baseStamina": 134
         },
         "types": [
             {
@@ -15624,7 +16184,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DITTO"
+        "id": "DITTO",
+        "forms": []
     },
     {
         "dex": 133,
@@ -15644,7 +16205,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 6.5,
         "modelScale": 1.68,
-        "maxCP": 969,
+        "maxCP": 1071,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -15657,6 +16218,11 @@ var pokemon = [
             {
                 "name": "Swift",
                 "id": "SWIFT"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -15675,8 +16241,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 104,
-            "baseDefense": 121,
-            "baseStamina": 110
+            "baseDefense": 114,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -15749,7 +16315,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "EEVEE"
+        "id": "EEVEE",
+        "forms": []
     },
     {
         "dex": 134,
@@ -15769,7 +16336,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 29,
         "modelScale": 1.05,
-        "maxCP": 3157,
+        "maxCP": 3114,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -15786,6 +16353,11 @@ var pokemon = [
             {
                 "name": "Aqua Tail",
                 "id": "AQUA_TAIL"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -15800,8 +16372,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 205,
-            "baseDefense": 177,
-            "baseStamina": 260
+            "baseDefense": 161,
+            "baseStamina": 277
         },
         "types": [
             {
@@ -15844,7 +16416,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "VAPOREON"
+        "id": "VAPOREON",
+        "forms": []
     },
     {
         "dex": 135,
@@ -15864,7 +16437,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 24.5,
         "modelScale": 1.1,
-        "maxCP": 2730,
+        "maxCP": 2888,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -15881,6 +16454,11 @@ var pokemon = [
             {
                 "name": "Thunder",
                 "id": "THUNDER"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -15899,8 +16477,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 232,
-            "baseDefense": 201,
-            "baseStamina": 130
+            "baseDefense": 182,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -15943,7 +16521,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "JOLTEON"
+        "id": "JOLTEON",
+        "forms": []
     },
     {
         "dex": 136,
@@ -15963,7 +16542,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 25,
         "modelScale": 0.87,
-        "maxCP": 2904,
+        "maxCP": 3029,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -15980,6 +16559,11 @@ var pokemon = [
             {
                 "name": "Overheat",
                 "id": "OVERHEAT"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -15998,8 +16582,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 246,
-            "baseDefense": 204,
-            "baseStamina": 130
+            "baseDefense": 179,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -16042,7 +16626,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "FLAREON"
+        "id": "FLAREON",
+        "forms": []
     },
     {
         "dex": 137,
@@ -16062,7 +16647,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 36.5,
         "modelScale": 1.1,
-        "maxCP": 1567,
+        "maxCP": 1720,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -16097,8 +16682,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 153,
-            "baseDefense": 139,
-            "baseStamina": 130
+            "baseDefense": 136,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -16134,8 +16719,21 @@ var pokemon = [
                 {
                     "name": "Porygon2",
                     "id": "PORYGON2",
+                    "futureBranches": [
+                        {
+                            "name": "Porygon Z",
+                            "id": "PORYGON_Z",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
-                        "candyCost": 50,
+                        "candyCost": 25,
                         "evolutionItem": {
                             "id": "ITEM_UP_GRADE",
                             "name": "Up Grade"
@@ -16144,7 +16742,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PORYGON"
+        "id": "PORYGON",
+        "forms": []
     },
     {
         "dex": 138,
@@ -16164,7 +16763,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 7.5,
         "modelScale": 1.48,
-        "maxCP": 1345,
+        "maxCP": 1544,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -16199,8 +16798,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 155,
-            "baseDefense": 174,
-            "baseStamina": 70
+            "baseDefense": 153,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -16249,7 +16848,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "OMANYTE"
+        "id": "OMANYTE",
+        "forms": []
     },
     {
         "dex": 139,
@@ -16269,7 +16869,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 35,
         "modelScale": 1,
-        "maxCP": 2685,
+        "maxCP": 2786,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -16304,8 +16904,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 207,
-            "baseDefense": 227,
-            "baseStamina": 140
+            "baseDefense": 201,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -16352,7 +16952,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "OMASTAR"
+        "id": "OMASTAR",
+        "forms": []
     },
     {
         "dex": 140,
@@ -16372,7 +16973,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 11.5,
         "modelScale": 1.35,
-        "maxCP": 1172,
+        "maxCP": 1370,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -16407,8 +17008,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 162,
-            "baseStamina": 60
+            "baseDefense": 140,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -16457,7 +17058,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KABUTO"
+        "id": "KABUTO",
+        "forms": []
     },
     {
         "dex": 141,
@@ -16477,7 +17079,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 40.5,
         "modelScale": 0.91,
-        "maxCP": 2517,
+        "maxCP": 2713,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -16512,8 +17114,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 220,
-            "baseDefense": 203,
-            "baseStamina": 120
+            "baseDefense": 186,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -16560,7 +17162,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "KABUTOPS"
+        "id": "KABUTOPS",
+        "forms": []
     },
     {
         "dex": 142,
@@ -16580,7 +17183,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 59,
         "modelScale": 0.57,
-        "maxCP": 2608,
+        "maxCP": 2783,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -16615,8 +17218,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 221,
-            "baseDefense": 164,
-            "baseStamina": 160
+            "baseDefense": 159,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -16656,7 +17259,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "AERODACTYL"
+        "id": "AERODACTYL",
+        "forms": []
     },
     {
         "dex": 143,
@@ -16676,7 +17280,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 460,
         "modelScale": 0.74,
-        "maxCP": 3355,
+        "maxCP": 3225,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -16711,8 +17315,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 190,
-            "baseDefense": 190,
-            "baseStamina": 320
+            "baseDefense": 169,
+            "baseStamina": 330
         },
         "types": [
             {
@@ -16746,8 +17350,17 @@ var pokemon = [
             "diskRadius": 1.11,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "SNORLAX"
+        "evolution": {
+            "pastBranch": {
+                "name": "Munchlax",
+                "id": "MUNCHLAX"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "SNORLAX",
+        "forms": []
     },
     {
         "dex": 144,
@@ -16767,7 +17380,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 55.4,
         "modelScale": 0.66,
-        "maxCP": 2933,
+        "maxCP": 3051,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -16784,6 +17397,11 @@ var pokemon = [
             {
                 "name": "Blizzard",
                 "id": "BLIZZARD"
+            },
+            {
+                "name": "Hurricane",
+                "id": "HURRICANE",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -16798,8 +17416,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 192,
-            "baseDefense": 249,
-            "baseStamina": 180
+            "baseDefense": 236,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -16839,7 +17457,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ARTICUNO"
+        "id": "ARTICUNO",
+        "forms": []
     },
     {
         "dex": 145,
@@ -16859,7 +17478,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 52.6,
         "modelScale": 0.69,
-        "maxCP": 3330,
+        "maxCP": 3527,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -16882,6 +17501,11 @@ var pokemon = [
             {
                 "name": "Charge Beam Fast",
                 "id": "CHARGE_BEAM_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST",
+                "legacy": true
             }
         ],
         "family": {
@@ -16890,8 +17514,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 253,
-            "baseDefense": 188,
-            "baseStamina": 180
+            "baseDefense": 185,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -16931,7 +17555,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ZAPDOS"
+        "id": "ZAPDOS",
+        "forms": []
     },
     {
         "dex": 146,
@@ -16951,7 +17576,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60,
         "modelScale": 0.62,
-        "maxCP": 3272,
+        "maxCP": 3465,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -16968,6 +17593,11 @@ var pokemon = [
             {
                 "name": "Overheat",
                 "id": "OVERHEAT"
+            },
+            {
+                "name": "Sky Attack",
+                "id": "SKY_ATTACK",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -16982,8 +17612,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 251,
-            "baseDefense": 184,
-            "baseStamina": 180
+            "baseDefense": 181,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -17023,7 +17653,8 @@ var pokemon = [
             "shoulderModeScale": 0.25
         },
         "evolution": {},
-        "id": "MOLTRES"
+        "id": "MOLTRES",
+        "forms": []
     },
     {
         "dex": 147,
@@ -17043,7 +17674,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 3.3,
         "modelScale": 1.11,
-        "maxCP": 860,
+        "maxCP": 1004,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -17078,8 +17709,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 119,
-            "baseDefense": 94,
-            "baseStamina": 82
+            "baseDefense": 91,
+            "baseStamina": 121
         },
         "types": [
             {
@@ -17133,7 +17764,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DRATINI"
+        "id": "DRATINI",
+        "forms": []
     },
     {
         "dex": 148,
@@ -17153,7 +17785,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 16.5,
         "modelScale": 0.75,
-        "maxCP": 1609,
+        "maxCP": 1780,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -17188,8 +17820,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 163,
-            "baseDefense": 138,
-            "baseStamina": 122
+            "baseDefense": 135,
+            "baseStamina": 156
         },
         "types": [
             {
@@ -17241,7 +17873,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "DRAGONAIR"
+        "id": "DRAGONAIR",
+        "forms": []
     },
     {
         "dex": 149,
@@ -17261,7 +17894,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 210,
         "modelScale": 0.7,
-        "maxCP": 3581,
+        "maxCP": 3792,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -17278,6 +17911,11 @@ var pokemon = [
             {
                 "name": "Outrage",
                 "id": "OUTRAGE"
+            },
+            {
+                "name": "Draco Meteor",
+                "id": "DRACO_METEOR",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -17296,8 +17934,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 263,
-            "baseDefense": 201,
-            "baseStamina": 182
+            "baseDefense": 198,
+            "baseStamina": 209
         },
         "types": [
             {
@@ -17352,7 +17990,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "DRAGONITE"
+        "id": "DRAGONITE",
+        "forms": []
     },
     {
         "dex": 150,
@@ -17372,7 +18011,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 122,
         "modelScale": 0.74,
-        "maxCP": 3982,
+        "maxCP": 4178,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -17383,16 +18022,20 @@ var pokemon = [
                 "id": "PSYCHIC"
             },
             {
-                "name": "Shadow Ball",
-                "id": "SHADOW_BALL"
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
             },
             {
-                "name": "Hyper Beam",
-                "id": "HYPER_BEAM"
+                "name": "Ice Beam",
+                "id": "ICE_BEAM"
             },
             {
                 "name": "Focus Blast",
                 "id": "FOCUS_BLAST"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
             }
         ],
         "quickMoves": [
@@ -17412,7 +18055,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 300,
             "baseDefense": 182,
-            "baseStamina": 193
+            "baseStamina": 214
         },
         "types": [
             {
@@ -17447,7 +18090,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MEWTWO"
+        "id": "MEWTWO",
+        "forms": []
     },
     {
         "dex": 151,
@@ -17467,7 +18111,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 4,
         "modelScale": 1.41,
-        "maxCP": 3090,
+        "maxCP": 3265,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -17639,7 +18283,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 210,
             "baseDefense": 210,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -17673,7 +18317,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MEW"
+        "id": "MEW",
+        "forms": []
     },
     {
         "dex": 152,
@@ -17693,7 +18338,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.4,
         "modelScale": 1.29,
-        "maxCP": 801,
+        "maxCP": 935,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -17729,7 +18374,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 92,
             "baseDefense": 122,
-            "baseStamina": 90
+            "baseStamina": 128
         },
         "types": [
             {
@@ -17783,7 +18428,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CHIKORITA"
+        "id": "CHIKORITA",
+        "forms": []
     },
     {
         "dex": 153,
@@ -17803,7 +18449,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15.8,
         "modelScale": 0.89,
-        "maxCP": 1296,
+        "maxCP": 1454,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -17839,7 +18485,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 122,
             "baseDefense": 155,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -17891,7 +18537,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BAYLEEF"
+        "id": "BAYLEEF",
+        "forms": []
     },
     {
         "dex": 154,
@@ -17911,7 +18558,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 100.5,
         "modelScale": 0.79,
-        "maxCP": 2227,
+        "maxCP": 2410,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -17928,6 +18575,11 @@ var pokemon = [
             {
                 "name": "Earthquake",
                 "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Frenzy Plant",
+                "id": "FRENZY_PLANT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -17947,7 +18599,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 168,
             "baseDefense": 202,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -17997,7 +18649,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "MEGANIUM"
+        "id": "MEGANIUM",
+        "forms": []
     },
     {
         "dex": 155,
@@ -18017,7 +18670,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 7.9,
         "modelScale": 1.4,
-        "maxCP": 831,
+        "maxCP": 980,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18052,8 +18705,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 116,
-            "baseDefense": 96,
-            "baseStamina": 78
+            "baseDefense": 93,
+            "baseStamina": 118
         },
         "types": [
             {
@@ -18107,7 +18760,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CYNDAQUIL"
+        "id": "CYNDAQUIL",
+        "forms": []
     },
     {
         "dex": 156,
@@ -18127,7 +18781,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19,
         "modelScale": 0.98,
-        "maxCP": 1484,
+        "maxCP": 1653,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18162,8 +18816,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 158,
-            "baseDefense": 129,
-            "baseStamina": 116
+            "baseDefense": 126,
+            "baseStamina": 151
         },
         "types": [
             {
@@ -18215,7 +18869,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "QUILAVA"
+        "id": "QUILAVA",
+        "forms": []
     },
     {
         "dex": 157,
@@ -18235,7 +18890,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 79.5,
         "modelScale": 0.8,
-        "maxCP": 2686,
+        "maxCP": 2889,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -18252,6 +18907,11 @@ var pokemon = [
             {
                 "name": "Solar Beam",
                 "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Blast Burn",
+                "id": "BLAST_BURN",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -18270,8 +18930,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 176,
-            "baseStamina": 156
+            "baseDefense": 173,
+            "baseStamina": 186
         },
         "types": [
             {
@@ -18321,7 +18981,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "TYPHLOSION"
+        "id": "TYPHLOSION",
+        "forms": []
     },
     {
         "dex": 158,
@@ -18341,7 +19002,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9.5,
         "modelScale": 1.27,
-        "maxCP": 1011,
+        "maxCP": 1131,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18376,8 +19037,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 117,
-            "baseDefense": 116,
-            "baseStamina": 100
+            "baseDefense": 109,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -18431,7 +19092,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TOTODILE"
+        "id": "TOTODILE",
+        "forms": []
     },
     {
         "dex": 159,
@@ -18451,7 +19113,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 25,
         "modelScale": 0.98,
-        "maxCP": 1598,
+        "maxCP": 1722,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18486,8 +19148,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 150,
-            "baseDefense": 151,
-            "baseStamina": 130
+            "baseDefense": 142,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -18539,7 +19201,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CROCONAW"
+        "id": "CROCONAW",
+        "forms": []
     },
     {
         "dex": 160,
@@ -18559,7 +19222,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 88.8,
         "modelScale": 0.73,
-        "maxCP": 2721,
+        "maxCP": 2857,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -18594,8 +19257,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 205,
-            "baseDefense": 197,
-            "baseStamina": 170
+            "baseDefense": 188,
+            "baseStamina": 198
         },
         "types": [
             {
@@ -18645,7 +19308,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "FERALIGATR"
+        "id": "FERALIGATR",
+        "forms": []
     },
     {
         "dex": 161,
@@ -18665,7 +19329,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 6,
         "modelScale": 1.15,
-        "maxCP": 519,
+        "maxCP": 618,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18700,8 +19364,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 79,
-            "baseDefense": 77,
-            "baseStamina": 70
+            "baseDefense": 73,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -18746,7 +19410,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SENTRET"
+        "id": "SENTRET",
+        "forms": []
     },
     {
         "dex": 162,
@@ -18766,7 +19431,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 32.5,
         "modelScale": 1.08,
-        "maxCP": 1667,
+        "maxCP": 1758,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18801,8 +19466,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 130,
-            "baseStamina": 170
+            "baseDefense": 125,
+            "baseStamina": 198
         },
         "types": [
             {
@@ -18845,7 +19510,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "FURRET"
+        "id": "FURRET",
+        "forms": []
     },
     {
         "dex": 163,
@@ -18865,7 +19531,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 21.2,
         "modelScale": 1.17,
-        "maxCP": 640,
+        "maxCP": 677,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -18900,8 +19566,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 67,
-            "baseDefense": 101,
-            "baseStamina": 120
+            "baseDefense": 88,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -18950,7 +19616,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "HOOTHOOT"
+        "id": "HOOTHOOT",
+        "forms": []
     },
     {
         "dex": 164,
@@ -18970,7 +19637,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 40.8,
         "modelScale": 0.81,
-        "maxCP": 2040,
+        "maxCP": 2024,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -19005,8 +19672,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 145,
-            "baseDefense": 179,
-            "baseStamina": 200
+            "baseDefense": 156,
+            "baseStamina": 225
         },
         "types": [
             {
@@ -19054,7 +19721,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "NOCTOWL"
+        "id": "NOCTOWL",
+        "forms": []
     },
     {
         "dex": 165,
@@ -19074,7 +19742,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 10.8,
         "modelScale": 0.93,
-        "maxCP": 663,
+        "maxCP": 728,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -19109,8 +19777,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 72,
-            "baseDefense": 142,
-            "baseStamina": 80
+            "baseDefense": 118,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -19160,7 +19828,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LEDYBA"
+        "id": "LEDYBA",
+        "forms": []
     },
     {
         "dex": 166,
@@ -19180,7 +19849,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 35.6,
         "modelScale": 0.87,
-        "maxCP": 1275,
+        "maxCP": 1346,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -19215,8 +19884,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 107,
-            "baseDefense": 209,
-            "baseStamina": 110
+            "baseDefense": 179,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -19264,7 +19933,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "LEDIAN"
+        "id": "LEDIAN",
+        "forms": []
     },
     {
         "dex": 167,
@@ -19284,7 +19954,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 8.5,
         "modelScale": 1.32,
-        "maxCP": 685,
+        "maxCP": 816,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -19320,7 +19990,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 105,
             "baseDefense": 73,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -19369,7 +20039,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SPINARAK"
+        "id": "SPINARAK",
+        "forms": []
     },
     {
         "dex": 168,
@@ -19389,7 +20060,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 33.5,
         "modelScale": 1.02,
-        "maxCP": 1636,
+        "maxCP": 1772,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -19424,8 +20095,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 161,
-            "baseDefense": 128,
-            "baseStamina": 140
+            "baseDefense": 124,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -19472,7 +20143,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "ARIADOS"
+        "id": "ARIADOS",
+        "forms": []
     },
     {
         "dex": 169,
@@ -19492,7 +20164,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 75,
         "modelScale": 0.66,
-        "maxCP": 2466,
+        "maxCP": 2646,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -19528,7 +20200,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 194,
             "baseDefense": 178,
-            "baseStamina": 170
+            "baseStamina": 198
         },
         "types": [
             {
@@ -19583,7 +20255,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "CROBAT"
+        "id": "CROBAT",
+        "forms": []
     },
     {
         "dex": 170,
@@ -19603,7 +20276,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12,
         "modelScale": 1.25,
-        "maxCP": 1067,
+        "maxCP": 1119,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -19638,8 +20311,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 106,
-            "baseDefense": 106,
-            "baseStamina": 150
+            "baseDefense": 97,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -19689,7 +20362,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CHINCHOU"
+        "id": "CHINCHOU",
+        "forms": []
     },
     {
         "dex": 171,
@@ -19709,7 +20383,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 22.5,
         "modelScale": 0.87,
-        "maxCP": 2077,
+        "maxCP": 2085,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -19744,8 +20418,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 146,
-            "baseDefense": 146,
-            "baseStamina": 250
+            "baseDefense": 137,
+            "baseStamina": 268
         },
         "types": [
             {
@@ -19793,7 +20467,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "LANTURN"
+        "id": "LANTURN",
+        "forms": []
     },
     {
         "dex": 172,
@@ -19813,7 +20488,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 2,
         "modelScale": 1.53,
-        "maxCP": 376,
+        "maxCP": 473,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -19844,8 +20519,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 77,
-            "baseDefense": 63,
-            "baseStamina": 40
+            "baseDefense": 53,
+            "baseStamina": 85
         },
         "types": [
             {
@@ -19898,7 +20573,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PICHU"
+        "id": "PICHU",
+        "forms": []
     },
     {
         "dex": 173,
@@ -19918,7 +20594,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3,
         "modelScale": 1.68,
-        "maxCP": 620,
+        "maxCP": 671,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -19953,8 +20629,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 75,
-            "baseDefense": 91,
-            "baseStamina": 100
+            "baseDefense": 79,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -20007,7 +20683,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CLEFFA"
+        "id": "CLEFFA",
+        "forms": []
     },
     {
         "dex": 174,
@@ -20027,7 +20704,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 1,
         "modelScale": 1.61,
-        "maxCP": 512,
+        "maxCP": 535,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -20062,8 +20739,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 69,
-            "baseDefense": 34,
-            "baseStamina": 180
+            "baseDefense": 32,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -20121,7 +20798,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "IGGLYBUFF"
+        "id": "IGGLYBUFF",
+        "forms": []
     },
     {
         "dex": 175,
@@ -20141,7 +20819,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1.5,
         "modelScale": 1.68,
-        "maxCP": 540,
+        "maxCP": 657,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -20177,7 +20855,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 67,
             "baseDefense": 116,
-            "baseStamina": 70
+            "baseStamina": 111
         },
         "types": [
             {
@@ -20215,13 +20893,27 @@ var pokemon = [
                 {
                     "name": "Togetic",
                     "id": "TOGETIC",
+                    "futureBranches": [
+                        {
+                            "name": "Togekiss",
+                            "id": "TOGEKISS",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
-                        "candyCost": 50
+                        "candyCost": 25
                     }
                 }
             ]
         },
-        "id": "TOGEPI"
+        "id": "TOGEPI",
+        "forms": []
     },
     {
         "dex": 176,
@@ -20241,7 +20933,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 3.2,
         "modelScale": 1.25,
-        "maxCP": 1543,
+        "maxCP": 1708,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -20276,8 +20968,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 139,
-            "baseDefense": 191,
-            "baseStamina": 110
+            "baseDefense": 181,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -20322,10 +21014,24 @@ var pokemon = [
                 "id": "TOGEPI"
             },
             "costToEvolve": {
-                "candyCost": 50
-            }
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Togekiss",
+                    "id": "TOGEKISS",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "TOGETIC"
+        "id": "TOGETIC",
+        "forms": []
     },
     {
         "dex": 177,
@@ -20345,7 +21051,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2,
         "modelScale": 2,
-        "maxCP": 925,
+        "maxCP": 1102,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -20381,7 +21087,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 134,
             "baseDefense": 89,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -20430,7 +21136,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NATU"
+        "id": "NATU",
+        "forms": []
     },
     {
         "dex": 178,
@@ -20450,7 +21157,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15,
         "modelScale": 0.81,
-        "maxCP": 1975,
+        "maxCP": 2188,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -20486,7 +21193,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 192,
             "baseDefense": 146,
-            "baseStamina": 130
+            "baseStamina": 163
         },
         "types": [
             {
@@ -20534,7 +21241,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "XATU"
+        "id": "XATU",
+        "forms": []
     },
     {
         "dex": 179,
@@ -20554,7 +21262,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 7.8,
         "modelScale": 1.25,
-        "maxCP": 887,
+        "maxCP": 991,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -20589,8 +21297,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 114,
-            "baseDefense": 82,
-            "baseStamina": 110
+            "baseDefense": 79,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -20644,7 +21352,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MAREEP"
+        "id": "MAREEP",
+        "forms": []
     },
     {
         "dex": 180,
@@ -20664,7 +21373,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 13.3,
         "modelScale": 1.1,
-        "maxCP": 1402,
+        "maxCP": 1521,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -20699,8 +21408,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 145,
-            "baseDefense": 112,
-            "baseStamina": 140
+            "baseDefense": 109,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -20752,7 +21461,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "FLAAFFY"
+        "id": "FLAAFFY",
+        "forms": []
     },
     {
         "dex": 181,
@@ -20772,7 +21482,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 61.5,
         "modelScale": 0.84,
-        "maxCP": 2695,
+        "maxCP": 2852,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -20789,6 +21499,11 @@ var pokemon = [
             {
                 "name": "Thunder",
                 "id": "THUNDER"
+            },
+            {
+                "name": "Dragon Pulse",
+                "id": "DRAGON_PULSE",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -20807,8 +21522,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 211,
-            "baseDefense": 172,
-            "baseStamina": 180
+            "baseDefense": 169,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -20858,7 +21573,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "AMPHAROS"
+        "id": "AMPHAROS",
+        "forms": []
     },
     {
         "dex": 182,
@@ -20878,7 +21594,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5.8,
         "modelScale": 1.48,
-        "maxCP": 2108,
+        "maxCP": 2281,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -20913,8 +21629,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 169,
-            "baseDefense": 189,
-            "baseStamina": 150
+            "baseDefense": 186,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -20968,7 +21684,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "BELLOSSOM"
+        "id": "BELLOSSOM",
+        "forms": []
     },
     {
         "dex": 183,
@@ -20988,7 +21705,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.5,
         "modelScale": 1.47,
-        "maxCP": 420,
+        "maxCP": 461,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21024,7 +21741,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 37,
             "baseDefense": 93,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -21080,7 +21797,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MARILL"
+        "id": "MARILL",
+        "forms": []
     },
     {
         "dex": 184,
@@ -21100,7 +21818,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28.5,
         "modelScale": 1.15,
-        "maxCP": 1503,
+        "maxCP": 1588,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21136,7 +21854,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 112,
             "baseDefense": 152,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -21190,7 +21908,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "AZUMARILL"
+        "id": "AZUMARILL",
+        "forms": []
     },
     {
         "dex": 185,
@@ -21210,7 +21929,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 38,
         "modelScale": 0.92,
-        "maxCP": 2065,
+        "maxCP": 2148,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21245,8 +21964,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 198,
-            "baseStamina": 140
+            "baseDefense": 176,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -21276,8 +21995,17 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "SUDOWOODO"
+        "evolution": {
+            "pastBranch": {
+                "name": "Bonsly",
+                "id": "BONSLY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "SUDOWOODO",
+        "forms": []
     },
     {
         "dex": 186,
@@ -21297,7 +22025,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 33.9,
         "modelScale": 0.96,
-        "maxCP": 2371,
+        "maxCP": 2449,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21332,8 +22060,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 174,
-            "baseDefense": 192,
-            "baseStamina": 180
+            "baseDefense": 179,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -21387,7 +22115,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "POLITOED"
+        "id": "POLITOED",
+        "forms": []
     },
     {
         "dex": 187,
@@ -21407,7 +22136,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 0.5,
         "modelScale": 1.09,
-        "maxCP": 508,
+        "maxCP": 600,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -21442,8 +22171,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 67,
-            "baseDefense": 101,
-            "baseStamina": 70
+            "baseDefense": 94,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -21502,7 +22231,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "HOPPIP"
+        "id": "HOPPIP",
+        "forms": []
     },
     {
         "dex": 188,
@@ -21522,7 +22252,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1,
         "modelScale": 1.18,
-        "maxCP": 882,
+        "maxCP": 976,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -21557,8 +22287,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 91,
-            "baseDefense": 127,
-            "baseStamina": 110
+            "baseDefense": 120,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -21615,7 +22345,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SKIPLOOM"
+        "id": "SKIPLOOM",
+        "forms": []
     },
     {
         "dex": 189,
@@ -21635,7 +22366,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 3,
         "modelScale": 1.13,
-        "maxCP": 1553,
+        "maxCP": 1636,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -21670,8 +22401,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 118,
-            "baseDefense": 197,
-            "baseStamina": 150
+            "baseDefense": 183,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -21726,7 +22457,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "JUMPLUFF"
+        "id": "JUMPLUFF",
+        "forms": []
     },
     {
         "dex": 190,
@@ -21746,7 +22478,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 11.5,
         "modelScale": 1.1,
-        "maxCP": 1188,
+        "maxCP": 1348,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21782,7 +22514,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 136,
             "baseDefense": 112,
-            "baseStamina": 110
+            "baseStamina": 146
         },
         "types": [
             {
@@ -21817,7 +22549,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "AIPOM"
+        "id": "AIPOM",
+        "forms": []
     },
     {
         "dex": 191,
@@ -21837,7 +22570,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1.8,
         "modelScale": 1.68,
-        "maxCP": 316,
+        "maxCP": 395,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -21873,7 +22606,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 55,
             "baseDefense": 55,
-            "baseStamina": 60
+            "baseStamina": 102
         },
         "types": [
             {
@@ -21922,7 +22655,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SUNKERN"
+        "id": "SUNKERN",
+        "forms": []
     },
     {
         "dex": 192,
@@ -21942,7 +22676,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.5,
         "modelScale": 1.13,
-        "maxCP": 2048,
+        "maxCP": 2141,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -21977,8 +22711,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 185,
-            "baseDefense": 148,
-            "baseStamina": 150
+            "baseDefense": 135,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -22025,7 +22759,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "SUNFLORA"
+        "id": "SUNFLORA",
+        "forms": []
     },
     {
         "dex": 193,
@@ -22045,7 +22780,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 38,
         "modelScale": 0.95,
-        "maxCP": 1326,
+        "maxCP": 1470,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -22081,7 +22816,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 154,
             "baseDefense": 94,
-            "baseStamina": 130
+            "baseStamina": 163
         },
         "types": [
             {
@@ -22121,7 +22856,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "YANMA"
+        "id": "YANMA",
+        "forms": []
     },
     {
         "dex": 194,
@@ -22141,7 +22877,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.5,
         "modelScale": 1.48,
-        "maxCP": 596,
+        "maxCP": 641,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -22176,8 +22912,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 75,
-            "baseDefense": 75,
-            "baseStamina": 110
+            "baseDefense": 66,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -22226,7 +22962,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WOOPER"
+        "id": "WOOPER",
+        "forms": []
     },
     {
         "dex": 195,
@@ -22246,7 +22983,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 75,
         "modelScale": 0.87,
-        "maxCP": 1929,
+        "maxCP": 1992,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -22281,8 +23018,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 152,
-            "baseDefense": 152,
-            "baseStamina": 190
+            "baseDefense": 143,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -22329,7 +23066,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "QUAGSIRE"
+        "id": "QUAGSIRE",
+        "forms": []
     },
     {
         "dex": 196,
@@ -22349,7 +23087,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 26.5,
         "modelScale": 1.16,
-        "maxCP": 3000,
+        "maxCP": 3170,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -22366,6 +23104,11 @@ var pokemon = [
             {
                 "name": "Futuresight",
                 "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -22384,8 +23127,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 261,
-            "baseDefense": 194,
-            "baseStamina": 130
+            "baseDefense": 175,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -22427,7 +23170,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "ESPEON"
+        "id": "ESPEON",
+        "forms": []
     },
     {
         "dex": 197,
@@ -22447,7 +23191,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 27,
         "modelScale": 1.03,
-        "maxCP": 2052,
+        "maxCP": 2137,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -22460,6 +23204,11 @@ var pokemon = [
             {
                 "name": "Foul Play",
                 "id": "FOUL_PLAY"
+            },
+            {
+                "name": "Last Resort",
+                "id": "LAST_RESORT",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -22478,8 +23227,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 126,
-            "baseDefense": 250,
-            "baseStamina": 190
+            "baseDefense": 240,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -22521,7 +23270,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "UMBREON"
+        "id": "UMBREON",
+        "forms": []
     },
     {
         "dex": 198,
@@ -22541,7 +23291,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2.1,
         "modelScale": 1.35,
-        "maxCP": 1392,
+        "maxCP": 1562,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -22577,7 +23327,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 175,
             "baseDefense": 87,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -22615,8 +23365,23 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "MURKROW"
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Honchkrow",
+                    "id": "HONCHKROW",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
+        },
+        "id": "MURKROW",
+        "forms": []
     },
     {
         "dex": 199,
@@ -22636,7 +23401,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 79.5,
         "modelScale": 0.74,
-        "maxCP": 2482,
+        "maxCP": 2545,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -22671,8 +23436,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 177,
-            "baseDefense": 194,
-            "baseStamina": 190
+            "baseDefense": 180,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -22720,7 +23485,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "SLOWKING"
+        "id": "SLOWKING",
+        "forms": []
     },
     {
         "dex": 200,
@@ -22740,7 +23506,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 1,
         "modelScale": 1.22,
-        "maxCP": 1781,
+        "maxCP": 1926,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -22775,8 +23541,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 167,
-            "baseStamina": 120
+            "baseDefense": 154,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -22811,8 +23577,23 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "MISDREAVUS"
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Mismagius",
+                    "id": "MISMAGIUS",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
+        },
+        "id": "MISDREAVUS",
+        "forms": []
     },
     {
         "dex": 201,
@@ -22832,7 +23613,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 5,
         "modelScale": 1.35,
-        "maxCP": 1022,
+        "maxCP": 1185,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -22856,7 +23637,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 136,
             "baseDefense": 91,
-            "baseStamina": 96
+            "baseStamina": 134
         },
         "types": [
             {
@@ -22888,7 +23669,121 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "UNOWN"
+        "id": "UNOWN",
+        "forms": [
+            {
+                "id": "UNOWN_F",
+                "name": "Unown F"
+            },
+            {
+                "id": "UNOWN_A",
+                "name": "Unown A"
+            },
+            {
+                "id": "UNOWN_B",
+                "name": "Unown B"
+            },
+            {
+                "id": "UNOWN_C",
+                "name": "Unown C"
+            },
+            {
+                "id": "UNOWN_D",
+                "name": "Unown D"
+            },
+            {
+                "id": "UNOWN_E",
+                "name": "Unown E"
+            },
+            {
+                "id": "UNOWN_G",
+                "name": "Unown G"
+            },
+            {
+                "id": "UNOWN_H",
+                "name": "Unown H"
+            },
+            {
+                "id": "UNOWN_I",
+                "name": "Unown I"
+            },
+            {
+                "id": "UNOWN_J",
+                "name": "Unown J"
+            },
+            {
+                "id": "UNOWN_K",
+                "name": "Unown K"
+            },
+            {
+                "id": "UNOWN_L",
+                "name": "Unown L"
+            },
+            {
+                "id": "UNOWN_M",
+                "name": "Unown M"
+            },
+            {
+                "id": "UNOWN_N",
+                "name": "Unown N"
+            },
+            {
+                "id": "UNOWN_O",
+                "name": "Unown O"
+            },
+            {
+                "id": "UNOWN_P",
+                "name": "Unown P"
+            },
+            {
+                "id": "UNOWN_Q",
+                "name": "Unown Q"
+            },
+            {
+                "id": "UNOWN_R",
+                "name": "Unown R"
+            },
+            {
+                "id": "UNOWN_S",
+                "name": "Unown S"
+            },
+            {
+                "id": "UNOWN_T",
+                "name": "Unown T"
+            },
+            {
+                "id": "UNOWN_U",
+                "name": "Unown U"
+            },
+            {
+                "id": "UNOWN_V",
+                "name": "Unown V"
+            },
+            {
+                "id": "UNOWN_W",
+                "name": "Unown W"
+            },
+            {
+                "id": "UNOWN_X",
+                "name": "Unown X"
+            },
+            {
+                "id": "UNOWN_Y",
+                "name": "Unown Y"
+            },
+            {
+                "id": "UNOWN_Z",
+                "name": "Unown Z"
+            },
+            {
+                "id": "UNOWN_EXCLAMATION_POINT",
+                "name": "Unown Exclamation Point"
+            },
+            {
+                "id": "UNOWN_QUESTION_MARK",
+                "name": "Unown Question Mark"
+            }
+        ]
     },
     {
         "dex": 202,
@@ -22908,7 +23803,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28.5,
         "modelScale": 0.89,
-        "maxCP": 1024,
+        "maxCP": 1026,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -22936,7 +23831,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 60,
             "baseDefense": 106,
-            "baseStamina": 380
+            "baseStamina": 382
         },
         "types": [
             {
@@ -22979,7 +23874,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "WOBBUFFET"
+        "id": "WOBBUFFET",
+        "forms": []
     },
     {
         "dex": 203,
@@ -22999,7 +23895,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 41.5,
         "modelScale": 0.84,
-        "maxCP": 1863,
+        "maxCP": 2046,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -23035,7 +23931,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 182,
             "baseDefense": 133,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -23074,7 +23970,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "GIRAFARIG"
+        "id": "GIRAFARIG",
+        "forms": []
     },
     {
         "dex": 204,
@@ -23094,7 +23991,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 7.2,
         "modelScale": 1.25,
-        "maxCP": 1045,
+        "maxCP": 1108,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -23129,8 +24026,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 108,
-            "baseDefense": 146,
-            "baseStamina": 100
+            "baseDefense": 122,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -23175,7 +24072,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PINECO"
+        "id": "PINECO",
+        "forms": []
     },
     {
         "dex": 205,
@@ -23195,7 +24093,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 125.8,
         "modelScale": 0.92,
-        "maxCP": 2263,
+        "maxCP": 2282,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -23230,8 +24128,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 161,
-            "baseDefense": 242,
-            "baseStamina": 150
+            "baseDefense": 205,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -23279,7 +24177,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "FORRETRESS"
+        "id": "FORRETRESS",
+        "forms": []
     },
     {
         "dex": 206,
@@ -23299,7 +24198,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 14,
         "modelScale": 0.84,
-        "maxCP": 1615,
+        "maxCP": 1689,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -23334,8 +24233,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 131,
-            "baseDefense": 131,
-            "baseStamina": 200
+            "baseDefense": 128,
+            "baseStamina": 225
         },
         "types": [
             {
@@ -23370,7 +24269,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DUNSPARCE"
+        "id": "DUNSPARCE",
+        "forms": []
     },
     {
         "dex": 207,
@@ -23390,7 +24290,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 64.8,
         "modelScale": 0.97,
-        "maxCP": 1758,
+        "maxCP": 1857,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -23425,8 +24325,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 143,
-            "baseDefense": 204,
-            "baseStamina": 130
+            "baseDefense": 184,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -23465,8 +24365,23 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "GLIGAR"
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Gliscor",
+                    "id": "GLISCOR",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
+        },
+        "id": "GLIGAR",
+        "forms": []
     },
     {
         "dex": 208,
@@ -23486,7 +24401,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 400,
         "modelScale": 0.43,
-        "maxCP": 2439,
+        "maxCP": 2414,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -23521,8 +24436,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 333,
-            "baseStamina": 150
+            "baseDefense": 272,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -23569,7 +24484,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "STEELIX"
+        "id": "STEELIX",
+        "forms": []
     },
     {
         "dex": 209,
@@ -23589,7 +24505,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 7.8,
         "modelScale": 1.2,
-        "maxCP": 1124,
+        "maxCP": 1237,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -23624,8 +24540,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 137,
-            "baseDefense": 89,
-            "baseStamina": 120
+            "baseDefense": 85,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -23670,7 +24586,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SNUBBULL"
+        "id": "SNUBBULL",
+        "forms": []
     },
     {
         "dex": 210,
@@ -23690,7 +24607,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 48.7,
         "modelScale": 0.87,
-        "maxCP": 2440,
+        "maxCP": 2552,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -23725,8 +24642,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 212,
-            "baseDefense": 137,
-            "baseStamina": 180
+            "baseDefense": 131,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -23769,7 +24686,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "GRANBULL"
+        "id": "GRANBULL",
+        "forms": []
     },
     {
         "dex": 211,
@@ -23789,7 +24707,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 3.9,
         "modelScale": 1.35,
-        "maxCP": 1910,
+        "maxCP": 2051,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -23824,8 +24742,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 184,
-            "baseDefense": 148,
-            "baseStamina": 130
+            "baseDefense": 138,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -23865,7 +24783,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "QWILFISH"
+        "id": "QWILFISH",
+        "forms": []
     },
     {
         "dex": 212,
@@ -23885,7 +24804,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 125,
         "modelScale": 0.76,
-        "maxCP": 2801,
+        "maxCP": 3001,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -23920,8 +24839,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 236,
-            "baseDefense": 191,
-            "baseStamina": 140
+            "baseDefense": 181,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -23972,7 +24891,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "SCIZOR"
+        "id": "SCIZOR",
+        "forms": []
     },
     {
         "dex": 213,
@@ -23992,7 +24912,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 20.5,
         "modelScale": 1.25,
-        "maxCP": 300,
+        "maxCP": 405,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24028,7 +24948,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 17,
             "baseDefense": 396,
-            "baseStamina": 40
+            "baseStamina": 85
         },
         "types": [
             {
@@ -24067,7 +24987,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SHUCKLE"
+        "id": "SHUCKLE",
+        "forms": []
     },
     {
         "dex": 214,
@@ -24087,7 +25008,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 54,
         "modelScale": 0.84,
-        "maxCP": 2938,
+        "maxCP": 3101,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -24122,8 +25043,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 234,
-            "baseDefense": 189,
-            "baseStamina": 160
+            "baseDefense": 179,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -24162,7 +25083,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "HERACROSS"
+        "id": "HERACROSS",
+        "forms": []
     },
     {
         "dex": 215,
@@ -24182,7 +25104,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28,
         "modelScale": 1.1,
-        "maxCP": 1868,
+        "maxCP": 2051,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24217,8 +25139,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 189,
-            "baseDefense": 157,
-            "baseStamina": 110
+            "baseDefense": 146,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -24256,8 +25178,23 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "SNEASEL"
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Weavile",
+                    "id": "WEAVILE",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
+        },
+        "id": "SNEASEL",
+        "forms": []
     },
     {
         "dex": 216,
@@ -24277,7 +25214,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.8,
         "modelScale": 1.25,
-        "maxCP": 1184,
+        "maxCP": 1328,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24313,7 +25250,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 142,
             "baseDefense": 93,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -24358,7 +25295,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TEDDIURSA"
+        "id": "TEDDIURSA",
+        "forms": []
     },
     {
         "dex": 217,
@@ -24378,7 +25316,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 125.8,
         "modelScale": 0.78,
-        "maxCP": 2760,
+        "maxCP": 2945,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -24414,7 +25352,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 236,
             "baseDefense": 144,
-            "baseStamina": 180
+            "baseStamina": 207
         },
         "types": [
             {
@@ -24457,7 +25395,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "URSARING"
+        "id": "URSARING",
+        "forms": []
     },
     {
         "dex": 218,
@@ -24477,7 +25416,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 35,
         "modelScale": 1.2,
-        "maxCP": 750,
+        "maxCP": 895,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24513,7 +25452,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 118,
             "baseDefense": 71,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -24558,7 +25497,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SLUGMA"
+        "id": "SLUGMA",
+        "forms": []
     },
     {
         "dex": 219,
@@ -24578,7 +25518,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 55,
         "modelScale": 1.11,
-        "maxCP": 1543,
+        "maxCP": 1702,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24613,8 +25553,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 139,
-            "baseDefense": 209,
-            "baseStamina": 100
+            "baseDefense": 191,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -24661,7 +25601,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MAGCARGO"
+        "id": "MAGCARGO",
+        "forms": []
     },
     {
         "dex": 220,
@@ -24681,7 +25622,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 6.5,
         "modelScale": 1.48,
-        "maxCP": 663,
+        "maxCP": 741,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24716,8 +25657,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 90,
-            "baseDefense": 74,
-            "baseStamina": 100
+            "baseDefense": 69,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -24766,7 +25707,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SWINUB"
+        "id": "SWINUB",
+        "forms": []
     },
     {
         "dex": 221,
@@ -24786,7 +25728,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 55.8,
         "modelScale": 0.96,
-        "maxCP": 2284,
+        "maxCP": 2345,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -24821,8 +25763,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 181,
-            "baseDefense": 147,
-            "baseStamina": 200
+            "baseDefense": 138,
+            "baseStamina": 225
         },
         "types": [
             {
@@ -24869,7 +25811,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PILOSWINE"
+        "id": "PILOSWINE",
+        "forms": []
     },
     {
         "dex": 222,
@@ -24889,7 +25832,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5,
         "modelScale": 1.25,
-        "maxCP": 1214,
+        "maxCP": 1378,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -24925,7 +25868,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 118,
             "baseDefense": 156,
-            "baseStamina": 110
+            "baseStamina": 146
         },
         "types": [
             {
@@ -24961,7 +25904,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CORSOLA"
+        "id": "CORSOLA",
+        "forms": []
     },
     {
         "dex": 223,
@@ -24981,7 +25925,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 12,
         "modelScale": 1.29,
-        "maxCP": 749,
+        "maxCP": 912,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25017,7 +25961,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 127,
             "baseDefense": 69,
-            "baseStamina": 70
+            "baseStamina": 111
         },
         "types": [
             {
@@ -25063,7 +26007,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "REMORAID"
+        "id": "REMORAID",
+        "forms": []
     },
     {
         "dex": 224,
@@ -25083,7 +26028,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 28.5,
         "modelScale": 1.04,
-        "maxCP": 2124,
+        "maxCP": 2315,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25119,7 +26064,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 197,
             "baseDefense": 141,
-            "baseStamina": 150
+            "baseStamina": 181
         },
         "types": [
             {
@@ -25162,7 +26107,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "OCTILLERY"
+        "id": "OCTILLERY",
+        "forms": []
     },
     {
         "dex": 225,
@@ -25182,7 +26128,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 16,
         "modelScale": 1.1,
-        "maxCP": 937,
+        "maxCP": 1094,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25214,7 +26160,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 128,
             "baseDefense": 90,
-            "baseStamina": 90
+            "baseStamina": 128
         },
         "types": [
             {
@@ -25253,7 +26199,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DELIBIRD"
+        "id": "DELIBIRD",
+        "forms": []
     },
     {
         "dex": 226,
@@ -25273,7 +26220,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 220,
         "modelScale": 0.73,
-        "maxCP": 2032,
+        "maxCP": 2108,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -25308,8 +26255,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 260,
-            "baseStamina": 130
+            "baseDefense": 226,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -25348,8 +26295,15 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "MANTINE"
+        "evolution": {
+            "pastBranch": {
+                "name": "Mantyke",
+                "id": "MANTYKE"
+            },
+            "costToEvolve": {}
+        },
+        "id": "MANTINE",
+        "forms": []
     },
     {
         "dex": 227,
@@ -25369,7 +26323,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 50.5,
         "modelScale": 0.77,
-        "maxCP": 2032,
+        "maxCP": 2108,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -25404,8 +26358,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 148,
-            "baseDefense": 260,
-            "baseStamina": 130
+            "baseDefense": 226,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -25445,7 +26399,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SKARMORY"
+        "id": "SKARMORY",
+        "forms": []
     },
     {
         "dex": 228,
@@ -25465,7 +26420,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 10.8,
         "modelScale": 1.25,
-        "maxCP": 1110,
+        "maxCP": 1234,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25500,8 +26455,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 152,
-            "baseDefense": 93,
-            "baseStamina": 90
+            "baseDefense": 83,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -25550,7 +26505,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "HOUNDOUR"
+        "id": "HOUNDOUR",
+        "forms": []
     },
     {
         "dex": 229,
@@ -25570,7 +26526,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 35,
         "modelScale": 0.91,
-        "maxCP": 2529,
+        "maxCP": 2635,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25605,8 +26561,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 224,
-            "baseDefense": 159,
-            "baseStamina": 150
+            "baseDefense": 144,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -25653,7 +26609,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "HOUNDOOM"
+        "id": "HOUNDOOM",
+        "forms": []
     },
     {
         "dex": 230,
@@ -25673,7 +26630,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 152,
         "modelScale": 0.78,
-        "maxCP": 2424,
+        "maxCP": 2641,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -25709,7 +26666,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 194,
             "baseDefense": 194,
-            "baseStamina": 150
+            "baseStamina": 181
         },
         "types": [
             {
@@ -25768,7 +26725,8 @@ var pokemon = [
                 }
             }
         },
-        "id": "KINGDRA"
+        "id": "KINGDRA",
+        "forms": []
     },
     {
         "dex": 231,
@@ -25788,7 +26746,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 33.5,
         "modelScale": 1.35,
-        "maxCP": 1175,
+        "maxCP": 1206,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -25823,8 +26781,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 107,
-            "baseDefense": 107,
-            "baseStamina": 180
+            "baseDefense": 98,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -25869,7 +26827,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PHANPY"
+        "id": "PHANPY",
+        "forms": []
     },
     {
         "dex": 232,
@@ -25889,7 +26848,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 120,
         "modelScale": 0.99,
-        "maxCP": 3022,
+        "maxCP": 3013,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -25924,8 +26883,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 214,
-            "baseDefense": 214,
-            "baseStamina": 180
+            "baseDefense": 185,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -25968,7 +26927,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DONPHAN"
+        "id": "DONPHAN",
+        "forms": []
     },
     {
         "dex": 233,
@@ -25988,7 +26948,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32.5,
         "modelScale": 1.24,
-        "maxCP": 2546,
+        "maxCP": 2711,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -26023,8 +26983,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 198,
-            "baseDefense": 183,
-            "baseStamina": 170
+            "baseDefense": 180,
+            "baseStamina": 198
         },
         "types": [
             {
@@ -26061,14 +27021,28 @@ var pokemon = [
                 "id": "PORYGON"
             },
             "costToEvolve": {
-                "candyCost": 50,
+                "candyCost": 25,
                 "evolutionItem": {
                     "id": "ITEM_UP_GRADE",
                     "name": "Up Grade"
                 }
-            }
+            },
+            "futureBranches": [
+                {
+                    "name": "Porygon Z",
+                    "id": "PORYGON_Z",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "PORYGON2"
+        "id": "PORYGON2",
+        "forms": []
     },
     {
         "dex": 234,
@@ -26088,7 +27062,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 71.2,
         "modelScale": 0.87,
-        "maxCP": 1988,
+        "maxCP": 2164,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -26123,8 +27097,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 192,
-            "baseDefense": 132,
-            "baseStamina": 146
+            "baseDefense": 131,
+            "baseStamina": 177
         },
         "types": [
             {
@@ -26159,7 +27133,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "STANTLER"
+        "id": "STANTLER",
+        "forms": []
     },
     {
         "dex": 235,
@@ -26179,7 +27154,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 58,
         "modelScale": 0.92,
-        "maxCP": 389,
+        "maxCP": 431,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -26202,8 +27177,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 40,
-            "baseDefense": 88,
-            "baseStamina": 110
+            "baseDefense": 83,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -26238,7 +27213,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SMEARGLE"
+        "id": "SMEARGLE",
+        "forms": []
     },
     {
         "dex": 236,
@@ -26258,7 +27234,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 21,
         "modelScale": 1.17,
-        "maxCP": 404,
+        "maxCP": 492,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -26294,7 +27270,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 64,
             "baseDefense": 64,
-            "baseStamina": 70
+            "baseStamina": 111
         },
         "types": [
             {
@@ -26352,7 +27328,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TYROGUE"
+        "id": "TYROGUE",
+        "forms": []
     },
     {
         "dex": 237,
@@ -26372,7 +27349,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 48,
         "modelScale": 0.89,
-        "maxCP": 1905,
+        "maxCP": 2156,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -26407,8 +27384,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 173,
-            "baseDefense": 214,
-            "baseStamina": 100
+            "baseDefense": 207,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -26451,7 +27428,8 @@ var pokemon = [
                 "candyCost": 25
             }
         },
-        "id": "HITMONTOP"
+        "id": "HITMONTOP",
+        "forms": []
     },
     {
         "dex": 238,
@@ -26471,7 +27449,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 6,
         "modelScale": 1.37,
-        "maxCP": 1230,
+        "maxCP": 1291,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -26506,8 +27484,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 153,
-            "baseDefense": 116,
-            "baseStamina": 90
+            "baseDefense": 91,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -26555,7 +27533,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SMOOCHUM"
+        "id": "SMOOCHUM",
+        "forms": []
     },
     {
         "dex": 239,
@@ -26575,7 +27554,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 23.5,
         "modelScale": 1.25,
-        "maxCP": 1073,
+        "maxCP": 1206,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -26610,8 +27589,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 135,
-            "baseDefense": 110,
-            "baseStamina": 90
+            "baseDefense": 101,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -26649,13 +27628,27 @@ var pokemon = [
                 {
                     "name": "Electabuzz",
                     "id": "ELECTABUZZ",
+                    "futureBranches": [
+                        {
+                            "name": "Electivire",
+                            "id": "ELECTIVIRE",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
                         "candyCost": 25
                     }
                 }
             ]
         },
-        "id": "ELEKID"
+        "id": "ELEKID",
+        "forms": []
     },
     {
         "dex": 240,
@@ -26675,7 +27668,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 21.4,
         "modelScale": 1.17,
-        "maxCP": 1178,
+        "maxCP": 1323,
         "buddySize": {
             "id": "BUDDY_BABY",
             "name": "Baby"
@@ -26710,8 +27703,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 151,
-            "baseDefense": 108,
-            "baseStamina": 90
+            "baseDefense": 99,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -26749,13 +27742,27 @@ var pokemon = [
                 {
                     "name": "Magmar",
                     "id": "MAGMAR",
+                    "futureBranches": [
+                        {
+                            "name": "Magmortar",
+                            "id": "MAGMORTAR",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
                         "candyCost": 25
                     }
                 }
             ]
         },
-        "id": "MAGBY"
+        "id": "MAGBY",
+        "forms": []
     },
     {
         "dex": 241,
@@ -26775,7 +27782,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 75.5,
         "modelScale": 0.92,
-        "maxCP": 2312,
+        "maxCP": 2354,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -26810,8 +27817,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 157,
-            "baseDefense": 211,
-            "baseStamina": 190
+            "baseDefense": 193,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -26846,7 +27853,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MILTANK"
+        "id": "MILTANK",
+        "forms": []
     },
     {
         "dex": 242,
@@ -26866,7 +27874,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 46.8,
         "modelScale": 0.84,
-        "maxCP": 3219,
+        "maxCP": 2757,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -26901,8 +27909,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 129,
-            "baseDefense": 229,
-            "baseStamina": 510
+            "baseDefense": 169,
+            "baseStamina": 496
         },
         "types": [
             {
@@ -26939,13 +27947,21 @@ var pokemon = [
         "evolution": {
             "pastBranch": {
                 "name": "Chansey",
-                "id": "CHANSEY"
+                "id": "CHANSEY",
+                "pastBranch": {
+                    "name": "Happiny",
+                    "id": "HAPPINY"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
             },
             "costToEvolve": {
                 "candyCost": 50
             }
         },
-        "id": "BLISSEY"
+        "id": "BLISSEY",
+        "forms": []
     },
     {
         "dex": 243,
@@ -26965,7 +27981,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 178,
         "modelScale": 0.78,
-        "maxCP": 3349,
+        "maxCP": 3452,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27000,8 +28016,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 241,
-            "baseDefense": 210,
-            "baseStamina": 180
+            "baseDefense": 195,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -27036,7 +28052,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "RAIKOU"
+        "id": "RAIKOU",
+        "forms": []
     },
     {
         "dex": 244,
@@ -27056,7 +28073,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 198,
         "modelScale": 0.73,
-        "maxCP": 3377,
+        "maxCP": 3473,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27091,8 +28108,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 235,
-            "baseDefense": 176,
-            "baseStamina": 230
+            "baseDefense": 171,
+            "baseStamina": 251
         },
         "types": [
             {
@@ -27127,7 +28144,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ENTEI"
+        "id": "ENTEI",
+        "forms": []
     },
     {
         "dex": 245,
@@ -27147,7 +28165,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 187,
         "modelScale": 0.73,
-        "maxCP": 2823,
+        "maxCP": 2983,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27183,7 +28201,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 180,
             "baseDefense": 235,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -27218,7 +28236,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SUICUNE"
+        "id": "SUICUNE",
+        "forms": []
     },
     {
         "dex": 246,
@@ -27238,7 +28257,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 72,
         "modelScale": 1.24,
-        "maxCP": 904,
+        "maxCP": 1040,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -27274,7 +28293,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 115,
             "baseDefense": 93,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -27332,7 +28351,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LARVITAR"
+        "id": "LARVITAR",
+        "forms": []
     },
     {
         "dex": 247,
@@ -27352,7 +28372,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 152,
         "modelScale": 0.92,
-        "maxCP": 1608,
+        "maxCP": 1766,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -27388,7 +28408,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 155,
             "baseDefense": 133,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -27444,7 +28464,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "PUPITAR"
+        "id": "PUPITAR",
+        "forms": []
     },
     {
         "dex": 248,
@@ -27464,7 +28485,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 202,
         "modelScale": 0.74,
-        "maxCP": 3670,
+        "maxCP": 3834,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27491,6 +28512,11 @@ var pokemon = [
             {
                 "name": "Iron Tail Fast",
                 "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Smack Down Fast",
+                "id": "SMACK_DOWN_FAST",
+                "legacy": true
             }
         ],
         "family": {
@@ -27499,8 +28525,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 251,
-            "baseDefense": 212,
-            "baseStamina": 200
+            "baseDefense": 207,
+            "baseStamina": 225
         },
         "types": [
             {
@@ -27554,7 +28580,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "TYRANITAR"
+        "id": "TYRANITAR",
+        "forms": []
     },
     {
         "dex": 249,
@@ -27574,7 +28601,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 216,
         "modelScale": 0.42,
-        "maxCP": 3598,
+        "maxCP": 3703,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27609,8 +28636,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 193,
-            "baseDefense": 323,
-            "baseStamina": 212
+            "baseDefense": 310,
+            "baseStamina": 235
         },
         "types": [
             {
@@ -27650,7 +28677,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LUGIA"
+        "id": "LUGIA",
+        "forms": []
     },
     {
         "dex": 250,
@@ -27670,7 +28698,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 199,
         "modelScale": 0.53,
-        "maxCP": 3889,
+        "maxCP": 3863,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -27705,8 +28733,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 239,
-            "baseDefense": 274,
-            "baseStamina": 193
+            "baseDefense": 244,
+            "baseStamina": 214
         },
         "types": [
             {
@@ -27746,7 +28774,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "HO_OH"
+        "id": "HO_OH",
+        "forms": []
     },
     {
         "dex": 251,
@@ -27766,7 +28795,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 5,
         "modelScale": 1.2,
-        "maxCP": 3090,
+        "maxCP": 3265,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -27802,7 +28831,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 210,
             "baseDefense": 210,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -27841,7 +28870,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CELEBI"
+        "id": "CELEBI",
+        "forms": []
     },
     {
         "dex": 252,
@@ -27861,7 +28891,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5,
         "modelScale": 1.35,
-        "maxCP": 923,
+        "maxCP": 1053,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -27896,8 +28926,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 124,
-            "baseDefense": 104,
-            "baseStamina": 80
+            "baseDefense": 94,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -27951,7 +28981,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TREECKO"
+        "id": "TREECKO",
+        "forms": []
     },
     {
         "dex": 253,
@@ -27971,7 +29002,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 21.6,
         "modelScale": 1.09,
-        "maxCP": 1508,
+        "maxCP": 1673,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28006,8 +29037,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 172,
-            "baseDefense": 130,
-            "baseStamina": 100
+            "baseDefense": 120,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -28059,7 +29090,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GROVYLE"
+        "id": "GROVYLE",
+        "forms": []
     },
     {
         "dex": 254,
@@ -28079,7 +29111,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 52.2,
         "modelScale": 0.8,
-        "maxCP": 2584,
+        "maxCP": 2757,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -28114,8 +29146,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 223,
-            "baseDefense": 180,
-            "baseStamina": 140
+            "baseDefense": 169,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -28165,7 +29197,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "SCEPTILE"
+        "id": "SCEPTILE",
+        "forms": []
     },
     {
         "dex": 255,
@@ -28185,7 +29218,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2.5,
         "modelScale": 1.48,
-        "maxCP": 959,
+        "maxCP": 1093,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28220,8 +29253,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 130,
-            "baseDefense": 92,
-            "baseStamina": 90
+            "baseDefense": 87,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -28275,7 +29308,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TORCHIC"
+        "id": "TORCHIC",
+        "forms": []
     },
     {
         "dex": 256,
@@ -28295,7 +29329,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 19.5,
         "modelScale": 1.03,
-        "maxCP": 1472,
+        "maxCP": 1652,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -28331,7 +29365,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 163,
             "baseDefense": 115,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -28387,7 +29421,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "COMBUSKEN"
+        "id": "COMBUSKEN",
+        "forms": []
     },
     {
         "dex": 257,
@@ -28407,7 +29442,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 52,
         "modelScale": 0.78,
-        "maxCP": 2631,
+        "maxCP": 2848,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -28443,7 +29478,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 240,
             "baseDefense": 141,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -28497,7 +29532,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "BLAZIKEN"
+        "id": "BLAZIKEN",
+        "forms": []
     },
     {
         "dex": 258,
@@ -28517,7 +29553,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 7.6,
         "modelScale": 1.48,
-        "maxCP": 981,
+        "maxCP": 1128,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28553,7 +29589,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 126,
             "baseDefense": 93,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -28607,7 +29643,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MUDKIP"
+        "id": "MUDKIP",
+        "forms": []
     },
     {
         "dex": 259,
@@ -28627,7 +29664,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28,
         "modelScale": 1.17,
-        "maxCP": 1617,
+        "maxCP": 1776,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28663,7 +29700,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 156,
             "baseDefense": 133,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -28719,7 +29756,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MARSHTOMP"
+        "id": "MARSHTOMP",
+        "forms": []
     },
     {
         "dex": 260,
@@ -28739,7 +29777,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 81.9,
         "modelScale": 0.78,
-        "maxCP": 2815,
+        "maxCP": 2974,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -28775,7 +29813,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 208,
             "baseDefense": 175,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -28829,7 +29867,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "SWAMPERT"
+        "id": "SWAMPERT",
+        "forms": []
     },
     {
         "dex": 261,
@@ -28849,7 +29888,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 13.6,
         "modelScale": 1.35,
-        "maxCP": 564,
+        "maxCP": 678,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28884,8 +29923,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 96,
-            "baseDefense": 63,
-            "baseStamina": 70
+            "baseDefense": 61,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -28930,7 +29969,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "POOCHYENA"
+        "id": "POOCHYENA",
+        "forms": []
     },
     {
         "dex": 262,
@@ -28950,7 +29990,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 37,
         "modelScale": 1,
-        "maxCP": 1783,
+        "maxCP": 1926,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -28985,8 +30025,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 171,
-            "baseDefense": 137,
-            "baseStamina": 140
+            "baseDefense": 132,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -29029,7 +30069,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MIGHTYENA"
+        "id": "MIGHTYENA",
+        "forms": []
     },
     {
         "dex": 263,
@@ -29049,7 +30090,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 17.5,
         "modelScale": 0.96,
-        "maxCP": 423,
+        "maxCP": 508,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -29085,7 +30126,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 58,
             "baseDefense": 80,
-            "baseStamina": 76
+            "baseStamina": 116
         },
         "types": [
             {
@@ -29130,7 +30171,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ZIGZAGOON"
+        "id": "ZIGZAGOON",
+        "forms": []
     },
     {
         "dex": 264,
@@ -29150,7 +30192,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 32.5,
         "modelScale": 0.78,
-        "maxCP": 1533,
+        "maxCP": 1662,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -29186,7 +30228,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 142,
             "baseDefense": 128,
-            "baseStamina": 156
+            "baseStamina": 186
         },
         "types": [
             {
@@ -29229,7 +30271,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "LINOONE"
+        "id": "LINOONE",
+        "forms": []
     },
     {
         "dex": 265,
@@ -29249,7 +30292,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3.6,
         "modelScale": 1.92,
-        "maxCP": 502,
+        "maxCP": 578,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -29276,8 +30319,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 75,
-            "baseDefense": 61,
-            "baseStamina": 90
+            "baseDefense": 59,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -29347,7 +30390,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WURMPLE"
+        "id": "WURMPLE",
+        "forms": []
     },
     {
         "dex": 266,
@@ -29367,7 +30411,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 10,
         "modelScale": 1.5,
-        "maxCP": 517,
+        "maxCP": 553,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -29394,8 +30438,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 60,
-            "baseDefense": 91,
-            "baseStamina": 100
+            "baseDefense": 77,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -29447,7 +30491,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SILCOON"
+        "id": "SILCOON",
+        "forms": []
     },
     {
         "dex": 267,
@@ -29467,7 +30512,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 28.4,
         "modelScale": 0.95,
-        "maxCP": 1573,
+        "maxCP": 1765,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -29503,7 +30548,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 189,
             "baseDefense": 98,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -29558,7 +30603,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "BEAUTIFLY"
+        "id": "BEAUTIFLY",
+        "forms": []
     },
     {
         "dex": 268,
@@ -29578,7 +30624,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 11.5,
         "modelScale": 1.4,
-        "maxCP": 517,
+        "maxCP": 553,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -29605,8 +30651,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 60,
-            "baseDefense": 91,
-            "baseStamina": 100
+            "baseDefense": 77,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -29658,7 +30704,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CASCOON"
+        "id": "CASCOON",
+        "forms": []
     },
     {
         "dex": 269,
@@ -29678,7 +30725,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 31.6,
         "modelScale": 0.89,
-        "maxCP": 1121,
+        "maxCP": 1224,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -29713,8 +30760,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 98,
-            "baseDefense": 172,
-            "baseStamina": 120
+            "baseDefense": 162,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -29769,7 +30816,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DUSTOX"
+        "id": "DUSTOX",
+        "forms": []
     },
     {
         "dex": 270,
@@ -29789,7 +30837,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2.6,
         "modelScale": 1.1,
-        "maxCP": 526,
+        "maxCP": 598,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -29820,8 +30868,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 71,
-            "baseDefense": 86,
-            "baseStamina": 80
+            "baseDefense": 77,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -29879,7 +30927,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LOTAD"
+        "id": "LOTAD",
+        "forms": []
     },
     {
         "dex": 271,
@@ -29899,7 +30948,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32.5,
         "modelScale": 0.85,
-        "maxCP": 1102,
+        "maxCP": 1197,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -29934,8 +30983,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 112,
-            "baseDefense": 128,
-            "baseStamina": 120
+            "baseDefense": 119,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -29991,7 +31040,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LOMBRE"
+        "id": "LOMBRE",
+        "forms": []
     },
     {
         "dex": 272,
@@ -30011,7 +31061,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 55,
         "modelScale": 1.1,
-        "maxCP": 2229,
+        "maxCP": 2323,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -30046,8 +31096,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 173,
-            "baseDefense": 191,
-            "baseStamina": 160
+            "baseDefense": 176,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -30101,7 +31151,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "LUDICOLO"
+        "id": "LUDICOLO",
+        "forms": []
     },
     {
         "dex": 273,
@@ -30121,7 +31172,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4,
         "modelScale": 1.35,
-        "maxCP": 526,
+        "maxCP": 598,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -30156,8 +31207,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 71,
-            "baseDefense": 86,
-            "baseStamina": 80
+            "baseDefense": 77,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -30211,7 +31262,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SEEDOT"
+        "id": "SEEDOT",
+        "forms": []
     },
     {
         "dex": 274,
@@ -30231,7 +31283,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28,
         "modelScale": 1,
-        "maxCP": 1117,
+        "maxCP": 1227,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -30267,7 +31319,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 134,
             "baseDefense": 78,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -30323,7 +31375,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NUZLEAF"
+        "id": "NUZLEAF",
+        "forms": []
     },
     {
         "dex": 275,
@@ -30343,7 +31396,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 59.6,
         "modelScale": 0.98,
-        "maxCP": 2186,
+        "maxCP": 2333,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -30379,7 +31432,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 200,
             "baseDefense": 121,
-            "baseStamina": 180
+            "baseStamina": 207
         },
         "types": [
             {
@@ -30433,7 +31486,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "SHIFTRY"
+        "id": "SHIFTRY",
+        "forms": []
     },
     {
         "dex": 276,
@@ -30453,7 +31507,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 2.3,
         "modelScale": 1.68,
-        "maxCP": 642,
+        "maxCP": 765,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -30481,7 +31535,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 106,
             "baseDefense": 61,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -30530,7 +31584,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TAILLOW"
+        "id": "TAILLOW",
+        "forms": []
     },
     {
         "dex": 277,
@@ -30550,7 +31605,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 19.8,
         "modelScale": 0.92,
-        "maxCP": 1747,
+        "maxCP": 1920,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -30585,8 +31640,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 185,
-            "baseDefense": 130,
-            "baseStamina": 120
+            "baseDefense": 124,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -30634,7 +31689,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SWELLOW"
+        "id": "SWELLOW",
+        "forms": []
     },
     {
         "dex": 278,
@@ -30654,7 +31710,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 9.5,
         "modelScale": 0.9,
-        "maxCP": 642,
+        "maxCP": 765,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -30690,7 +31746,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 106,
             "baseDefense": 61,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -30740,7 +31796,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WINGULL"
+        "id": "WINGULL",
+        "forms": []
     },
     {
         "dex": 279,
@@ -30760,7 +31817,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 28,
         "modelScale": 0.8,
-        "maxCP": 1969,
+        "maxCP": 2127,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -30795,8 +31852,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 175,
-            "baseDefense": 189,
-            "baseStamina": 120
+            "baseDefense": 174,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -30844,7 +31901,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "PELIPPER"
+        "id": "PELIPPER",
+        "forms": []
     },
     {
         "dex": 280,
@@ -30864,7 +31922,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 6.6,
         "modelScale": 1.48,
-        "maxCP": 436,
+        "maxCP": 539,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -30899,8 +31957,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 79,
-            "baseDefense": 63,
-            "baseStamina": 56
+            "baseDefense": 59,
+            "baseStamina": 99
         },
         "types": [
             {
@@ -30958,7 +32016,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "RALTS"
+        "id": "RALTS",
+        "forms": []
     },
     {
         "dex": 281,
@@ -30978,7 +32037,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 20.2,
         "modelScale": 1.3,
-        "maxCP": 843,
+        "maxCP": 966,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -31013,8 +32072,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 117,
-            "baseDefense": 100,
-            "baseStamina": 76
+            "baseDefense": 90,
+            "baseStamina": 116
         },
         "types": [
             {
@@ -31070,7 +32129,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "KIRLIA"
+        "id": "KIRLIA",
+        "forms": []
     },
     {
         "dex": 282,
@@ -31090,7 +32150,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 48.4,
         "modelScale": 0.9,
-        "maxCP": 2964,
+        "maxCP": 3093,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -31125,8 +32185,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 237,
-            "baseDefense": 220,
-            "baseStamina": 136
+            "baseDefense": 195,
+            "baseStamina": 169
         },
         "types": [
             {
@@ -31180,7 +32240,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "GARDEVOIR"
+        "id": "GARDEVOIR",
+        "forms": []
     },
     {
         "dex": 283,
@@ -31200,7 +32261,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 1.7,
         "modelScale": 1.35,
-        "maxCP": 695,
+        "maxCP": 791,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -31235,8 +32296,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 93,
-            "baseDefense": 97,
-            "baseStamina": 80
+            "baseDefense": 87,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -31285,7 +32346,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SURSKIT"
+        "id": "SURSKIT",
+        "forms": []
     },
     {
         "dex": 284,
@@ -31305,7 +32367,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 3.6,
         "modelScale": 1.13,
-        "maxCP": 2135,
+        "maxCP": 2270,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -31340,8 +32402,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 192,
-            "baseDefense": 161,
-            "baseStamina": 140
+            "baseDefense": 150,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -31389,7 +32451,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MASQUERAIN"
+        "id": "MASQUERAIN",
+        "forms": []
     },
     {
         "dex": 285,
@@ -31409,7 +32472,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4.5,
         "modelScale": 1.48,
-        "maxCP": 722,
+        "maxCP": 810,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -31445,7 +32508,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 74,
             "baseDefense": 110,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -31490,7 +32553,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SHROOMISH"
+        "id": "SHROOMISH",
+        "forms": []
     },
     {
         "dex": 286,
@@ -31510,7 +32574,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 39.2,
         "modelScale": 1.1,
-        "maxCP": 2407,
+        "maxCP": 2628,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -31545,8 +32609,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 241,
-            "baseDefense": 153,
-            "baseStamina": 120
+            "baseDefense": 144,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -31593,7 +32657,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "BRELOOM"
+        "id": "BRELOOM",
+        "forms": []
     },
     {
         "dex": 287,
@@ -31613,7 +32678,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 24,
         "modelScale": 1.1,
-        "maxCP": 942,
+        "maxCP": 1002,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -31644,8 +32709,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 104,
-            "baseDefense": 104,
-            "baseStamina": 120
+            "baseDefense": 92,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -31698,7 +32763,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SLAKOTH"
+        "id": "SLAKOTH",
+        "forms": []
     },
     {
         "dex": 288,
@@ -31718,7 +32784,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 46.5,
         "modelScale": 0.84,
-        "maxCP": 1896,
+        "maxCP": 1968,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -31753,8 +32819,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 159,
-            "baseDefense": 159,
-            "baseStamina": 160
+            "baseDefense": 145,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -31806,7 +32872,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VIGOROTH"
+        "id": "VIGOROTH",
+        "forms": []
     },
     {
         "dex": 289,
@@ -31826,7 +32893,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 130.5,
         "modelScale": 0.9,
-        "maxCP": 4548,
+        "maxCP": 4431,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -31857,8 +32924,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 290,
-            "baseDefense": 183,
-            "baseStamina": 273
+            "baseDefense": 166,
+            "baseStamina": 284
         },
         "types": [
             {
@@ -31905,7 +32972,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "SLAKING"
+        "id": "SLAKING",
+        "forms": []
     },
     {
         "dex": 290,
@@ -31925,7 +32993,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 5.5,
         "modelScale": 1.5,
-        "maxCP": 674,
+        "maxCP": 768,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -31960,8 +33028,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 80,
-            "baseDefense": 153,
-            "baseStamina": 62
+            "baseDefense": 126,
+            "baseStamina": 104
         },
         "types": [
             {
@@ -32007,17 +33075,11 @@ var pokemon = [
                     "costToEvolve": {
                         "candyCost": 50
                     }
-                },
-                {
-                    "name": "Shedinja",
-                    "id": "SHEDINJA",
-                    "costToEvolve": {
-                        "candyCost": 50
-                    }
                 }
             ]
         },
-        "id": "NINCADA"
+        "id": "NINCADA",
+        "forms": []
     },
     {
         "dex": 291,
@@ -32037,7 +33099,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 12,
         "modelScale": 1.3,
-        "maxCP": 1751,
+        "maxCP": 1969,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -32071,9 +33133,9 @@ var pokemon = [
             "name": "Nincada"
         },
         "stats": {
-            "baseAttack": 196,
-            "baseDefense": 114,
-            "baseStamina": 122
+            "baseAttack": 199,
+            "baseDefense": 112,
+            "baseStamina": 156
         },
         "types": [
             {
@@ -32121,7 +33183,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "NINJASK"
+        "id": "NINJASK",
+        "forms": []
     },
     {
         "dex": 292,
@@ -32141,7 +33204,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 1.2,
         "modelScale": 1.25,
-        "maxCP": 421,
+        "maxCP": 393,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -32162,12 +33225,12 @@ var pokemon = [
         ],
         "quickMoves": [
             {
-                "name": "Bite Fast",
-                "id": "BITE_FAST"
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
             },
             {
-                "name": "Struggle Bug Fast",
-                "id": "STRUGGLE_BUG_FAST"
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
             }
         ],
         "family": {
@@ -32176,8 +33239,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 153,
-            "baseDefense": 80,
-            "baseStamina": 2
+            "baseDefense": 73,
+            "baseStamina": 1
         },
         "types": [
             {
@@ -32212,16 +33275,9 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {
-            "pastBranch": {
-                "name": "Nincada",
-                "id": "NINCADA"
-            },
-            "costToEvolve": {
-                "candyCost": 50
-            }
-        },
-        "id": "SHEDINJA"
+        "evolution": {},
+        "id": "SHEDINJA",
+        "forms": []
     },
     {
         "dex": 293,
@@ -32241,7 +33297,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 16.3,
         "modelScale": 1.25,
-        "maxCP": 603,
+        "maxCP": 671,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -32277,7 +33333,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 92,
             "baseDefense": 42,
-            "baseStamina": 128
+            "baseStamina": 162
         },
         "types": [
             {
@@ -32331,7 +33387,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WHISMUR"
+        "id": "WHISMUR",
+        "forms": []
     },
     {
         "dex": 294,
@@ -32351,7 +33408,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 40.5,
         "modelScale": 1,
-        "maxCP": 1233,
+        "maxCP": 1327,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -32387,7 +33444,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 134,
             "baseDefense": 81,
-            "baseStamina": 168
+            "baseStamina": 197
         },
         "types": [
             {
@@ -32439,7 +33496,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LOUDRED"
+        "id": "LOUDRED",
+        "forms": []
     },
     {
         "dex": 295,
@@ -32459,7 +33517,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 84,
         "modelScale": 0.84,
-        "maxCP": 2267,
+        "maxCP": 2347,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -32494,8 +33552,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 179,
-            "baseDefense": 142,
-            "baseStamina": 208
+            "baseDefense": 137,
+            "baseStamina": 232
         },
         "types": [
             {
@@ -32545,7 +33603,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "EXPLOUD"
+        "id": "EXPLOUD",
+        "forms": []
     },
     {
         "dex": 296,
@@ -32565,7 +33624,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 86.4,
         "modelScale": 1,
-        "maxCP": 745,
+        "maxCP": 817,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -32601,7 +33660,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 99,
             "baseDefense": 54,
-            "baseStamina": 144
+            "baseStamina": 176
         },
         "types": [
             {
@@ -32646,7 +33705,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MAKUHITA"
+        "id": "MAKUHITA",
+        "forms": []
     },
     {
         "dex": 297,
@@ -32666,7 +33726,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 253.8,
         "modelScale": 0.7,
-        "maxCP": 2765,
+        "maxCP": 2829,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -32702,7 +33762,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 209,
             "baseDefense": 114,
-            "baseStamina": 288
+            "baseStamina": 302
         },
         "types": [
             {
@@ -32745,7 +33805,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "HARIYAMA"
+        "id": "HARIYAMA",
+        "forms": []
     },
     {
         "dex": 298,
@@ -32765,7 +33826,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2,
         "modelScale": 1.65,
-        "maxCP": 316,
+        "maxCP": 364,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -32801,7 +33862,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 36,
             "baseDefense": 71,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -32859,7 +33920,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "AZURILL"
+        "id": "AZURILL",
+        "forms": []
     },
     {
         "dex": 299,
@@ -32879,7 +33941,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 97,
         "modelScale": 1,
-        "maxCP": 831,
+        "maxCP": 993,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -32914,8 +33976,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 82,
-            "baseDefense": 236,
-            "baseStamina": 60
+            "baseDefense": 215,
+            "baseStamina": 102
         },
         "types": [
             {
@@ -32950,7 +34012,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "NOSEPASS"
+        "id": "NOSEPASS",
+        "forms": []
     },
     {
         "dex": 300,
@@ -32970,7 +34033,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 11,
         "modelScale": 1.25,
-        "maxCP": 659,
+        "maxCP": 739,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -33005,8 +34068,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 84,
-            "baseDefense": 84,
-            "baseStamina": 100
+            "baseDefense": 79,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -33051,7 +34114,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SKITTY"
+        "id": "SKITTY",
+        "forms": []
     },
     {
         "dex": 301,
@@ -33071,7 +34135,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32.6,
         "modelScale": 1.1,
-        "maxCP": 1385,
+        "maxCP": 1496,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -33106,8 +34170,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 132,
-            "baseDefense": 132,
-            "baseStamina": 140
+            "baseDefense": 127,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -33150,7 +34214,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "DELCATTY"
+        "id": "DELCATTY",
+        "forms": []
     },
     {
         "dex": 302,
@@ -33170,7 +34235,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 11,
         "modelScale": 1.35,
-        "maxCP": 1305,
+        "maxCP": 1476,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -33205,8 +34270,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 141,
-            "baseDefense": 141,
-            "baseStamina": 100
+            "baseDefense": 136,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -33245,7 +34310,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SABLEYE"
+        "id": "SABLEYE",
+        "forms": []
     },
     {
         "dex": 303,
@@ -33265,7 +34331,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 11.5,
         "modelScale": 1.23,
-        "maxCP": 1484,
+        "maxCP": 1634,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -33300,8 +34366,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 155,
-            "baseDefense": 155,
-            "baseStamina": 100
+            "baseDefense": 141,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -33340,7 +34406,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MAWILE"
+        "id": "MAWILE",
+        "forms": []
     },
     {
         "dex": 304,
@@ -33360,7 +34427,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 60,
         "modelScale": 1.48,
-        "maxCP": 1232,
+        "maxCP": 1307,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -33395,8 +34462,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 121,
-            "baseDefense": 168,
-            "baseStamina": 100
+            "baseDefense": 141,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -33454,7 +34521,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ARON"
+        "id": "ARON",
+        "forms": []
     },
     {
         "dex": 305,
@@ -33474,7 +34542,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 120,
         "modelScale": 1.05,
-        "maxCP": 2004,
+        "maxCP": 2056,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -33509,8 +34577,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 158,
-            "baseDefense": 240,
-            "baseStamina": 120
+            "baseDefense": 198,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -33566,7 +34634,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LAIRON"
+        "id": "LAIRON",
+        "forms": []
     },
     {
         "dex": 306,
@@ -33586,7 +34655,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 360,
         "modelScale": 0.71,
-        "maxCP": 3004,
+        "maxCP": 3000,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -33621,8 +34690,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 198,
-            "baseDefense": 314,
-            "baseStamina": 140
+            "baseDefense": 257,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -33676,7 +34745,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "AGGRON"
+        "id": "AGGRON",
+        "forms": []
     },
     {
         "dex": 307,
@@ -33696,7 +34766,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 11.2,
         "modelScale": 1.27,
-        "maxCP": 555,
+        "maxCP": 693,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -33732,7 +34802,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 78,
             "baseDefense": 107,
-            "baseStamina": 60
+            "baseStamina": 102
         },
         "types": [
             {
@@ -33781,7 +34851,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "MEDITITE"
+        "id": "MEDITITE",
+        "forms": []
     },
     {
         "dex": 308,
@@ -33801,7 +34872,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 31.5,
         "modelScale": 1,
-        "maxCP": 1275,
+        "maxCP": 1431,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -33837,7 +34908,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 121,
             "baseDefense": 152,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -33884,7 +34955,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MEDICHAM"
+        "id": "MEDICHAM",
+        "forms": []
     },
     {
         "dex": 309,
@@ -33904,7 +34976,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15.2,
         "modelScale": 0.99,
-        "maxCP": 810,
+        "maxCP": 965,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -33940,7 +35012,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 123,
             "baseDefense": 78,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -33985,7 +35057,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ELECTRIKE"
+        "id": "ELECTRIKE",
+        "forms": []
     },
     {
         "dex": 310,
@@ -34005,7 +35078,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 40.2,
         "modelScale": 1,
-        "maxCP": 2131,
+        "maxCP": 2340,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34041,7 +35114,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 215,
             "baseDefense": 127,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -34084,7 +35157,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "MANECTRIC"
+        "id": "MANECTRIC",
+        "forms": []
     },
     {
         "dex": 311,
@@ -34104,7 +35178,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4.2,
         "modelScale": 1.48,
-        "maxCP": 1681,
+        "maxCP": 1778,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -34139,8 +35213,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 167,
-            "baseDefense": 147,
-            "baseStamina": 120
+            "baseDefense": 129,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -34175,7 +35249,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "PLUSLE"
+        "id": "PLUSLE",
+        "forms": []
     },
     {
         "dex": 312,
@@ -34195,7 +35270,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 4.2,
         "modelScale": 1.48,
-        "maxCP": 1585,
+        "maxCP": 1694,
         "buddySize": {
             "id": "BUDDY_SHOULDER",
             "name": "Shoulder"
@@ -34230,8 +35305,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 147,
-            "baseDefense": 167,
-            "baseStamina": 120
+            "baseDefense": 150,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -34266,7 +35341,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "MINUN"
+        "id": "MINUN",
+        "forms": []
     },
     {
         "dex": 313,
@@ -34286,7 +35362,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 17.7,
         "modelScale": 1.17,
-        "maxCP": 1620,
+        "maxCP": 1771,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34321,8 +35397,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 143,
-            "baseDefense": 171,
-            "baseStamina": 130
+            "baseDefense": 166,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -34357,7 +35433,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "VOLBEAT"
+        "id": "VOLBEAT",
+        "forms": []
     },
     {
         "dex": 314,
@@ -34377,7 +35454,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 17.7,
         "modelScale": 1.25,
-        "maxCP": 1620,
+        "maxCP": 1771,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34412,8 +35489,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 143,
-            "baseDefense": 171,
-            "baseStamina": 130
+            "baseDefense": 166,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -34448,7 +35525,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ILLUMISE"
+        "id": "ILLUMISE",
+        "forms": []
     },
     {
         "dex": 315,
@@ -34468,7 +35546,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2,
         "modelScale": 2,
-        "maxCP": 1718,
+        "maxCP": 1870,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -34503,8 +35581,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 186,
-            "baseDefense": 148,
-            "baseStamina": 100
+            "baseDefense": 131,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -34542,8 +35620,30 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "ROSELIA"
+        "evolution": {
+            "pastBranch": {
+                "name": "Budew",
+                "id": "BUDEW"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Roserade",
+                    "id": "ROSERADE",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
+        },
+        "id": "ROSELIA",
+        "forms": []
     },
     {
         "dex": 316,
@@ -34563,7 +35663,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 10.3,
         "modelScale": 1.29,
-        "maxCP": 788,
+        "maxCP": 866,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -34599,7 +35699,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 80,
             "baseDefense": 99,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -34644,7 +35744,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "GULPIN"
+        "id": "GULPIN",
+        "forms": []
     },
     {
         "dex": 317,
@@ -34664,7 +35765,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 80,
         "modelScale": 0.8,
-        "maxCP": 1872,
+        "maxCP": 1978,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34700,7 +35801,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 140,
             "baseDefense": 159,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -34743,7 +35844,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SWALOT"
+        "id": "SWALOT",
+        "forms": []
     },
     {
         "dex": 318,
@@ -34763,7 +35865,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 20.8,
         "modelScale": 1.07,
-        "maxCP": 874,
+        "maxCP": 1020,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34799,7 +35901,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 171,
             "baseDefense": 39,
-            "baseStamina": 90
+            "baseStamina": 128
         },
         "types": [
             {
@@ -34849,7 +35951,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CARVANHA"
+        "id": "CARVANHA",
+        "forms": []
     },
     {
         "dex": 319,
@@ -34869,7 +35972,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 88.8,
         "modelScale": 0.88,
-        "maxCP": 1986,
+        "maxCP": 2181,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -34905,7 +36008,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 243,
             "baseDefense": 83,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -34953,7 +36056,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "SHARPEDO"
+        "id": "SHARPEDO",
+        "forms": []
     },
     {
         "dex": 320,
@@ -34973,7 +36077,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 130,
         "modelScale": 0.6,
-        "maxCP": 1424,
+        "maxCP": 1468,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -35009,7 +36113,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 136,
             "baseDefense": 68,
-            "baseStamina": 260
+            "baseStamina": 277
         },
         "types": [
             {
@@ -35055,7 +36159,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WAILMER"
+        "id": "WAILMER",
+        "forms": []
     },
     {
         "dex": 321,
@@ -35075,7 +36180,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 398,
         "modelScale": 0.18,
-        "maxCP": 2258,
+        "maxCP": 2280,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -35111,7 +36216,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 175,
             "baseDefense": 87,
-            "baseStamina": 340
+            "baseStamina": 347
         },
         "types": [
             {
@@ -35151,7 +36256,8 @@ var pokemon = [
                 "candyCost": 400
             }
         },
-        "id": "WAILORD"
+        "id": "WAILORD",
+        "forms": []
     },
     {
         "dex": 322,
@@ -35171,7 +36277,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 24,
         "modelScale": 1.17,
-        "maxCP": 957,
+        "maxCP": 1057,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -35206,8 +36312,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 119,
-            "baseDefense": 82,
-            "baseStamina": 120
+            "baseDefense": 79,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -35256,7 +36362,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "NUMEL"
+        "id": "NUMEL",
+        "forms": []
     },
     {
         "dex": 323,
@@ -35276,7 +36383,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 220,
         "modelScale": 0.8,
-        "maxCP": 2016,
+        "maxCP": 2193,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -35311,8 +36418,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 194,
-            "baseDefense": 139,
-            "baseStamina": 140
+            "baseDefense": 136,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -35336,10 +36443,7 @@ var pokemon = [
             "jumpTime": 1.1,
             "maxPokemonActionFrequency": 1.6,
             "minPokemonActionFrequency": 0.2,
-            "movementType": {
-                "name": "Movement Jump",
-                "id": "MOVEMENT_JUMP"
-            },
+            "movementType": null,
             "gender": {
                 "malePercent": 0.5,
                 "femalePercent": 0.5
@@ -35359,7 +36463,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CAMERUPT"
+        "id": "CAMERUPT",
+        "forms": []
     },
     {
         "dex": 324,
@@ -35379,7 +36484,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 80.4,
         "modelScale": 1.09,
-        "maxCP": 2036,
+        "maxCP": 2093,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -35414,8 +36519,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 151,
-            "baseDefense": 234,
-            "baseStamina": 140
+            "baseDefense": 203,
+            "baseStamina": 172
         },
         "types": [
             {
@@ -35447,7 +36552,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "TORKOAL"
+        "id": "TORKOAL",
+        "forms": []
     },
     {
         "dex": 325,
@@ -35467,7 +36573,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 30.6,
         "modelScale": 1.6,
-        "maxCP": 1285,
+        "maxCP": 1334,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -35502,8 +36608,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 125,
-            "baseDefense": 145,
-            "baseStamina": 120
+            "baseDefense": 122,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -35548,7 +36654,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SPOINK"
+        "id": "SPOINK",
+        "forms": []
     },
     {
         "dex": 326,
@@ -35568,7 +36675,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 71.5,
         "modelScale": 1.4,
-        "maxCP": 2310,
+        "maxCP": 2369,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -35603,8 +36710,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 171,
-            "baseDefense": 211,
-            "baseStamina": 160
+            "baseDefense": 188,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -35647,7 +36754,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "GRUMPIG"
+        "id": "GRUMPIG",
+        "forms": []
     },
     {
         "dex": 327,
@@ -35667,7 +36775,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 5,
         "modelScale": 0.98,
-        "maxCP": 1088,
+        "maxCP": 1220,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -35703,7 +36811,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 116,
             "baseDefense": 116,
-            "baseStamina": 120
+            "baseStamina": 155
         },
         "types": [
             {
@@ -35738,7 +36846,41 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SPINDA"
+        "id": "SPINDA",
+        "forms": [
+            {
+                "id": "SPINDA_00",
+                "name": "Spinda 00"
+            },
+            {
+                "id": "SPINDA_01",
+                "name": "Spinda 01"
+            },
+            {
+                "id": "SPINDA_02",
+                "name": "Spinda 02"
+            },
+            {
+                "id": "SPINDA_03",
+                "name": "Spinda 03"
+            },
+            {
+                "id": "SPINDA_04",
+                "name": "Spinda 04"
+            },
+            {
+                "id": "SPINDA_05",
+                "name": "Spinda 05"
+            },
+            {
+                "id": "SPINDA_06",
+                "name": "Spinda 06"
+            },
+            {
+                "id": "SPINDA_07",
+                "name": "Spinda 07"
+            }
+        ]
     },
     {
         "dex": 328,
@@ -35758,7 +36900,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 15,
         "modelScale": 1.2,
-        "maxCP": 1092,
+        "maxCP": 1274,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -35794,7 +36936,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 162,
             "baseDefense": 78,
-            "baseStamina": 90
+            "baseStamina": 128
         },
         "types": [
             {
@@ -35848,7 +36990,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "TRAPINCH"
+        "id": "TRAPINCH",
+        "forms": []
     },
     {
         "dex": 329,
@@ -35868,7 +37011,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 15.3,
         "modelScale": 0.96,
-        "maxCP": 1065,
+        "maxCP": 1225,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -35904,7 +37047,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 134,
             "baseDefense": 99,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -35961,7 +37104,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "VIBRAVA"
+        "id": "VIBRAVA",
+        "forms": []
     },
     {
         "dex": 330,
@@ -35981,7 +37125,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 82,
         "modelScale": 0.6,
-        "maxCP": 2458,
+        "maxCP": 2661,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -36017,7 +37161,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 205,
             "baseDefense": 168,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -36072,7 +37216,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "FLYGON"
+        "id": "FLYGON",
+        "forms": []
     },
     {
         "dex": 331,
@@ -36092,7 +37237,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 51.3,
         "modelScale": 1.44,
-        "maxCP": 1080,
+        "maxCP": 1242,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -36128,7 +37273,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 156,
             "baseDefense": 74,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -36173,7 +37318,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CACNEA"
+        "id": "CACNEA",
+        "forms": []
     },
     {
         "dex": 332,
@@ -36193,7 +37339,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 77.4,
         "modelScale": 1,
-        "maxCP": 2092,
+        "maxCP": 2298,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -36229,7 +37375,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 221,
             "baseDefense": 115,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -36276,7 +37422,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CACTURNE"
+        "id": "CACTURNE",
+        "forms": []
     },
     {
         "dex": 333,
@@ -36296,7 +37443,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 1.2,
         "modelScale": 0.87,
-        "maxCP": 722,
+        "maxCP": 824,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -36331,8 +37478,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 76,
-            "baseDefense": 139,
-            "baseStamina": 90
+            "baseDefense": 132,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -36381,7 +37528,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SWABLU"
+        "id": "SWABLU",
+        "forms": []
     },
     {
         "dex": 334,
@@ -36401,7 +37549,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 20.6,
         "modelScale": 0.72,
-        "maxCP": 1868,
+        "maxCP": 2004,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -36436,8 +37584,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 141,
-            "baseDefense": 208,
-            "baseStamina": 150
+            "baseDefense": 201,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -36485,7 +37633,8 @@ var pokemon = [
                 "candyCost": 400
             }
         },
-        "id": "ALTARIA"
+        "id": "ALTARIA",
+        "forms": []
     },
     {
         "dex": 335,
@@ -36505,7 +37654,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 40.3,
         "modelScale": 0.88,
-        "maxCP": 2214,
+        "maxCP": 2418,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -36541,7 +37690,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 222,
             "baseDefense": 124,
-            "baseStamina": 146
+            "baseStamina": 177
         },
         "types": [
             {
@@ -36576,7 +37725,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ZANGOOSE"
+        "id": "ZANGOOSE",
+        "forms": []
     },
     {
         "dex": 336,
@@ -36596,7 +37746,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 52.5,
         "modelScale": 1.3,
-        "maxCP": 1928,
+        "maxCP": 2105,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -36632,7 +37782,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 196,
             "baseDefense": 118,
-            "baseStamina": 146
+            "baseStamina": 177
         },
         "types": [
             {
@@ -36667,7 +37817,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SEVIPER"
+        "id": "SEVIPER",
+        "forms": []
     },
     {
         "dex": 337,
@@ -36687,7 +37838,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 168,
         "modelScale": 1,
-        "maxCP": 2245,
+        "maxCP": 2327,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -36722,8 +37873,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 178,
-            "baseDefense": 163,
-            "baseStamina": 180
+            "baseDefense": 153,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -36759,7 +37910,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LUNATONE"
+        "id": "LUNATONE",
+        "forms": []
     },
     {
         "dex": 338,
@@ -36779,7 +37931,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 154,
         "modelScale": 0.92,
-        "maxCP": 2245,
+        "maxCP": 2327,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -36814,8 +37966,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 178,
-            "baseDefense": 163,
-            "baseStamina": 180
+            "baseDefense": 153,
+            "baseStamina": 207
         },
         "types": [
             {
@@ -36851,7 +38003,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "SOLROCK"
+        "id": "SOLROCK",
+        "forms": []
     },
     {
         "dex": 339,
@@ -36871,7 +38024,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 1.9,
         "modelScale": 1.8,
-        "maxCP": 716,
+        "maxCP": 819,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -36906,8 +38059,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 93,
-            "baseDefense": 83,
-            "baseStamina": 100
+            "baseDefense": 82,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -36957,7 +38110,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BARBOACH"
+        "id": "BARBOACH",
+        "forms": []
     },
     {
         "dex": 340,
@@ -36977,7 +38131,7 @@ var pokemon = [
         "kmBuddyDistance": 1,
         "weight": 23.6,
         "modelScale": 1.3,
-        "maxCP": 1991,
+        "maxCP": 2075,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37012,8 +38166,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 151,
-            "baseDefense": 142,
-            "baseStamina": 220
+            "baseDefense": 141,
+            "baseStamina": 242
         },
         "types": [
             {
@@ -37061,7 +38215,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "WHISCASH"
+        "id": "WHISCASH",
+        "forms": []
     },
     {
         "dex": 341,
@@ -37081,7 +38236,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 11.5,
         "modelScale": 1.28,
-        "maxCP": 1107,
+        "maxCP": 1230,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -37116,8 +38271,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 141,
-            "baseDefense": 113,
-            "baseStamina": 86
+            "baseDefense": 99,
+            "baseStamina": 125
         },
         "types": [
             {
@@ -37162,7 +38317,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CORPHISH"
+        "id": "CORPHISH",
+        "forms": []
     },
     {
         "dex": 342,
@@ -37182,7 +38338,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 32.8,
         "modelScale": 0.92,
-        "maxCP": 2317,
+        "maxCP": 2474,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37217,8 +38373,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 224,
-            "baseDefense": 156,
-            "baseStamina": 126
+            "baseDefense": 142,
+            "baseStamina": 160
         },
         "types": [
             {
@@ -37265,7 +38421,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CRAWDAUNT"
+        "id": "CRAWDAUNT",
+        "forms": []
     },
     {
         "dex": 343,
@@ -37285,7 +38442,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 21.5,
         "modelScale": 1.35,
-        "maxCP": 676,
+        "maxCP": 787,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -37320,8 +38477,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 77,
-            "baseDefense": 131,
-            "baseStamina": 80
+            "baseDefense": 124,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -37367,7 +38524,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BALTOY"
+        "id": "BALTOY",
+        "forms": []
     },
     {
         "dex": 344,
@@ -37387,7 +38545,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 108,
         "modelScale": 0.88,
-        "maxCP": 1782,
+        "maxCP": 1971,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37422,8 +38580,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 140,
-            "baseDefense": 236,
-            "baseStamina": 120
+            "baseDefense": 229,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -37467,7 +38625,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CLAYDOL"
+        "id": "CLAYDOL",
+        "forms": []
     },
     {
         "dex": 345,
@@ -37487,7 +38646,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 23.8,
         "modelScale": 1.04,
-        "maxCP": 1181,
+        "maxCP": 1291,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37522,8 +38681,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 105,
-            "baseDefense": 154,
-            "baseStamina": 132
+            "baseDefense": 150,
+            "baseStamina": 165
         },
         "types": [
             {
@@ -37569,7 +38728,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "LILEEP"
+        "id": "LILEEP",
+        "forms": []
     },
     {
         "dex": 346,
@@ -37589,7 +38749,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 60.4,
         "modelScale": 0.85,
-        "maxCP": 2081,
+        "maxCP": 2211,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37624,8 +38784,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 152,
-            "baseDefense": 198,
-            "baseStamina": 172
+            "baseDefense": 194,
+            "baseStamina": 200
         },
         "types": [
             {
@@ -37669,7 +38829,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "CRADILY"
+        "id": "CRADILY",
+        "forms": []
     },
     {
         "dex": 347,
@@ -37689,7 +38850,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12.5,
         "modelScale": 1.17,
-        "maxCP": 1310,
+        "maxCP": 1529,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37725,7 +38886,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 176,
             "baseDefense": 100,
-            "baseStamina": 90
+            "baseStamina": 128
         },
         "types": [
             {
@@ -37774,7 +38935,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "ANORITH"
+        "id": "ANORITH",
+        "forms": []
     },
     {
         "dex": 348,
@@ -37794,7 +38956,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 68.2,
         "modelScale": 0.87,
-        "maxCP": 2675,
+        "maxCP": 2848,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -37829,8 +38991,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 222,
-            "baseDefense": 183,
-            "baseStamina": 150
+            "baseDefense": 174,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -37877,7 +39039,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "ARMALDO"
+        "id": "ARMALDO",
+        "forms": []
     },
     {
         "dex": 349,
@@ -37897,7 +39060,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 7.4,
         "modelScale": 1.25,
-        "maxCP": 220,
+        "maxCP": 274,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -37924,8 +39087,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 29,
-            "baseDefense": 102,
-            "baseStamina": 40
+            "baseDefense": 85,
+            "baseStamina": 85
         },
         "types": [
             {
@@ -37972,7 +39135,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "FEEBAS"
+        "id": "FEEBAS",
+        "forms": []
     },
     {
         "dex": 350,
@@ -37992,7 +39156,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 162,
         "modelScale": 0.7,
-        "maxCP": 2967,
+        "maxCP": 3005,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -38027,8 +39191,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 192,
-            "baseDefense": 242,
-            "baseStamina": 190
+            "baseDefense": 219,
+            "baseStamina": 216
         },
         "types": [
             {
@@ -38072,7 +39236,8 @@ var pokemon = [
                 "kmBuddyDistance": 20
             }
         },
-        "id": "MILOTIC"
+        "id": "MILOTIC",
+        "forms": []
     },
     {
         "dex": 351,
@@ -38092,7 +39257,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 0.8,
         "modelScale": 1.57,
-        "maxCP": 1486,
+        "maxCP": 1632,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38124,7 +39289,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 139,
             "baseDefense": 139,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -38160,7 +39325,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CASTFORM"
+        "id": "CASTFORM",
+        "forms": [
+            {
+                "id": "CASTFORM",
+                "name": "Castform"
+            },
+            {
+                "id": "CASTFORM_SUNNY",
+                "name": "Castform Sunny"
+            },
+            {
+                "id": "CASTFORM_RAINY",
+                "name": "Castform Rainy"
+            },
+            {
+                "id": "CASTFORM_SNOWY",
+                "name": "Castform Snowy"
+            }
+        ]
     },
     {
         "dex": 351,
@@ -38180,7 +39363,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 0.8,
         "modelScale": 1.57,
-        "maxCP": 1486,
+        "maxCP": 1632,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38212,7 +39395,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 139,
             "baseDefense": 139,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -38248,7 +39431,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CASTFORM_RAINY"
+        "id": "CASTFORM_RAINY",
+        "forms": [
+            {
+                "id": "CASTFORM",
+                "name": "Castform"
+            },
+            {
+                "id": "CASTFORM_SUNNY",
+                "name": "Castform Sunny"
+            },
+            {
+                "id": "CASTFORM_RAINY",
+                "name": "Castform Rainy"
+            },
+            {
+                "id": "CASTFORM_SNOWY",
+                "name": "Castform Snowy"
+            }
+        ]
     },
     {
         "dex": 351,
@@ -38268,7 +39469,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 0.8,
         "modelScale": 1.57,
-        "maxCP": 1486,
+        "maxCP": 1632,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38300,7 +39501,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 139,
             "baseDefense": 139,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -38336,7 +39537,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CASTFORM_SNOWY"
+        "id": "CASTFORM_SNOWY",
+        "forms": [
+            {
+                "id": "CASTFORM",
+                "name": "Castform"
+            },
+            {
+                "id": "CASTFORM_SUNNY",
+                "name": "Castform Sunny"
+            },
+            {
+                "id": "CASTFORM_RAINY",
+                "name": "Castform Rainy"
+            },
+            {
+                "id": "CASTFORM_SNOWY",
+                "name": "Castform Snowy"
+            }
+        ]
     },
     {
         "dex": 351,
@@ -38356,7 +39575,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 0.8,
         "modelScale": 1.57,
-        "maxCP": 1486,
+        "maxCP": 1632,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38388,7 +39607,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 139,
             "baseDefense": 139,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -38424,7 +39643,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "CASTFORM_SUNNY"
+        "id": "CASTFORM_SUNNY",
+        "forms": [
+            {
+                "id": "CASTFORM",
+                "name": "Castform"
+            },
+            {
+                "id": "CASTFORM_SUNNY",
+                "name": "Castform Sunny"
+            },
+            {
+                "id": "CASTFORM_RAINY",
+                "name": "Castform Rainy"
+            },
+            {
+                "id": "CASTFORM_SNOWY",
+                "name": "Castform Snowy"
+            }
+        ]
     },
     {
         "dex": 352,
@@ -38444,7 +39681,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 22,
         "modelScale": 1.02,
-        "maxCP": 1924,
+        "maxCP": 2047,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38491,8 +39728,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 161,
-            "baseDefense": 212,
-            "baseStamina": 120
+            "baseDefense": 189,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -38527,7 +39764,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "KECLEON"
+        "id": "KECLEON",
+        "forms": []
     },
     {
         "dex": 353,
@@ -38547,7 +39785,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 2.3,
         "modelScale": 1.21,
-        "maxCP": 872,
+        "maxCP": 1018,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -38582,8 +39820,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 138,
-            "baseDefense": 66,
-            "baseStamina": 88
+            "baseDefense": 65,
+            "baseStamina": 127
         },
         "types": [
             {
@@ -38629,7 +39867,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SHUPPET"
+        "id": "SHUPPET",
+        "forms": []
     },
     {
         "dex": 354,
@@ -38649,7 +39888,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 12.5,
         "modelScale": 0.97,
-        "maxCP": 2073,
+        "maxCP": 2298,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -38684,8 +39923,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 218,
-            "baseDefense": 127,
-            "baseStamina": 128
+            "baseDefense": 126,
+            "baseStamina": 162
         },
         "types": [
             {
@@ -38728,7 +39967,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "BANETTE"
+        "id": "BANETTE",
+        "forms": []
     },
     {
         "dex": 355,
@@ -38748,7 +39988,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 15,
         "modelScale": 1.1,
-        "maxCP": 523,
+        "maxCP": 706,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -38784,7 +40024,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 70,
             "baseDefense": 162,
-            "baseStamina": 40
+            "baseStamina": 85
         },
         "types": [
             {
@@ -38823,13 +40063,27 @@ var pokemon = [
                 {
                     "name": "Dusclops",
                     "id": "DUSCLOPS",
+                    "futureBranches": [
+                        {
+                            "name": "Dusknoir",
+                            "id": "DUSKNOIR",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
                     "costToEvolve": {
-                        "candyCost": 50
+                        "candyCost": 25
                     }
                 }
             ]
         },
-        "id": "DUSKULL"
+        "id": "DUSKULL",
+        "forms": []
     },
     {
         "dex": 356,
@@ -38849,7 +40103,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 30.6,
         "modelScale": 0.83,
-        "maxCP": 1335,
+        "maxCP": 1591,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -38885,7 +40139,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 124,
             "baseDefense": 234,
-            "baseStamina": 80
+            "baseStamina": 120
         },
         "types": [
             {
@@ -38925,10 +40179,24 @@ var pokemon = [
                 "id": "DUSKULL"
             },
             "costToEvolve": {
-                "candyCost": 50
-            }
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Dusknoir",
+                    "id": "DUSKNOIR",
+                    "costToEvolve": {
+                        "candyCost": 100,
+                        "evolutionItem": {
+                            "id": "ITEM_GEN4_EVOLUTION_STONE",
+                            "name": "Gen4 Evolution Stone"
+                        }
+                    }
+                }
+            ]
         },
-        "id": "DUSCLOPS"
+        "id": "DUSCLOPS",
+        "forms": []
     },
     {
         "dex": 357,
@@ -38948,7 +40216,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 100,
         "modelScale": 0.62,
-        "maxCP": 1846,
+        "maxCP": 1941,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -38983,8 +40251,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 136,
-            "baseDefense": 165,
-            "baseStamina": 198
+            "baseDefense": 163,
+            "baseStamina": 223
         },
         "types": [
             {
@@ -39024,7 +40292,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "TROPIUS"
+        "id": "TROPIUS",
+        "forms": []
     },
     {
         "dex": 358,
@@ -39044,7 +40313,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 1,
         "modelScale": 1.26,
-        "maxCP": 2095,
+        "maxCP": 2259,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -39079,8 +40348,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 175,
-            "baseDefense": 174,
-            "baseStamina": 150
+            "baseDefense": 170,
+            "baseStamina": 181
         },
         "types": [
             {
@@ -39115,8 +40384,17 @@ var pokemon = [
             "diskRadius": 0.555,
             "shoulderModeScale": 0.5
         },
-        "evolution": {},
-        "id": "CHIMECHO"
+        "evolution": {
+            "pastBranch": {
+                "name": "Chingling",
+                "id": "CHINGLING"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "CHIMECHO",
+        "forms": []
     },
     {
         "dex": 359,
@@ -39136,7 +40414,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 47,
         "modelScale": 1,
-        "maxCP": 2280,
+        "maxCP": 2526,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -39172,7 +40450,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 246,
             "baseDefense": 120,
-            "baseStamina": 130
+            "baseStamina": 163
         },
         "types": [
             {
@@ -39207,7 +40485,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "ABSOL"
+        "id": "ABSOL",
+        "forms": []
     },
     {
         "dex": 360,
@@ -39227,7 +40506,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 14,
         "modelScale": 1.1,
-        "maxCP": 503,
+        "maxCP": 534,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39255,7 +40534,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 41,
             "baseDefense": 86,
-            "baseStamina": 190
+            "baseStamina": 216
         },
         "types": [
             {
@@ -39300,7 +40579,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "WYNAUT"
+        "id": "WYNAUT",
+        "forms": []
     },
     {
         "dex": 361,
@@ -39320,7 +40600,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 16.8,
         "modelScale": 1.1,
-        "maxCP": 772,
+        "maxCP": 888,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -39356,7 +40636,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 95,
             "baseDefense": 95,
-            "baseStamina": 100
+            "baseStamina": 137
         },
         "types": [
             {
@@ -39401,7 +40681,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SNORUNT"
+        "id": "SNORUNT",
+        "forms": []
     },
     {
         "dex": 362,
@@ -39421,7 +40702,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 256.5,
         "modelScale": 0.84,
-        "maxCP": 1945,
+        "maxCP": 2105,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39457,7 +40738,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 162,
             "baseDefense": 162,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -39501,7 +40782,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "GLALIE"
+        "id": "GLALIE",
+        "forms": []
     },
     {
         "dex": 363,
@@ -39521,7 +40803,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 39.5,
         "modelScale": 1.1,
-        "maxCP": 876,
+        "maxCP": 962,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39557,7 +40839,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 95,
             "baseDefense": 90,
-            "baseStamina": 140
+            "baseStamina": 172
         },
         "types": [
             {
@@ -39615,7 +40897,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SPHEAL"
+        "id": "SPHEAL",
+        "forms": []
     },
     {
         "dex": 364,
@@ -39635,7 +40918,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 87.6,
         "modelScale": 0.9,
-        "maxCP": 1607,
+        "maxCP": 1714,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39671,7 +40954,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 137,
             "baseDefense": 132,
-            "baseStamina": 180
+            "baseStamina": 207
         },
         "types": [
             {
@@ -39727,7 +41010,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SEALEO"
+        "id": "SEALEO",
+        "forms": []
     },
     {
         "dex": 365,
@@ -39747,7 +41031,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 150.6,
         "modelScale": 0.95,
-        "maxCP": 2606,
+        "maxCP": 2726,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39783,7 +41067,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 182,
             "baseDefense": 176,
-            "baseStamina": 220
+            "baseStamina": 242
         },
         "types": [
             {
@@ -39837,7 +41121,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "WALREIN"
+        "id": "WALREIN",
+        "forms": []
     },
     {
         "dex": 366,
@@ -39857,7 +41142,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 52.5,
         "modelScale": 1.48,
-        "maxCP": 1091,
+        "maxCP": 1270,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -39888,8 +41173,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 133,
-            "baseDefense": 149,
-            "baseStamina": 70
+            "baseDefense": 135,
+            "baseStamina": 111
         },
         "types": [
             {
@@ -39937,7 +41222,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "CLAMPERL"
+        "id": "CLAMPERL",
+        "forms": []
     },
     {
         "dex": 367,
@@ -39957,7 +41243,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 27,
         "modelScale": 1.3,
-        "maxCP": 2140,
+        "maxCP": 2340,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -39992,8 +41278,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 197,
-            "baseDefense": 194,
-            "baseStamina": 110
+            "baseDefense": 179,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -40036,7 +41322,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "HUNTAIL"
+        "id": "HUNTAIL",
+        "forms": []
     },
     {
         "dex": 368,
@@ -40056,7 +41343,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 22.6,
         "modelScale": 1.3,
-        "maxCP": 2281,
+        "maxCP": 2494,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40091,8 +41378,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 211,
-            "baseDefense": 194,
-            "baseStamina": 110
+            "baseDefense": 179,
+            "baseStamina": 146
         },
         "types": [
             {
@@ -40135,7 +41422,8 @@ var pokemon = [
                 "candyCost": 50
             }
         },
-        "id": "GOREBYSS"
+        "id": "GOREBYSS",
+        "forms": []
     },
     {
         "dex": 369,
@@ -40155,7 +41443,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 23.4,
         "modelScale": 1.04,
-        "maxCP": 2557,
+        "maxCP": 2528,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40190,8 +41478,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 162,
-            "baseDefense": 234,
-            "baseStamina": 200
+            "baseDefense": 203,
+            "baseStamina": 225
         },
         "types": [
             {
@@ -40231,7 +41519,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "RELICANTH"
+        "id": "RELICANTH",
+        "forms": []
     },
     {
         "dex": 370,
@@ -40251,7 +41540,7 @@ var pokemon = [
         "kmBuddyDistance": 3,
         "weight": 8.7,
         "modelScale": 1.25,
-        "maxCP": 735,
+        "maxCP": 848,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -40286,8 +41575,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 81,
-            "baseDefense": 134,
-            "baseStamina": 86
+            "baseDefense": 128,
+            "baseStamina": 125
         },
         "types": [
             {
@@ -40323,7 +41612,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LUVDISC"
+        "id": "LUVDISC",
+        "forms": []
     },
     {
         "dex": 371,
@@ -40343,7 +41633,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 42.1,
         "modelScale": 1.2,
-        "maxCP": 1053,
+        "maxCP": 1156,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -40378,8 +41668,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 134,
-            "baseDefense": 107,
-            "baseStamina": 90
+            "baseDefense": 93,
+            "baseStamina": 128
         },
         "types": [
             {
@@ -40433,7 +41723,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BAGON"
+        "id": "BAGON",
+        "forms": []
     },
     {
         "dex": 372,
@@ -40453,7 +41744,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 110.5,
         "modelScale": 0.96,
-        "maxCP": 1958,
+        "maxCP": 2031,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40488,8 +41779,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 172,
-            "baseDefense": 179,
-            "baseStamina": 130
+            "baseDefense": 155,
+            "baseStamina": 163
         },
         "types": [
             {
@@ -40541,7 +41832,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "SHELGON"
+        "id": "SHELGON",
+        "forms": []
     },
     {
         "dex": 373,
@@ -40561,7 +41853,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 102.6,
         "modelScale": 0.82,
-        "maxCP": 3532,
+        "maxCP": 3749,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40597,7 +41889,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 277,
             "baseDefense": 168,
-            "baseStamina": 190
+            "baseStamina": 216
         },
         "types": [
             {
@@ -40652,7 +41944,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "SALAMENCE"
+        "id": "SALAMENCE",
+        "forms": []
     },
     {
         "dex": 374,
@@ -40672,7 +41965,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 95.2,
         "modelScale": 1.33,
-        "maxCP": 843,
+        "maxCP": 976,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -40695,8 +41988,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 96,
-            "baseDefense": 141,
-            "baseStamina": 80
+            "baseDefense": 132,
+            "baseStamina": 120
         },
         "types": [
             {
@@ -40751,7 +42044,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "BELDUM"
+        "id": "BELDUM",
+        "forms": []
     },
     {
         "dex": 375,
@@ -40771,7 +42065,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 202.5,
         "modelScale": 0.83,
-        "maxCP": 1570,
+        "maxCP": 1721,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40806,8 +42100,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 138,
-            "baseDefense": 185,
-            "baseStamina": 120
+            "baseDefense": 176,
+            "baseStamina": 155
         },
         "types": [
             {
@@ -40860,7 +42154,8 @@ var pokemon = [
                 }
             ]
         },
-        "id": "METANG"
+        "id": "METANG",
+        "forms": []
     },
     {
         "dex": 376,
@@ -40880,7 +42175,7 @@ var pokemon = [
         "kmBuddyDistance": 5,
         "weight": 550,
         "modelScale": 0.66,
-        "maxCP": 3637,
+        "maxCP": 3791,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -40897,6 +42192,11 @@ var pokemon = [
             {
                 "name": "Earthquake",
                 "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Meteor Mash",
+                "id": "METEOR_MASH",
+                "legacy": true
             }
         ],
         "quickMoves": [
@@ -40915,8 +42215,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 257,
-            "baseDefense": 247,
-            "baseStamina": 160
+            "baseDefense": 228,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -40966,7 +42266,8 @@ var pokemon = [
                 "candyCost": 100
             }
         },
-        "id": "METAGROSS"
+        "id": "METAGROSS",
+        "forms": []
     },
     {
         "dex": 377,
@@ -40986,7 +42287,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 230,
         "modelScale": 0.8,
-        "maxCP": 3087,
+        "maxCP": 3122,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41021,8 +42322,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 179,
-            "baseDefense": 356,
-            "baseStamina": 160
+            "baseDefense": 309,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -41057,7 +42358,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "REGIROCK"
+        "id": "REGIROCK",
+        "forms": []
     },
     {
         "dex": 378,
@@ -41077,7 +42379,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 175,
         "modelScale": 0.78,
-        "maxCP": 3087,
+        "maxCP": 3122,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41112,8 +42414,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 179,
-            "baseDefense": 356,
-            "baseStamina": 160
+            "baseDefense": 309,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -41148,7 +42450,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "REGICE"
+        "id": "REGICE",
+        "forms": []
     },
     {
         "dex": 379,
@@ -41168,7 +42471,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 205,
         "modelScale": 0.6,
-        "maxCP": 2261,
+        "maxCP": 2447,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41204,7 +42507,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 143,
             "baseDefense": 285,
-            "baseStamina": 160
+            "baseStamina": 190
         },
         "types": [
             {
@@ -41239,7 +42542,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "REGISTEEL"
+        "id": "REGISTEEL",
+        "forms": []
     },
     {
         "dex": 380,
@@ -41259,7 +42563,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 40,
         "modelScale": 1.2,
-        "maxCP": 3377,
+        "maxCP": 3510,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -41294,8 +42598,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 228,
-            "baseDefense": 268,
-            "baseStamina": 160
+            "baseDefense": 246,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -41339,7 +42643,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LATIAS"
+        "id": "LATIAS",
+        "forms": []
     },
     {
         "dex": 381,
@@ -41359,7 +42664,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60,
         "modelScale": 0.76,
-        "maxCP": 3644,
+        "maxCP": 3812,
         "buddySize": {
             "id": "BUDDY_FLYING",
             "name": "Flying"
@@ -41394,8 +42699,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 268,
-            "baseDefense": 228,
-            "baseStamina": 160
+            "baseDefense": 212,
+            "baseStamina": 190
         },
         "types": [
             {
@@ -41439,7 +42744,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "LATIOS"
+        "id": "LATIOS",
+        "forms": []
     },
     {
         "dex": 382,
@@ -41459,7 +42765,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 352,
         "modelScale": 0.56,
-        "maxCP": 4074,
+        "maxCP": 4115,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41490,8 +42796,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 270,
-            "baseDefense": 251,
-            "baseStamina": 182
+            "baseDefense": 228,
+            "baseStamina": 205
         },
         "types": [
             {
@@ -41527,7 +42833,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "KYOGRE"
+        "id": "KYOGRE",
+        "forms": []
     },
     {
         "dex": 383,
@@ -41547,7 +42854,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 950,
         "modelScale": 0.56,
-        "maxCP": 4074,
+        "maxCP": 4115,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41582,8 +42889,8 @@ var pokemon = [
         },
         "stats": {
             "baseAttack": 270,
-            "baseDefense": 251,
-            "baseStamina": 182
+            "baseDefense": 228,
+            "baseStamina": 205
         },
         "types": [
             {
@@ -41615,7 +42922,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "GROUDON"
+        "id": "GROUDON",
+        "forms": []
     },
     {
         "dex": 384,
@@ -41635,7 +42943,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 206.5,
         "modelScale": 0.57,
-        "maxCP": 3645,
+        "maxCP": 3835,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41671,7 +42979,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 284,
             "baseDefense": 170,
-            "baseStamina": 191
+            "baseStamina": 213
         },
         "types": [
             {
@@ -41711,7 +43019,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "RAYQUAZA"
+        "id": "RAYQUAZA",
+        "forms": []
     },
     {
         "dex": 385,
@@ -41731,7 +43040,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 1.1,
         "modelScale": 1.68,
-        "maxCP": 3090,
+        "maxCP": 3265,
         "buddySize": {
             "id": "BUDDY_MEDIUM",
             "name": "Medium"
@@ -41767,7 +43076,7 @@ var pokemon = [
         "stats": {
             "baseAttack": 210,
             "baseDefense": 210,
-            "baseStamina": 200
+            "baseStamina": 225
         },
         "types": [
             {
@@ -41807,7 +43116,8 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "JIRACHI"
+        "id": "JIRACHI",
+        "forms": []
     },
     {
         "dex": 386,
@@ -41827,7 +43137,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60.8,
         "modelScale": 0.83,
-        "maxCP": 15,
+        "maxCP": 3160,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41842,8 +43152,8 @@ var pokemon = [
                 "id": "ZAP_CANNON"
             },
             {
-                "name": "Swift",
-                "id": "SWIFT"
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
             }
         ],
         "quickMoves": [
@@ -41852,8 +43162,8 @@ var pokemon = [
                 "id": "ZEN_HEADBUTT_FAST"
             },
             {
-                "name": "Counter Fast",
-                "id": "COUNTER_FAST"
+                "name": "Charge Beam Fast",
+                "id": "CHARGE_BEAM_FAST"
             }
         ],
         "family": {
@@ -41861,9 +43171,9 @@ var pokemon = [
             "name": "Deoxys"
         },
         "stats": {
-            "baseAttack": 1,
-            "baseDefense": 1,
-            "baseStamina": 1
+            "baseAttack": 345,
+            "baseDefense": 115,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -41879,7 +43189,7 @@ var pokemon = [
             "attackProbability": 0.1,
             "attackTimer": 20,
             "baseFleeRate": 0.01,
-            "baseCaptureRate": 0.02,
+            "baseCaptureRate": 0.06,
             "cameraDistance": 4,
             "collisionRadius": 0.25,
             "dodgeDistance": 1,
@@ -41898,7 +43208,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DEOXYS"
+        "id": "DEOXYS",
+        "forms": [
+            {
+                "id": "DEOXYS",
+                "name": "Deoxys"
+            },
+            {
+                "id": "DEOXYS_ATTACK",
+                "name": "Deoxys Attack"
+            },
+            {
+                "id": "DEOXYS_DEFENSE",
+                "name": "Deoxys Defense"
+            },
+            {
+                "id": "DEOXYS_SPEED",
+                "name": "Deoxys Speed"
+            }
+        ]
     },
     {
         "dex": 386,
@@ -41918,7 +43246,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60.8,
         "modelScale": 0.83,
-        "maxCP": 15,
+        "maxCP": 2580,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -41933,8 +43261,8 @@ var pokemon = [
                 "id": "ZAP_CANNON"
             },
             {
-                "name": "Swift",
-                "id": "SWIFT"
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
             }
         ],
         "quickMoves": [
@@ -41943,8 +43271,8 @@ var pokemon = [
                 "id": "ZEN_HEADBUTT_FAST"
             },
             {
-                "name": "Counter Fast",
-                "id": "COUNTER_FAST"
+                "name": "Poison Jab Fast",
+                "id": "POISON_JAB_FAST"
             }
         ],
         "family": {
@@ -41952,9 +43280,9 @@ var pokemon = [
             "name": "Deoxys"
         },
         "stats": {
-            "baseAttack": 1,
-            "baseDefense": 1,
-            "baseStamina": 1
+            "baseAttack": 414,
+            "baseDefense": 46,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -41970,7 +43298,7 @@ var pokemon = [
             "attackProbability": 0.1,
             "attackTimer": 20,
             "baseFleeRate": 0.01,
-            "baseCaptureRate": 0.02,
+            "baseCaptureRate": 0.06,
             "cameraDistance": 4,
             "collisionRadius": 0.25,
             "dodgeDistance": 1,
@@ -41989,7 +43317,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DEOXYS_ATTACK"
+        "id": "DEOXYS_ATTACK",
+        "forms": [
+            {
+                "id": "DEOXYS",
+                "name": "Deoxys"
+            },
+            {
+                "id": "DEOXYS_ATTACK",
+                "name": "Deoxys Attack"
+            },
+            {
+                "id": "DEOXYS_DEFENSE",
+                "name": "Deoxys Defense"
+            },
+            {
+                "id": "DEOXYS_SPEED",
+                "name": "Deoxys Speed"
+            }
+        ]
     },
     {
         "dex": 386,
@@ -42009,7 +43355,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60.8,
         "modelScale": 0.83,
-        "maxCP": 15,
+        "maxCP": 2274,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -42024,8 +43370,8 @@ var pokemon = [
                 "id": "ZAP_CANNON"
             },
             {
-                "name": "Swift",
-                "id": "SWIFT"
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
             }
         ],
         "quickMoves": [
@@ -42043,9 +43389,9 @@ var pokemon = [
             "name": "Deoxys"
         },
         "stats": {
-            "baseAttack": 1,
-            "baseDefense": 1,
-            "baseStamina": 1
+            "baseAttack": 144,
+            "baseDefense": 330,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -42061,7 +43407,7 @@ var pokemon = [
             "attackProbability": 0.1,
             "attackTimer": 20,
             "baseFleeRate": 0.01,
-            "baseCaptureRate": 0.02,
+            "baseCaptureRate": 0.06,
             "cameraDistance": 4,
             "collisionRadius": 0.25,
             "dodgeDistance": 1,
@@ -42080,7 +43426,25 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DEOXYS_DEFENSE"
+        "id": "DEOXYS_DEFENSE",
+        "forms": [
+            {
+                "id": "DEOXYS",
+                "name": "Deoxys"
+            },
+            {
+                "id": "DEOXYS_ATTACK",
+                "name": "Deoxys Attack"
+            },
+            {
+                "id": "DEOXYS_DEFENSE",
+                "name": "Deoxys Defense"
+            },
+            {
+                "id": "DEOXYS_SPEED",
+                "name": "Deoxys Speed"
+            }
+        ]
     },
     {
         "dex": 386,
@@ -42100,7 +43464,7 @@ var pokemon = [
         "kmBuddyDistance": 20,
         "weight": 60.8,
         "modelScale": 0.83,
-        "maxCP": 15,
+        "maxCP": 2879,
         "buddySize": {
             "id": "BUDDY_BIG",
             "name": "Big"
@@ -42125,8 +43489,8 @@ var pokemon = [
                 "id": "ZEN_HEADBUTT_FAST"
             },
             {
-                "name": "Counter Fast",
-                "id": "COUNTER_FAST"
+                "name": "Charge Beam Fast",
+                "id": "CHARGE_BEAM_FAST"
             }
         ],
         "family": {
@@ -42134,9 +43498,9 @@ var pokemon = [
             "name": "Deoxys"
         },
         "stats": {
-            "baseAttack": 1,
-            "baseDefense": 1,
-            "baseStamina": 1
+            "baseAttack": 230,
+            "baseDefense": 218,
+            "baseStamina": 137
         },
         "types": [
             {
@@ -42152,7 +43516,7 @@ var pokemon = [
             "attackProbability": 0.1,
             "attackTimer": 20,
             "baseFleeRate": 0.01,
-            "baseCaptureRate": 0.02,
+            "baseCaptureRate": 0.06,
             "cameraDistance": 4,
             "collisionRadius": 0.25,
             "dodgeDistance": 1,
@@ -42171,6 +43535,16513 @@ var pokemon = [
             "shoulderModeScale": 0.5
         },
         "evolution": {},
-        "id": "DEOXYS_SPEED"
+        "id": "DEOXYS_SPEED",
+        "forms": [
+            {
+                "id": "DEOXYS",
+                "name": "Deoxys"
+            },
+            {
+                "id": "DEOXYS_ATTACK",
+                "name": "Deoxys Attack"
+            },
+            {
+                "id": "DEOXYS_DEFENSE",
+                "name": "Deoxys Defense"
+            },
+            {
+                "id": "DEOXYS_SPEED",
+                "name": "Deoxys Speed"
+            }
+        ]
+    },
+    {
+        "dex": 387,
+        "name": "Turtwig",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 3,
+        "weight": 10.2,
+        "modelScale": 1.26,
+        "maxCP": 1187,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Seed Bomb",
+                "id": "SEED_BOMB"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_TURTWIG",
+            "name": "Turtwig"
+        },
+        "stats": {
+            "baseAttack": 119,
+            "baseDefense": 110,
+            "baseStamina": 146
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 1.89,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.25,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Grotle",
+                    "id": "GROTLE",
+                    "futureBranches": [
+                        {
+                            "name": "Torterra",
+                            "id": "TORTERRA",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "TURTWIG",
+        "forms": []
+    },
+    {
+        "dex": 388,
+        "name": "Grotle",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.1,
+        "modelHeight": 1.1,
+        "kmBuddyDistance": 3,
+        "weight": 97,
+        "modelScale": 1.26,
+        "maxCP": 1890,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_TURTWIG",
+            "name": "Turtwig"
+        },
+        "stats": {
+            "baseAttack": 157,
+            "baseDefense": 143,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3.2,
+            "collisionRadius": 0.6,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.7,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Turtwig",
+                "id": "TURTWIG"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Torterra",
+                    "id": "TORTERRA",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "GROTLE",
+        "forms": []
+    },
+    {
+        "dex": 389,
+        "name": "Torterra",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.2,
+        "modelHeight": 2.2,
+        "kmBuddyDistance": 3,
+        "weight": 310,
+        "modelScale": 1.26,
+        "maxCP": 2934,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_TURTWIG",
+            "name": "Turtwig"
+        },
+        "stats": {
+            "baseAttack": 202,
+            "baseDefense": 188,
+            "baseStamina": 216
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 5,
+            "collisionRadius": 0.9,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Grotle",
+                "id": "GROTLE",
+                "pastBranch": {
+                    "name": "Turtwig",
+                    "id": "TURTWIG"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "TORTERRA",
+        "forms": []
+    },
+    {
+        "dex": 390,
+        "name": "Chimchar",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.48,
+        "kmBuddyDistance": 3,
+        "weight": 6.2,
+        "modelScale": 1.26,
+        "maxCP": 957,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flame Wheel",
+                "id": "FLAME_WHEEL"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Flame Charge",
+                "id": "FLAME_CHARGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Ember Fast",
+                "id": "EMBER_FAST"
+            },
+            {
+                "name": "Scratch Fast",
+                "id": "SCRATCH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHIMCHAR",
+            "name": "Chimchar"
+        },
+        "stats": {
+            "baseAttack": 113,
+            "baseDefense": 86,
+            "baseStamina": 127
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Monferno",
+                    "id": "MONFERNO",
+                    "futureBranches": [
+                        {
+                            "name": "Infernape",
+                            "id": "INFERNAPE",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "CHIMCHAR",
+        "forms": []
+    },
+    {
+        "dex": 391,
+        "name": "Monferno",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 3,
+        "weight": 22,
+        "modelScale": 1.26,
+        "maxCP": 1574,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flame Wheel",
+                "id": "FLAME_WHEEL"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Low Sweep",
+                "id": "LOW_SWEEP"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Ember Fast",
+                "id": "EMBER_FAST"
+            },
+            {
+                "name": "Rock Smash Fast",
+                "id": "ROCK_SMASH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHIMCHAR",
+            "name": "Chimchar"
+        },
+        "stats": {
+            "baseAttack": 158,
+            "baseDefense": 105,
+            "baseStamina": 162
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            },
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3.94875,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Chimchar",
+                "id": "CHIMCHAR"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Infernape",
+                    "id": "INFERNAPE",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "MONFERNO",
+        "forms": []
+    },
+    {
+        "dex": 392,
+        "name": "Infernape",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.28,
+        "kmBuddyDistance": 3,
+        "weight": 55,
+        "modelScale": 1.26,
+        "maxCP": 2683,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Close Combat",
+                "id": "CLOSE_COMBAT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Fire Spin Fast",
+                "id": "FIRE_SPIN_FAST"
+            },
+            {
+                "name": "Rock Smash Fast",
+                "id": "ROCK_SMASH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHIMCHAR",
+            "name": "Chimchar"
+        },
+        "stats": {
+            "baseAttack": 222,
+            "baseDefense": 151,
+            "baseStamina": 183
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            },
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 4.5,
+            "collisionRadius": 0.35,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Monferno",
+                "id": "MONFERNO",
+                "pastBranch": {
+                    "name": "Chimchar",
+                    "id": "CHIMCHAR"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "INFERNAPE",
+        "forms": []
+    },
+    {
+        "dex": 393,
+        "name": "Piplup",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 3,
+        "weight": 5.2,
+        "modelScale": 1.26,
+        "maxCP": 1075,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Drill Peck",
+                "id": "DRILL_PECK"
+            },
+            {
+                "name": "Icy Wind",
+                "id": "ICY_WIND"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            },
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PIPLUP",
+            "name": "Piplup"
+        },
+        "stats": {
+            "baseAttack": 112,
+            "baseDefense": 102,
+            "baseStamina": 142
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.5,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Prinplup",
+                    "id": "PRINPLUP",
+                    "futureBranches": [
+                        {
+                            "name": "Empoleon",
+                            "id": "EMPOLEON",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "PIPLUP",
+        "forms": []
+    },
+    {
+        "dex": 394,
+        "name": "Prinplup",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.8,
+        "modelHeight": 0.8,
+        "kmBuddyDistance": 3,
+        "weight": 23,
+        "modelScale": 1.26,
+        "maxCP": 1701,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Hydro Pump",
+                "id": "HYDRO_PUMP"
+            },
+            {
+                "name": "Icy Wind",
+                "id": "ICY_WIND"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            },
+            {
+                "name": "Metal Claw Fast",
+                "id": "METAL_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PIPLUP",
+            "name": "Piplup"
+        },
+        "stats": {
+            "baseAttack": 150,
+            "baseDefense": 139,
+            "baseStamina": 162
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3.5,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Piplup",
+                "id": "PIPLUP"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Empoleon",
+                    "id": "EMPOLEON",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "PRINPLUP",
+        "forms": []
+    },
+    {
+        "dex": 395,
+        "name": "Empoleon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.7,
+        "modelHeight": 1.7,
+        "kmBuddyDistance": 3,
+        "weight": 84.5,
+        "modelScale": 1.26,
+        "maxCP": 2900,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hydro Pump",
+                "id": "HYDRO_PUMP"
+            },
+            {
+                "name": "Blizzard",
+                "id": "BLIZZARD"
+            },
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Metal Claw Fast",
+                "id": "METAL_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PIPLUP",
+            "name": "Piplup"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 186,
+            "baseStamina": 197
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 4,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Prinplup",
+                "id": "PRINPLUP",
+                "pastBranch": {
+                    "name": "Piplup",
+                    "id": "PIPLUP"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "EMPOLEON",
+        "forms": []
+    },
+    {
+        "dex": 396,
+        "name": "Starly",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.32,
+        "kmBuddyDistance": 1,
+        "weight": 2,
+        "modelScale": 1.26,
+        "maxCP": 719,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            },
+            {
+                "name": "Brave Bird",
+                "id": "BRAVE_BIRD"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_STARLY",
+            "name": "Starly"
+        },
+        "stats": {
+            "baseAttack": 101,
+            "baseDefense": 58,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.5,
+            "collisionRadius": 0.12,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Staravia",
+                    "id": "STARAVIA",
+                    "futureBranches": [
+                        {
+                            "name": "Staraptor",
+                            "id": "STARAPTOR",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "STARLY",
+        "forms": []
+    },
+    {
+        "dex": 397,
+        "name": "Staravia",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.6,
+        "modelHeight": 0.97,
+        "kmBuddyDistance": 1,
+        "weight": 15.5,
+        "modelScale": 1.26,
+        "maxCP": 1299,
+        "buddySize": {
+            "id": "BUDDY_FLYING",
+            "name": "Flying"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            },
+            {
+                "name": "Brave Bird",
+                "id": "BRAVE_BIRD"
+            },
+            {
+                "name": "Heat Wave",
+                "id": "HEAT_WAVE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Wing Attack Fast",
+                "id": "WING_ATTACK_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_STARLY",
+            "name": "Starly"
+        },
+        "stats": {
+            "baseAttack": 142,
+            "baseDefense": 94,
+            "baseStamina": 146
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.25,
+            "cameraDistance": 3,
+            "collisionRadius": 0.16,
+            "dodgeDistance": 0.6,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Starly",
+                "id": "STARLY"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Staraptor",
+                    "id": "STARAPTOR",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "STARAVIA",
+        "forms": []
+    },
+    {
+        "dex": 398,
+        "name": "Staraptor",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 2.34,
+        "kmBuddyDistance": 1,
+        "weight": 24.9,
+        "modelScale": 1.26,
+        "maxCP": 2825,
+        "buddySize": {
+            "id": "BUDDY_FLYING",
+            "name": "Flying"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Brave Bird",
+                "id": "BRAVE_BIRD"
+            },
+            {
+                "name": "Heat Wave",
+                "id": "HEAT_WAVE"
+            },
+            {
+                "name": "Close Combat",
+                "id": "CLOSE_COMBAT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Wing Attack Fast",
+                "id": "WING_ATTACK_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_STARLY",
+            "name": "Starly"
+        },
+        "stats": {
+            "baseAttack": 234,
+            "baseDefense": 140,
+            "baseStamina": 198
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 5,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 0.5,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 1.2,
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Staravia",
+                "id": "STARAVIA",
+                "pastBranch": {
+                    "name": "Starly",
+                    "id": "STARLY"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "STARAPTOR",
+        "forms": []
+    },
+    {
+        "dex": 399,
+        "name": "Bidoof",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 1,
+        "weight": 20,
+        "modelScale": 1.26,
+        "maxCP": 721,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hyper Fang",
+                "id": "HYPER_FANG"
+            },
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Take Down Fast",
+                "id": "TAKE_DOWN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BIDOOF",
+            "name": "Bidoof"
+        },
+        "stats": {
+            "baseAttack": 80,
+            "baseDefense": 73,
+            "baseStamina": 153
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2,
+            "collisionRadius": 0.17,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Bibarel",
+                    "id": "BIBAREL",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BIDOOF",
+        "forms": []
+    },
+    {
+        "dex": 400,
+        "name": "Bibarel",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1,
+        "kmBuddyDistance": 1,
+        "weight": 31.5,
+        "modelScale": 1.26,
+        "maxCP": 1823,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hyper Fang",
+                "id": "HYPER_FANG"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Water Gun Fast",
+                "id": "WATER_GUN_FAST"
+            },
+            {
+                "name": "Take Down Fast",
+                "id": "TAKE_DOWN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BIDOOF",
+            "name": "Bidoof"
+        },
+        "stats": {
+            "baseAttack": 162,
+            "baseDefense": 119,
+            "baseStamina": 188
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            },
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 3.75,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Bidoof",
+                "id": "BIDOOF"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "BIBAREL",
+        "forms": []
+    },
+    {
+        "dex": 401,
+        "name": "Kricketot",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.31,
+        "kmBuddyDistance": 1,
+        "weight": 2.2,
+        "modelScale": 1.26,
+        "maxCP": 401,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Struggle Bug Fast",
+                "id": "STRUGGLE_BUG_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_KRICKETOT",
+            "name": "Kricketot"
+        },
+        "stats": {
+            "baseAttack": 45,
+            "baseDefense": 74,
+            "baseStamina": 114
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Kricketune",
+                    "id": "KRICKETUNE",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "KRICKETOT",
+        "forms": []
+    },
+    {
+        "dex": 402,
+        "name": "Kricketune",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1,
+        "kmBuddyDistance": 1,
+        "weight": 25.5,
+        "modelScale": 1.26,
+        "maxCP": 1653,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            },
+            {
+                "name": "X Scissor",
+                "id": "X_SCISSOR"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Struggle Bug Fast",
+                "id": "STRUGGLE_BUG_FAST"
+            },
+            {
+                "name": "Fury Cutter Fast",
+                "id": "FURY_CUTTER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_KRICKETOT",
+            "name": "Kricketot"
+        },
+        "stats": {
+            "baseAttack": 160,
+            "baseDefense": 100,
+            "baseStamina": 184
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 3.5,
+            "collisionRadius": 0.17,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Kricketot",
+                "id": "KRICKETOT"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "KRICKETUNE",
+        "forms": []
+    },
+    {
+        "dex": 403,
+        "name": "Shinx",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 5,
+        "weight": 9.5,
+        "modelScale": 1.26,
+        "maxCP": 876,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Discharge",
+                "id": "DISCHARGE"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHINX",
+            "name": "Shinx"
+        },
+        "stats": {
+            "baseAttack": 117,
+            "baseDefense": 64,
+            "baseStamina": 128
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.8,
+            "collisionRadius": 0.13,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Luxio",
+                    "id": "LUXIO",
+                    "futureBranches": [
+                        {
+                            "name": "Luxray",
+                            "id": "LUXRAY",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "SHINX",
+        "forms": []
+    },
+    {
+        "dex": 404,
+        "name": "Luxio",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 5,
+        "weight": 30.5,
+        "modelScale": 1.26,
+        "maxCP": 1486,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Wild Charge",
+                "id": "WILD_CHARGE"
+            },
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            },
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHINX",
+            "name": "Shinx"
+        },
+        "stats": {
+            "baseAttack": 159,
+            "baseDefense": 95,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.25,
+            "cameraDistance": 4,
+            "collisionRadius": 0.25,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.45,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Shinx",
+                "id": "SHINX"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Luxray",
+                    "id": "LUXRAY",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "LUXIO",
+        "forms": []
+    },
+    {
+        "dex": 405,
+        "name": "Luxray",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.4,
+        "modelHeight": 1.4,
+        "kmBuddyDistance": 5,
+        "weight": 42,
+        "modelScale": 1.26,
+        "maxCP": 2888,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Wild Charge",
+                "id": "WILD_CHARGE"
+            },
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            },
+            {
+                "name": "Snarl Fast",
+                "id": "SNARL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHINX",
+            "name": "Shinx"
+        },
+        "stats": {
+            "baseAttack": 232,
+            "baseDefense": 156,
+            "baseStamina": 190
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 4.7,
+            "collisionRadius": 0.35,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.65,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Luxio",
+                "id": "LUXIO",
+                "pastBranch": {
+                    "name": "Shinx",
+                    "id": "SHINX"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "LUXRAY",
+        "forms": []
+    },
+    {
+        "dex": 406,
+        "name": "Budew",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.2,
+        "kmBuddyDistance": 3,
+        "weight": 1.2,
+        "modelScale": 1.26,
+        "maxCP": 856,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROSELIA",
+            "name": "Roselia"
+        },
+        "stats": {
+            "baseAttack": 91,
+            "baseDefense": 109,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 1,
+            "collisionRadius": 0.07,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.189,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Roselia",
+                    "id": "ROSELIA",
+                    "futureBranches": [
+                        {
+                            "name": "Roserade",
+                            "id": "ROSERADE",
+                            "costToEvolve": {
+                                "candyCost": 100,
+                                "evolutionItem": {
+                                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                                    "name": "Gen4 Evolution Stone"
+                                }
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "BUDEW",
+        "forms": []
+    },
+    {
+        "dex": 407,
+        "name": "Roserade",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 3,
+        "weight": 14.5,
+        "modelScale": 1.26,
+        "maxCP": 2971,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Jab Fast",
+                "id": "POISON_JAB_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROSELIA",
+            "name": "Roselia"
+        },
+        "stats": {
+            "baseAttack": 243,
+            "baseDefense": 185,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 3,
+            "collisionRadius": 0.16,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Roselia",
+                "id": "ROSELIA",
+                "pastBranch": {
+                    "name": "Budew",
+                    "id": "BUDEW"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "ROSERADE",
+        "forms": []
+    },
+    {
+        "dex": 408,
+        "name": "Cranidos",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.8,
+        "kmBuddyDistance": 5,
+        "weight": 31.5,
+        "modelScale": 1.26,
+        "maxCP": 1820,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Rock Tomb",
+                "id": "ROCK_TOMB"
+            },
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Bulldoze",
+                "id": "BULLDOZE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            },
+            {
+                "name": "Take Down Fast",
+                "id": "TAKE_DOWN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CRANIDOS",
+            "name": "Cranidos"
+        },
+        "stats": {
+            "baseAttack": 218,
+            "baseDefense": 71,
+            "baseStamina": 167
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            },
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 4,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Rampardos",
+                    "id": "RAMPARDOS",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "CRANIDOS",
+        "forms": []
+    },
+    {
+        "dex": 409,
+        "name": "Rampardos",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.6,
+        "modelHeight": 1.43,
+        "kmBuddyDistance": 5,
+        "weight": 102.5,
+        "modelScale": 1.26,
+        "maxCP": 3298,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            },
+            {
+                "name": "Smack Down Fast",
+                "id": "SMACK_DOWN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CRANIDOS",
+            "name": "Cranidos"
+        },
+        "stats": {
+            "baseAttack": 295,
+            "baseDefense": 109,
+            "baseStamina": 219
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            },
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 4,
+            "collisionRadius": 0.5,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.8,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Cranidos",
+                "id": "CRANIDOS"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "RAMPARDOS",
+        "forms": []
+    },
+    {
+        "dex": 410,
+        "name": "Shieldon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 5,
+        "weight": 57,
+        "modelScale": 1.26,
+        "maxCP": 890,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Rock Tomb",
+                "id": "ROCK_TOMB"
+            },
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Heavy Slam",
+                "id": "HEAVY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHIELDON",
+            "name": "Shieldon"
+        },
+        "stats": {
+            "baseAttack": 76,
+            "baseDefense": 195,
+            "baseStamina": 102
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 3,
+            "collisionRadius": 0.15,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.35,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Bastiodon",
+                    "id": "BASTIODON",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SHIELDON",
+        "forms": []
+    },
+    {
+        "dex": 411,
+        "name": "Bastiodon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.3,
+        "modelHeight": 1.3,
+        "kmBuddyDistance": 5,
+        "weight": 149.5,
+        "modelScale": 1.26,
+        "maxCP": 1539,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Smack Down Fast",
+                "id": "SMACK_DOWN_FAST"
+            },
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHIELDON",
+            "name": "Shieldon"
+        },
+        "stats": {
+            "baseAttack": 94,
+            "baseDefense": 286,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 4,
+            "collisionRadius": 0.5,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.98,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Shieldon",
+                "id": "SHIELDON"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "BASTIODON",
+        "forms": []
+    },
+    {
+        "dex": 412,
+        "name": "Burmy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.34,
+        "kmBuddyDistance": 5,
+        "weight": 3.4,
+        "modelScale": 1.26,
+        "maxCP": 488,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 53,
+            "baseDefense": 83,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Wormadam Plant",
+                    "id": "WORMADAM_PLANT",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Sandy",
+                    "id": "WORMADAM_SANDY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Trash",
+                    "id": "WORMADAM_TRASH",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Mothim",
+                    "id": "MOTHIM",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BURMY",
+        "forms": [
+            {
+                "id": "BURMY_PLANT",
+                "name": "Burmy Plant"
+            },
+            {
+                "id": "BURMY_SANDY",
+                "name": "Burmy Sandy"
+            },
+            {
+                "id": "BURMY_TRASH",
+                "name": "Burmy Trash"
+            }
+        ]
+    },
+    {
+        "dex": 412,
+        "name": "Burmy Plant",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.34,
+        "kmBuddyDistance": 5,
+        "weight": 3.4,
+        "modelScale": 1.26,
+        "maxCP": 488,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 53,
+            "baseDefense": 83,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Wormadam Plant",
+                    "id": "WORMADAM_PLANT",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Sandy",
+                    "id": "WORMADAM_SANDY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Trash",
+                    "id": "WORMADAM_TRASH",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Mothim",
+                    "id": "MOTHIM",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BURMY_PLANT",
+        "forms": [
+            {
+                "id": "BURMY_PLANT",
+                "name": "Burmy Plant"
+            },
+            {
+                "id": "BURMY_SANDY",
+                "name": "Burmy Sandy"
+            },
+            {
+                "id": "BURMY_TRASH",
+                "name": "Burmy Trash"
+            }
+        ]
+    },
+    {
+        "dex": 412,
+        "name": "Burmy Sandy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.34,
+        "kmBuddyDistance": 5,
+        "weight": 3.4,
+        "modelScale": 1.26,
+        "maxCP": 488,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 53,
+            "baseDefense": 83,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Wormadam Plant",
+                    "id": "WORMADAM_PLANT",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Sandy",
+                    "id": "WORMADAM_SANDY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Trash",
+                    "id": "WORMADAM_TRASH",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Mothim",
+                    "id": "MOTHIM",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BURMY_SANDY",
+        "forms": [
+            {
+                "id": "BURMY_PLANT",
+                "name": "Burmy Plant"
+            },
+            {
+                "id": "BURMY_SANDY",
+                "name": "Burmy Sandy"
+            },
+            {
+                "id": "BURMY_TRASH",
+                "name": "Burmy Trash"
+            }
+        ]
+    },
+    {
+        "dex": 412,
+        "name": "Burmy Trash",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.34,
+        "kmBuddyDistance": 5,
+        "weight": 3.4,
+        "modelScale": 1.26,
+        "maxCP": 488,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 53,
+            "baseDefense": 83,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Wormadam Plant",
+                    "id": "WORMADAM_PLANT",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Sandy",
+                    "id": "WORMADAM_SANDY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Wormadam Trash",
+                    "id": "WORMADAM_TRASH",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Mothim",
+                    "id": "MOTHIM",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BURMY_TRASH",
+        "forms": [
+            {
+                "id": "BURMY_PLANT",
+                "name": "Burmy Plant"
+            },
+            {
+                "id": "BURMY_SANDY",
+                "name": "Burmy Sandy"
+            },
+            {
+                "id": "BURMY_TRASH",
+                "name": "Burmy Trash"
+            }
+        ]
+    },
+    {
+        "dex": 413,
+        "name": "Wormadam",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 1,
+        "weight": 6.5,
+        "modelScale": 1.26,
+        "maxCP": 1773,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Struggle",
+                "id": "STRUGGLE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 141,
+            "baseDefense": 180,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "WORMADAM",
+        "forms": [
+            {
+                "id": "WORMADAM_PLANT",
+                "name": "Wormadam Plant"
+            },
+            {
+                "id": "WORMADAM_SANDY",
+                "name": "Wormadam Sandy"
+            },
+            {
+                "id": "WORMADAM_TRASH",
+                "name": "Wormadam Trash"
+            }
+        ]
+    },
+    {
+        "dex": 413,
+        "name": "Wormadam Plant",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 1,
+        "weight": 6.5,
+        "modelScale": 1.26,
+        "maxCP": 1773,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psybeam",
+                "id": "PSYBEAM"
+            },
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 141,
+            "baseDefense": 180,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Burmy",
+                "id": "BURMY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "WORMADAM_PLANT",
+        "forms": [
+            {
+                "id": "WORMADAM_PLANT",
+                "name": "Wormadam Plant"
+            },
+            {
+                "id": "WORMADAM_SANDY",
+                "name": "Wormadam Sandy"
+            },
+            {
+                "id": "WORMADAM_TRASH",
+                "name": "Wormadam Trash"
+            }
+        ]
+    },
+    {
+        "dex": 413,
+        "name": "Wormadam Sandy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 1,
+        "weight": 6.5,
+        "modelScale": 1.26,
+        "maxCP": 1773,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psybeam",
+                "id": "PSYBEAM"
+            },
+            {
+                "name": "Bulldoze",
+                "id": "BULLDOZE"
+            },
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 141,
+            "baseDefense": 180,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Burmy",
+                "id": "BURMY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "WORMADAM_SANDY",
+        "forms": [
+            {
+                "id": "WORMADAM_PLANT",
+                "name": "Wormadam Plant"
+            },
+            {
+                "id": "WORMADAM_SANDY",
+                "name": "Wormadam Sandy"
+            },
+            {
+                "id": "WORMADAM_TRASH",
+                "name": "Wormadam Trash"
+            }
+        ]
+    },
+    {
+        "dex": 413,
+        "name": "Wormadam Trash",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 1,
+        "weight": 6.5,
+        "modelScale": 1.26,
+        "maxCP": 1593,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psybeam",
+                "id": "PSYBEAM"
+            },
+            {
+                "name": "Iron Head",
+                "id": "IRON_HEAD"
+            },
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 127,
+            "baseDefense": 175,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Burmy",
+                "id": "BURMY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "WORMADAM_TRASH",
+        "forms": [
+            {
+                "id": "WORMADAM_PLANT",
+                "name": "Wormadam Plant"
+            },
+            {
+                "id": "WORMADAM_SANDY",
+                "name": "Wormadam Sandy"
+            },
+            {
+                "id": "WORMADAM_TRASH",
+                "name": "Wormadam Trash"
+            }
+        ]
+    },
+    {
+        "dex": 414,
+        "name": "Mothim",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 1,
+        "weight": 23.3,
+        "modelScale": 1.26,
+        "maxCP": 1815,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psybeam",
+                "id": "PSYBEAM"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            },
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Air Slash Fast",
+                "id": "AIR_SLASH_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BURMY",
+            "name": "Burmy"
+        },
+        "stats": {
+            "baseAttack": 185,
+            "baseDefense": 98,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 4,
+            "collisionRadius": 0.12,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 1,
+                "femalePercent": 0
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Burmy",
+                "id": "BURMY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "MOTHIM",
+        "forms": []
+    },
+    {
+        "dex": 415,
+        "name": "Combee",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 3,
+        "weight": 5.5,
+        "modelScale": 1.26,
+        "maxCP": 494,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_COMBEE",
+            "name": "Combee"
+        },
+        "stats": {
+            "baseAttack": 59,
+            "baseDefense": 83,
+            "baseStamina": 102
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.14,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.4,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Psychic",
+                "id": "MOVEMENT_PSYCHIC"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.17,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Vespiquen",
+                    "id": "VESPIQUEN",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "COMBEE",
+        "forms": []
+    },
+    {
+        "dex": 416,
+        "name": "Vespiquen",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.27,
+        "kmBuddyDistance": 3,
+        "weight": 38.5,
+        "modelScale": 1.26,
+        "maxCP": 2005,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            },
+            {
+                "name": "Power Gem",
+                "id": "POWER_GEM"
+            },
+            {
+                "name": "X Scissor",
+                "id": "X_SCISSOR"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            },
+            {
+                "name": "Poison Sting Fast",
+                "id": "POISON_STING_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_COMBEE",
+            "name": "Combee"
+        },
+        "stats": {
+            "baseAttack": 149,
+            "baseDefense": 190,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 3,
+            "collisionRadius": 0.2,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Psychic",
+                "id": "MOVEMENT_PSYCHIC"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.126,
+            "cylinderRadius": 0.6,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Combee",
+                "id": "COMBEE"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "VESPIQUEN",
+        "forms": []
+    },
+    {
+        "dex": 417,
+        "name": "Pachirisu",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 5,
+        "weight": 3.9,
+        "modelScale": 1.26,
+        "maxCP": 1213,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder Punch",
+                "id": "THUNDER_PUNCH"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            },
+            {
+                "name": "Volt Switch Fast",
+                "id": "VOLT_SWITCH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PACHIRISU",
+            "name": "Pachirisu"
+        },
+        "stats": {
+            "baseAttack": 94,
+            "baseDefense": 172,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.05,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.7,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "PACHIRISU",
+        "forms": []
+    },
+    {
+        "dex": 418,
+        "name": "Buizel",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.7,
+        "modelHeight": 0.7,
+        "kmBuddyDistance": 3,
+        "weight": 29.5,
+        "modelScale": 1.26,
+        "maxCP": 1054,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Aqua Jet",
+                "id": "AQUA_JET"
+            },
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Water Gun Fast",
+                "id": "WATER_GUN_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BUIZEL",
+            "name": "Buizel"
+        },
+        "stats": {
+            "baseAttack": 132,
+            "baseDefense": 67,
+            "baseStamina": 146
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Floatzel",
+                    "id": "FLOATZEL",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BUIZEL",
+        "forms": []
+    },
+    {
+        "dex": 419,
+        "name": "Floatzel",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.1,
+        "modelHeight": 1.1,
+        "kmBuddyDistance": 3,
+        "weight": 33.5,
+        "modelScale": 1.26,
+        "maxCP": 2443,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Aqua Jet",
+                "id": "AQUA_JET"
+            },
+            {
+                "name": "Hydro Pump",
+                "id": "HYDRO_PUMP"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Water Gun Fast",
+                "id": "WATER_GUN_FAST"
+            },
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BUIZEL",
+            "name": "Buizel"
+        },
+        "stats": {
+            "baseAttack": 221,
+            "baseDefense": 114,
+            "baseStamina": 198
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.23,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.32,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Buizel",
+                "id": "BUIZEL"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "FLOATZEL",
+        "forms": []
+    },
+    {
+        "dex": 420,
+        "name": "Cherubi",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 3,
+        "weight": 3.3,
+        "modelScale": 1.26,
+        "maxCP": 950,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            },
+            {
+                "name": "Petal Blizzard",
+                "id": "PETAL_BLIZZARD"
+            },
+            {
+                "name": "Seed Bomb",
+                "id": "SEED_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bullet Seed Fast",
+                "id": "BULLET_SEED_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHERUBI",
+            "name": "Cherubi"
+        },
+        "stats": {
+            "baseAttack": 108,
+            "baseDefense": 92,
+            "baseStamina": 128
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.126,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Cherrim Overcast",
+                    "id": "CHERRIM_OVERCAST",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                },
+                {
+                    "name": "Cherrim Sunny",
+                    "id": "CHERRIM_SUNNY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "CHERUBI",
+        "forms": []
+    },
+    {
+        "dex": 421,
+        "name": "Cherrim",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 3,
+        "weight": 9.3,
+        "modelScale": 1.26,
+        "maxCP": 2048,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            },
+            {
+                "name": "Bullet Seed Fast",
+                "id": "BULLET_SEED_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHERUBI",
+            "name": "Cherubi"
+        },
+        "stats": {
+            "baseAttack": 170,
+            "baseDefense": 153,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.125,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "CHERRIM",
+        "forms": [
+            {
+                "id": "CHERRIM_OVERCAST",
+                "name": "Cherrim Overcast"
+            },
+            {
+                "id": "CHERRIM_SUNNY",
+                "name": "Cherrim Sunny"
+            }
+        ]
+    },
+    {
+        "dex": 421,
+        "name": "Cherrim Overcast",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.51,
+        "kmBuddyDistance": 3,
+        "weight": 9.3,
+        "modelScale": 1.26,
+        "maxCP": 2048,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            },
+            {
+                "name": "Bullet Seed Fast",
+                "id": "BULLET_SEED_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHERUBI",
+            "name": "Cherubi"
+        },
+        "stats": {
+            "baseAttack": 170,
+            "baseDefense": 153,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Cherubi",
+                "id": "CHERUBI"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "CHERRIM_OVERCAST",
+        "forms": [
+            {
+                "id": "CHERRIM_OVERCAST",
+                "name": "Cherrim Overcast"
+            },
+            {
+                "id": "CHERRIM_SUNNY",
+                "name": "Cherrim Sunny"
+            }
+        ]
+    },
+    {
+        "dex": 421,
+        "name": "Cherrim Sunny",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 3,
+        "weight": 9.3,
+        "modelScale": 1.26,
+        "maxCP": 2048,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            },
+            {
+                "name": "Bullet Seed Fast",
+                "id": "BULLET_SEED_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHERUBI",
+            "name": "Cherubi"
+        },
+        "stats": {
+            "baseAttack": 170,
+            "baseDefense": 153,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Cherubi",
+                "id": "CHERUBI"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "CHERRIM_SUNNY",
+        "forms": [
+            {
+                "id": "CHERRIM_OVERCAST",
+                "name": "Cherrim Overcast"
+            },
+            {
+                "id": "CHERRIM_SUNNY",
+                "name": "Cherrim Sunny"
+            }
+        ]
+    },
+    {
+        "dex": 422,
+        "name": "Shellos",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 6.3,
+        "modelScale": 1.26,
+        "maxCP": 1136,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Mud Bomb",
+                "id": "MUD_BOMB"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 103,
+            "baseDefense": 105,
+            "baseStamina": 183
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Gastrodon",
+                    "id": "GASTRODON",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SHELLOS",
+        "forms": [
+            {
+                "id": "SHELLOS_WEST_SEA",
+                "name": "Shellos West Sea"
+            },
+            {
+                "id": "SHELLOS_EAST_SEA",
+                "name": "Shellos East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 422,
+        "name": "Shellos East Sea",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 6.3,
+        "modelScale": 1.26,
+        "maxCP": 1136,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Mud Bomb",
+                "id": "MUD_BOMB"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 103,
+            "baseDefense": 105,
+            "baseStamina": 183
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Gastrodon West Sea",
+                    "id": "GASTRODON_WEST_SEA",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SHELLOS_EAST_SEA",
+        "forms": [
+            {
+                "id": "SHELLOS_WEST_SEA",
+                "name": "Shellos West Sea"
+            },
+            {
+                "id": "SHELLOS_EAST_SEA",
+                "name": "Shellos East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 422,
+        "name": "Shellos West Sea",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 6.3,
+        "modelScale": 1.26,
+        "maxCP": 1136,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Mud Bomb",
+                "id": "MUD_BOMB"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 103,
+            "baseDefense": 105,
+            "baseStamina": 183
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Gastrodon West Sea",
+                    "id": "GASTRODON_WEST_SEA",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SHELLOS_WEST_SEA",
+        "forms": [
+            {
+                "id": "SHELLOS_WEST_SEA",
+                "name": "Shellos West Sea"
+            },
+            {
+                "id": "SHELLOS_EAST_SEA",
+                "name": "Shellos East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 423,
+        "name": "Gastrodon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 5,
+        "weight": 29.9,
+        "modelScale": 1.26,
+        "maxCP": 2324,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 169,
+            "baseDefense": 143,
+            "baseStamina": 244
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Shellos",
+                "id": "SHELLOS"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "GASTRODON",
+        "forms": [
+            {
+                "id": "GASTRODON_WEST_SEA",
+                "name": "Gastrodon West Sea"
+            },
+            {
+                "id": "GASTRODON_EAST_SEA",
+                "name": "Gastrodon East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 423,
+        "name": "Gastrodon East Sea",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 5,
+        "weight": 29.9,
+        "modelScale": 1.26,
+        "maxCP": 2324,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 169,
+            "baseDefense": 143,
+            "baseStamina": 244
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GASTRODON_EAST_SEA",
+        "forms": [
+            {
+                "id": "GASTRODON_WEST_SEA",
+                "name": "Gastrodon West Sea"
+            },
+            {
+                "id": "GASTRODON_EAST_SEA",
+                "name": "Gastrodon East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 423,
+        "name": "Gastrodon West Sea",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 5,
+        "weight": 29.9,
+        "modelScale": 1.26,
+        "maxCP": 2324,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHELLOS",
+            "name": "Shellos"
+        },
+        "stats": {
+            "baseAttack": 169,
+            "baseDefense": 143,
+            "baseStamina": 244
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Shellos East Sea",
+                "id": "SHELLOS_EAST_SEA"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "GASTRODON_WEST_SEA",
+        "forms": [
+            {
+                "id": "GASTRODON_WEST_SEA",
+                "name": "Gastrodon West Sea"
+            },
+            {
+                "id": "GASTRODON_EAST_SEA",
+                "name": "Gastrodon East Sea"
+            }
+        ]
+    },
+    {
+        "dex": 424,
+        "name": "Ambipom",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.27,
+        "kmBuddyDistance": 3,
+        "weight": 20.3,
+        "modelScale": 1.26,
+        "maxCP": 2418,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Low Sweep",
+                "id": "LOW_SWEEP"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Scratch Fast",
+                "id": "SCRATCH_FAST"
+            },
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_AIPOM",
+            "name": "Aipom"
+        },
+        "stats": {
+            "baseAttack": 205,
+            "baseDefense": 143,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 5,
+            "collisionRadius": 0.16,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "AMBIPOM",
+        "forms": []
+    },
+    {
+        "dex": 425,
+        "name": "Drifloon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.76,
+        "kmBuddyDistance": 5,
+        "weight": 1.2,
+        "modelScale": 1.26,
+        "maxCP": 1197,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Icy Wind",
+                "id": "ICY_WIND"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hex Fast",
+                "id": "HEX_FAST"
+            },
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DRIFLOON",
+            "name": "Drifloon"
+        },
+        "stats": {
+            "baseAttack": 117,
+            "baseDefense": 80,
+            "baseStamina": 207
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 3,
+            "collisionRadius": 0.145,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.6,
+            "cylinderRadius": 0.75,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Drifblim",
+                    "id": "DRIFBLIM",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "DRIFLOON",
+        "forms": []
+    },
+    {
+        "dex": 426,
+        "name": "Drifblim",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.66,
+        "kmBuddyDistance": 5,
+        "weight": 15,
+        "modelScale": 1.26,
+        "maxCP": 2382,
+        "buddySize": {
+            "id": "BUDDY_FLYING",
+            "name": "Flying"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Icy Wind",
+                "id": "ICY_WIND"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hex Fast",
+                "id": "HEX_FAST"
+            },
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DRIFLOON",
+            "name": "Drifloon"
+        },
+        "stats": {
+            "baseAttack": 180,
+            "baseDefense": 102,
+            "baseStamina": 312
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 4.5,
+            "collisionRadius": 0.45,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.45,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Drifloon",
+                "id": "DRIFLOON"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "DRIFBLIM",
+        "forms": []
+    },
+    {
+        "dex": 427,
+        "name": "Buneary",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 3,
+        "weight": 5.5,
+        "modelScale": 1.26,
+        "maxCP": 1258,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Fire Punch",
+                "id": "FIRE_PUNCH"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BUNEARY",
+            "name": "Buneary"
+        },
+        "stats": {
+            "baseAttack": 130,
+            "baseDefense": 105,
+            "baseStamina": 146
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.8,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.5,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.15,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Lopunny",
+                    "id": "LOPUNNY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BUNEARY",
+        "forms": []
+    },
+    {
+        "dex": 428,
+        "name": "Lopunny",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.13,
+        "kmBuddyDistance": 3,
+        "weight": 33.3,
+        "modelScale": 1.26,
+        "maxCP": 2059,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Fire Punch",
+                "id": "FIRE_PUNCH"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Focus Blast",
+                "id": "FOCUS_BLAST"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            },
+            {
+                "name": "Low Kick Fast",
+                "id": "LOW_KICK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BUNEARY",
+            "name": "Buneary"
+        },
+        "stats": {
+            "baseAttack": 156,
+            "baseDefense": 194,
+            "baseStamina": 163
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 3.5,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.5,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Buneary",
+                "id": "BUNEARY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "LOPUNNY",
+        "forms": []
+    },
+    {
+        "dex": 429,
+        "name": "Mismagius",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 3,
+        "weight": 4.4,
+        "modelScale": 1.26,
+        "maxCP": 2615,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            },
+            {
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Sucker Punch Fast",
+                "id": "SUCKER_PUNCH_FAST"
+            },
+            {
+                "name": "Hex Fast",
+                "id": "HEX_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MISDREAVUS",
+            "name": "Misdreavus"
+        },
+        "stats": {
+            "baseAttack": 211,
+            "baseDefense": 187,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Misdreavus",
+                "id": "MISDREAVUS"
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "MISMAGIUS",
+        "forms": []
+    },
+    {
+        "dex": 430,
+        "name": "Honchkrow",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 1.65,
+        "kmBuddyDistance": 3,
+        "weight": 27.3,
+        "modelScale": 1.26,
+        "maxCP": 2711,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Brave Bird",
+                "id": "BRAVE_BIRD"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Peck Fast",
+                "id": "PECK_FAST"
+            },
+            {
+                "name": "Snarl Fast",
+                "id": "SNARL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MURKROW",
+            "name": "Murkrow"
+        },
+        "stats": {
+            "baseAttack": 243,
+            "baseDefense": 103,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 5.5,
+            "collisionRadius": 0.255,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.7,
+            "cylinderRadius": 0.55,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Murkrow",
+                "id": "MURKROW"
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "HONCHKROW",
+        "forms": []
+    },
+    {
+        "dex": 431,
+        "name": "Glameow",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 3,
+        "weight": 3.9,
+        "modelScale": 1.26,
+        "maxCP": 934,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Play Rough",
+                "id": "PLAY_ROUGH"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Scratch Fast",
+                "id": "SCRATCH_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GLAMEOW",
+            "name": "Glameow"
+        },
+        "stats": {
+            "baseAttack": 109,
+            "baseDefense": 82,
+            "baseStamina": 135
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.3,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.15,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.25,
+                "femalePercent": 0.75
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Purugly",
+                    "id": "PURUGLY",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "GLAMEOW",
+        "forms": []
+    },
+    {
+        "dex": 432,
+        "name": "Purugly",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1,
+        "kmBuddyDistance": 3,
+        "weight": 43.8,
+        "modelScale": 1.26,
+        "maxCP": 1953,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Play Rough",
+                "id": "PLAY_ROUGH"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Scratch Fast",
+                "id": "SCRATCH_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GLAMEOW",
+            "name": "Glameow"
+        },
+        "stats": {
+            "baseAttack": 172,
+            "baseDefense": 133,
+            "baseStamina": 174
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.08,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 4,
+            "collisionRadius": 0.35,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.25,
+                "femalePercent": 0.75
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Glameow",
+                "id": "GLAMEOW"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "PURUGLY",
+        "forms": []
+    },
+    {
+        "dex": 433,
+        "name": "Chingling",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 0.6,
+        "modelScale": 1.26,
+        "maxCP": 1005,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Wrap",
+                "id": "WRAP"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            },
+            {
+                "name": "Psyshock",
+                "id": "PSYSHOCK"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            },
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHIMECHO",
+            "name": "Chimecho"
+        },
+        "stats": {
+            "baseAttack": 114,
+            "baseDefense": 94,
+            "baseStamina": 128
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Electric",
+                "id": "MOVEMENT_ELECTRIC"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.1,
+            "cylinderRadius": 0.15,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Chimecho",
+                    "id": "CHIMECHO",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "CHINGLING",
+        "forms": []
+    },
+    {
+        "dex": 434,
+        "name": "Stunky",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.7,
+        "kmBuddyDistance": 3,
+        "weight": 19.2,
+        "modelScale": 1.26,
+        "maxCP": 1151,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Scratch Fast",
+                "id": "SCRATCH_FAST"
+            },
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_STUNKY",
+            "name": "Stunky"
+        },
+        "stats": {
+            "baseAttack": 121,
+            "baseDefense": 90,
+            "baseStamina": 160
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 3,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.43,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Skuntank",
+                    "id": "SKUNTANK",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "STUNKY",
+        "forms": []
+    },
+    {
+        "dex": 435,
+        "name": "Skuntank",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1,
+        "kmBuddyDistance": 3,
+        "weight": 38,
+        "modelScale": 1.26,
+        "maxCP": 2358,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Jab Fast",
+                "id": "POISON_JAB_FAST"
+            },
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_STUNKY",
+            "name": "Stunky"
+        },
+        "stats": {
+            "baseAttack": 184,
+            "baseDefense": 132,
+            "baseStamina": 230
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 3.6,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.7,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Stunky",
+                "id": "STUNKY"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "SKUNTANK",
+        "forms": []
+    },
+    {
+        "dex": 436,
+        "name": "Bronzor",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 3,
+        "weight": 60.5,
+        "modelScale": 1.26,
+        "maxCP": 603,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Gyro Ball",
+                "id": "GYRO_BALL"
+            },
+            {
+                "name": "Psyshock",
+                "id": "PSYSHOCK"
+            },
+            {
+                "name": "Heavy Slam",
+                "id": "HEAVY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BRONZOR",
+            "name": "Bronzor"
+        },
+        "stats": {
+            "baseAttack": 43,
+            "baseDefense": 154,
+            "baseStamina": 149
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            },
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 3,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Bronzong",
+                    "id": "BRONZONG",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BRONZOR",
+        "forms": []
+    },
+    {
+        "dex": 437,
+        "name": "Bronzong",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.3,
+        "modelHeight": 1.3,
+        "kmBuddyDistance": 3,
+        "weight": 187,
+        "modelScale": 1.26,
+        "maxCP": 2239,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Heavy Slam",
+                "id": "HEAVY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Feint Attack Fast",
+                "id": "FEINT_ATTACK_FAST"
+            },
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_BRONZOR",
+            "name": "Bronzor"
+        },
+        "stats": {
+            "baseAttack": 161,
+            "baseDefense": 213,
+            "baseStamina": 167
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            },
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 5,
+            "collisionRadius": 0.5,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Bronzor",
+                "id": "BRONZOR"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "BRONZONG",
+        "forms": []
+    },
+    {
+        "dex": 438,
+        "name": "Bonsly",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 5,
+        "weight": 15,
+        "modelScale": 1.26,
+        "maxCP": 1302,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Rock Tomb",
+                "id": "ROCK_TOMB"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Rock Throw Fast",
+                "id": "ROCK_THROW_FAST"
+            },
+            {
+                "name": "Counter Fast",
+                "id": "COUNTER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SUDOWOODO",
+            "name": "Sudowoodo"
+        },
+        "stats": {
+            "baseAttack": 124,
+            "baseDefense": 133,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Sudowoodo",
+                    "id": "SUDOWOODO",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "BONSLY",
+        "forms": []
+    },
+    {
+        "dex": 439,
+        "name": "Mime Jr",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.6,
+        "modelHeight": 0.88,
+        "kmBuddyDistance": 5,
+        "weight": 13,
+        "modelScale": 1.26,
+        "maxCP": 1095,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psybeam",
+                "id": "PSYBEAM"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Psyshock",
+                "id": "PSYSHOCK"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MR_MIME",
+            "name": "Mr Mime"
+        },
+        "stats": {
+            "baseAttack": 125,
+            "baseDefense": 142,
+            "baseStamina": 85
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            },
+            {
+                "id": "POKEMON_TYPE_FAIRY",
+                "name": "Fairy"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3,
+            "collisionRadius": 0.16,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Mr Mime",
+                    "id": "MR_MIME",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "MIME_JR",
+        "forms": []
+    },
+    {
+        "dex": 440,
+        "name": "Happiny",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.6,
+        "modelHeight": 0.6,
+        "kmBuddyDistance": 5,
+        "weight": 24.4,
+        "modelScale": 1.26,
+        "maxCP": 371,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHANSEY",
+            "name": "Chansey"
+        },
+        "stats": {
+            "baseAttack": 25,
+            "baseDefense": 77,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.23,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Chansey",
+                    "id": "CHANSEY",
+                    "futureBranches": [
+                        {
+                            "name": "Blissey",
+                            "id": "BLISSEY",
+                            "costToEvolve": {
+                                "candyCost": 50
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "HAPPINY",
+        "forms": []
+    },
+    {
+        "dex": 441,
+        "name": "Chatot",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.5,
+        "modelHeight": 0.5,
+        "kmBuddyDistance": 5,
+        "weight": 1.9,
+        "modelScale": 1.26,
+        "maxCP": 1791,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Night Shade",
+                "id": "NIGHT_SHADE"
+            },
+            {
+                "name": "Sky Attack",
+                "id": "SKY_ATTACK"
+            },
+            {
+                "name": "Heat Wave",
+                "id": "HEAT_WAVE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Peck Fast",
+                "id": "PECK_FAST"
+            },
+            {
+                "name": "Steel Wing Fast",
+                "id": "STEEL_WING_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CHATOT",
+            "name": "Chatot"
+        },
+        "stats": {
+            "baseAttack": 183,
+            "baseDefense": 91,
+            "baseStamina": 183
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.12,
+            "dodgeDistance": 0.8,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.8,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.65,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "CHATOT",
+        "forms": []
+    },
+    {
+        "dex": 442,
+        "name": "Spiritomb",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1.43,
+        "kmBuddyDistance": 5,
+        "weight": 108,
+        "modelScale": 1.26,
+        "maxCP": 2072,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Shadow Sneak",
+                "id": "SHADOW_SNEAK"
+            },
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Feint Attack Fast",
+                "id": "FEINT_ATTACK_FAST"
+            },
+            {
+                "name": "Sucker Punch Fast",
+                "id": "SUCKER_PUNCH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SPIRITOMB",
+            "name": "Spiritomb"
+        },
+        "stats": {
+            "baseAttack": 169,
+            "baseDefense": 199,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.4,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 4,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SPIRITOMB",
+        "forms": []
+    },
+    {
+        "dex": 443,
+        "name": "Gible",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.7,
+        "modelHeight": 0.72,
+        "kmBuddyDistance": 5,
+        "weight": 20.5,
+        "modelScale": 1.26,
+        "maxCP": 1112,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dig",
+                "id": "DIG"
+            },
+            {
+                "name": "Twister",
+                "id": "TWISTER"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Take Down Fast",
+                "id": "TAKE_DOWN_FAST"
+            },
+            {
+                "name": "Mud Shot Fast",
+                "id": "MUD_SHOT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIBLE",
+            "name": "Gible"
+        },
+        "stats": {
+            "baseAttack": 124,
+            "baseDefense": 84,
+            "baseStamina": 151
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.45,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 2.5,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.35,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Gabite",
+                    "id": "GABITE",
+                    "futureBranches": [
+                        {
+                            "name": "Garchomp",
+                            "id": "GARCHOMP",
+                            "costToEvolve": {
+                                "candyCost": 100
+                            }
+                        }
+                    ],
+                    "costToEvolve": {
+                        "candyCost": 25
+                    }
+                }
+            ]
+        },
+        "id": "GIBLE",
+        "forms": []
+    },
+    {
+        "dex": 444,
+        "name": "Gabite",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.4,
+        "modelHeight": 1.3,
+        "kmBuddyDistance": 5,
+        "weight": 56,
+        "modelScale": 1.26,
+        "maxCP": 1874,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dig",
+                "id": "DIG"
+            },
+            {
+                "name": "Twister",
+                "id": "TWISTER"
+            },
+            {
+                "name": "Flamethrower",
+                "id": "FLAMETHROWER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Take Down Fast",
+                "id": "TAKE_DOWN_FAST"
+            },
+            {
+                "name": "Mud Shot Fast",
+                "id": "MUD_SHOT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIBLE",
+            "name": "Gible"
+        },
+        "stats": {
+            "baseAttack": 172,
+            "baseDefense": 125,
+            "baseStamina": 169
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.45,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3.5,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.55,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Gible",
+                "id": "GIBLE"
+            },
+            "costToEvolve": {
+                "candyCost": 25
+            },
+            "futureBranches": [
+                {
+                    "name": "Garchomp",
+                    "id": "GARCHOMP",
+                    "costToEvolve": {
+                        "candyCost": 100
+                    }
+                }
+            ]
+        },
+        "id": "GABITE",
+        "forms": []
+    },
+    {
+        "dex": 445,
+        "name": "Garchomp",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.9,
+        "modelHeight": 1.95,
+        "kmBuddyDistance": 5,
+        "weight": 95,
+        "modelScale": 1.26,
+        "maxCP": 3962,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Fire Blast",
+                "id": "FIRE_BLAST"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Tail Fast",
+                "id": "DRAGON_TAIL_FAST"
+            },
+            {
+                "name": "Mud Shot Fast",
+                "id": "MUD_SHOT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIBLE",
+            "name": "Gible"
+        },
+        "stats": {
+            "baseAttack": 261,
+            "baseDefense": 193,
+            "baseStamina": 239
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.45,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 5,
+            "collisionRadius": 0.5,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.9,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Gabite",
+                "id": "GABITE",
+                "pastBranch": {
+                    "name": "Gible",
+                    "id": "GIBLE"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100
+            }
+        },
+        "id": "GARCHOMP",
+        "forms": []
+    },
+    {
+        "dex": 446,
+        "name": "Munchlax",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.6,
+        "modelHeight": 0.6,
+        "kmBuddyDistance": 5,
+        "weight": 105,
+        "modelScale": 1.26,
+        "maxCP": 1892,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Gunk Shot",
+                "id": "GUNK_SHOT"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            },
+            {
+                "name": "Bulldoze",
+                "id": "BULLDOZE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Lick Fast",
+                "id": "LICK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SNORLAX",
+            "name": "Snorlax"
+        },
+        "stats": {
+            "baseAttack": 137,
+            "baseDefense": 117,
+            "baseStamina": 286
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Snorlax",
+                    "id": "SNORLAX",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "MUNCHLAX",
+        "forms": []
+    },
+    {
+        "dex": 447,
+        "name": "Riolu",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.7,
+        "modelHeight": 0.7,
+        "kmBuddyDistance": 5,
+        "weight": 20.2,
+        "modelScale": 1.26,
+        "maxCP": 993,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Brick Break",
+                "id": "BRICK_BREAK"
+            },
+            {
+                "name": "Low Sweep",
+                "id": "LOW_SWEEP"
+            },
+            {
+                "name": "Cross Chop",
+                "id": "CROSS_CHOP"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Counter Fast",
+                "id": "COUNTER_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_LUCARIO",
+            "name": "Lucario"
+        },
+        "stats": {
+            "baseAttack": 127,
+            "baseDefense": 78,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.2,
+            "cameraDistance": 3,
+            "collisionRadius": 0.13,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Lucario",
+                    "id": "LUCARIO",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "RIOLU",
+        "forms": []
+    },
+    {
+        "dex": 448,
+        "name": "Lucario",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.25,
+        "kmBuddyDistance": 5,
+        "weight": 54,
+        "modelScale": 1.26,
+        "maxCP": 2703,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            },
+            {
+                "name": "Close Combat",
+                "id": "CLOSE_COMBAT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Counter Fast",
+                "id": "COUNTER_FAST"
+            },
+            {
+                "name": "Bullet Punch Fast",
+                "id": "BULLET_PUNCH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_LUCARIO",
+            "name": "Lucario"
+        },
+        "stats": {
+            "baseAttack": 236,
+            "baseDefense": 144,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 3.8,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Riolu",
+                "id": "RIOLU"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "LUCARIO",
+        "forms": []
+    },
+    {
+        "dex": 449,
+        "name": "Hippopotas",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.8,
+        "modelHeight": 1.3,
+        "kmBuddyDistance": 1,
+        "weight": 49.5,
+        "modelScale": 1.26,
+        "maxCP": 1358,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dig",
+                "id": "DIG"
+            },
+            {
+                "name": "Rock Tomb",
+                "id": "ROCK_TOMB"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            },
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_HIPPOPOTAS",
+            "name": "Hippopotas"
+        },
+        "stats": {
+            "baseAttack": 124,
+            "baseDefense": 118,
+            "baseStamina": 169
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Hippowdon",
+                    "id": "HIPPOWDON",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "HIPPOPOTAS",
+        "forms": []
+    },
+    {
+        "dex": 450,
+        "name": "Hippowdon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2,
+        "modelHeight": 3.8,
+        "kmBuddyDistance": 1,
+        "weight": 300,
+        "modelScale": 1.26,
+        "maxCP": 3085,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            },
+            {
+                "name": "Body Slam",
+                "id": "BODY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Fire Fang Fast",
+                "id": "FIRE_FANG_FAST"
+            },
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_HIPPOPOTAS",
+            "name": "Hippopotas"
+        },
+        "stats": {
+            "baseAttack": 201,
+            "baseDefense": 191,
+            "baseStamina": 239
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.08,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Hippopotas",
+                "id": "HIPPOPOTAS"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "HIPPOWDON",
+        "forms": []
+    },
+    {
+        "dex": 451,
+        "name": "Skorupi",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.8,
+        "modelHeight": 0.8,
+        "kmBuddyDistance": 5,
+        "weight": 12,
+        "modelScale": 1.26,
+        "maxCP": 1009,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Cross Poison",
+                "id": "CROSS_POISON"
+            },
+            {
+                "name": "Aqua Tail",
+                "id": "AQUA_TAIL"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Sting Fast",
+                "id": "POISON_STING_FAST"
+            },
+            {
+                "name": "Infestation Fast",
+                "id": "INFESTATION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SKORUPI",
+            "name": "Skorupi"
+        },
+        "stats": {
+            "baseAttack": 93,
+            "baseDefense": 151,
+            "baseStamina": 120
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 3.3,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Drapion",
+                    "id": "DRAPION",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SKORUPI",
+        "forms": []
+    },
+    {
+        "dex": 452,
+        "name": "Drapion",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.3,
+        "modelHeight": 1.2,
+        "kmBuddyDistance": 5,
+        "weight": 61.5,
+        "modelScale": 1.26,
+        "maxCP": 2453,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            },
+            {
+                "name": "Aqua Tail",
+                "id": "AQUA_TAIL"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Sting Fast",
+                "id": "POISON_STING_FAST"
+            },
+            {
+                "name": "Infestation Fast",
+                "id": "INFESTATION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SKORUPI",
+            "name": "Skorupi"
+        },
+        "stats": {
+            "baseAttack": 180,
+            "baseDefense": 202,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.08,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 4,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Skorupi",
+                "id": "SKORUPI"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "DRAPION",
+        "forms": []
+    },
+    {
+        "dex": 453,
+        "name": "Croagunk",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.7,
+        "modelHeight": 0.6,
+        "kmBuddyDistance": 3,
+        "weight": 23,
+        "modelScale": 1.26,
+        "maxCP": 952,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Brick Break",
+                "id": "BRICK_BREAK"
+            },
+            {
+                "name": "Low Sweep",
+                "id": "LOW_SWEEP"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Sting Fast",
+                "id": "POISON_STING_FAST"
+            },
+            {
+                "name": "Poison Jab Fast",
+                "id": "POISON_JAB_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CROAGUNK",
+            "name": "Croagunk"
+        },
+        "stats": {
+            "baseAttack": 116,
+            "baseDefense": 76,
+            "baseStamina": 134
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.25,
+            "attackTimer": 29,
+            "baseFleeRate": 0.12,
+            "baseCaptureRate": 0.4,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.25,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Toxicroak",
+                    "id": "TOXICROAK",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "CROAGUNK",
+        "forms": []
+    },
+    {
+        "dex": 454,
+        "name": "Toxicroak",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.3,
+        "modelHeight": 1.2,
+        "kmBuddyDistance": 3,
+        "weight": 44.4,
+        "modelScale": 1.26,
+        "maxCP": 2488,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dynamic Punch",
+                "id": "DYNAMIC_PUNCH"
+            },
+            {
+                "name": "Mud Bomb",
+                "id": "MUD_BOMB"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Poison Jab Fast",
+                "id": "POISON_JAB_FAST"
+            },
+            {
+                "name": "Counter Fast",
+                "id": "COUNTER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CROAGUNK",
+            "name": "Croagunk"
+        },
+        "stats": {
+            "baseAttack": 211,
+            "baseDefense": 133,
+            "baseStamina": 195
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            },
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.25,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 4,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.25,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.7,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Croagunk",
+                "id": "CROAGUNK"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "TOXICROAK",
+        "forms": []
+    },
+    {
+        "dex": 455,
+        "name": "Carnivine",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.4,
+        "modelHeight": 1.44,
+        "kmBuddyDistance": 5,
+        "weight": 27,
+        "modelScale": 1.26,
+        "maxCP": 2159,
+        "buddySize": {
+            "id": "BUDDY_FLYING",
+            "name": "Flying"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Power Whip",
+                "id": "POWER_WHIP"
+            },
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bite Fast",
+                "id": "BITE_FAST"
+            },
+            {
+                "name": "Vine Whip Fast",
+                "id": "VINE_WHIP_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CARNIVINE",
+            "name": "Carnivine"
+        },
+        "stats": {
+            "baseAttack": 187,
+            "baseDefense": 136,
+            "baseStamina": 179
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.01,
+            "baseCaptureRate": 0.9,
+            "cameraDistance": 4,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 0.6,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.5,
+            "cylinderRadius": 0.6,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "CARNIVINE",
+        "forms": []
+    },
+    {
+        "dex": 456,
+        "name": "Finneon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.4,
+        "kmBuddyDistance": 3,
+        "weight": 7,
+        "modelScale": 1.26,
+        "maxCP": 971,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Ice Beam",
+                "id": "ICE_BEAM"
+            },
+            {
+                "name": "Silver Wind",
+                "id": "SILVER_WIND"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Pound Fast",
+                "id": "POUND_FAST"
+            },
+            {
+                "name": "Water Gun Fast",
+                "id": "WATER_GUN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_FINNEON",
+            "name": "Finneon"
+        },
+        "stats": {
+            "baseAttack": 96,
+            "baseDefense": 116,
+            "baseStamina": 135
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Lumineon",
+                    "id": "LUMINEON",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "FINNEON",
+        "forms": []
+    },
+    {
+        "dex": 457,
+        "name": "Lumineon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.2,
+        "kmBuddyDistance": 3,
+        "weight": 24,
+        "modelScale": 1.26,
+        "maxCP": 1814,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Blizzard",
+                "id": "BLIZZARD"
+            },
+            {
+                "name": "Silver Wind",
+                "id": "SILVER_WIND"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Water Gun Fast",
+                "id": "WATER_GUN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_FINNEON",
+            "name": "Finneon"
+        },
+        "stats": {
+            "baseAttack": 142,
+            "baseDefense": 170,
+            "baseStamina": 170
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Finneon",
+                "id": "FINNEON"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "LUMINEON",
+        "forms": []
+    },
+    {
+        "dex": 458,
+        "name": "Mantyke",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 0.92,
+        "kmBuddyDistance": 3,
+        "weight": 65,
+        "modelScale": 1.26,
+        "maxCP": 1248,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Ice Beam",
+                "id": "ICE_BEAM"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            },
+            {
+                "name": "Tackle Fast",
+                "id": "TACKLE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MANTINE",
+            "name": "Mantine"
+        },
+        "stats": {
+            "baseAttack": 105,
+            "baseDefense": 179,
+            "baseStamina": 128
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Mantine",
+                    "id": "MANTINE",
+                    "costToEvolve": {}
+                }
+            ]
+        },
+        "id": "MANTYKE",
+        "forms": []
+    },
+    {
+        "dex": 459,
+        "name": "Snover",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 1,
+        "kmBuddyDistance": 3,
+        "weight": 50.5,
+        "modelScale": 1.26,
+        "maxCP": 1159,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ice Beam",
+                "id": "ICE_BEAM"
+            },
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Stomp",
+                "id": "STOMP"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Powder Snow Fast",
+                "id": "POWDER_SNOW_FAST"
+            },
+            {
+                "name": "Ice Shard Fast",
+                "id": "ICE_SHARD_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SNOVER",
+            "name": "Snover"
+        },
+        "stats": {
+            "baseAttack": 115,
+            "baseDefense": 105,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Abomasnow",
+                    "id": "ABOMASNOW",
+                    "costToEvolve": {
+                        "candyCost": 50
+                    }
+                }
+            ]
+        },
+        "id": "SNOVER",
+        "forms": []
+    },
+    {
+        "dex": 460,
+        "name": "Abomasnow",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.2,
+        "modelHeight": 2.17,
+        "kmBuddyDistance": 3,
+        "weight": 135.5,
+        "modelScale": 1.26,
+        "maxCP": 2362,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Blizzard",
+                "id": "BLIZZARD"
+            },
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Powder Snow Fast",
+                "id": "POWDER_SNOW_FAST"
+            },
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SNOVER",
+            "name": "Snover"
+        },
+        "stats": {
+            "baseAttack": 178,
+            "baseDefense": 158,
+            "baseStamina": 207
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 6,
+            "collisionRadius": 0.5,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.1,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1.6,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Snover",
+                "id": "SNOVER"
+            },
+            "costToEvolve": {
+                "candyCost": 50
+            }
+        },
+        "id": "ABOMASNOW",
+        "forms": []
+    },
+    {
+        "dex": 461,
+        "name": "Weavile",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.1,
+        "modelHeight": 1.01,
+        "kmBuddyDistance": 3,
+        "weight": 34,
+        "modelScale": 1.26,
+        "maxCP": 3005,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Avalanche",
+                "id": "AVALANCHE"
+            },
+            {
+                "name": "Focus Blast",
+                "id": "FOCUS_BLAST"
+            },
+            {
+                "name": "Foul Play",
+                "id": "FOUL_PLAY"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Ice Shard Fast",
+                "id": "ICE_SHARD_FAST"
+            },
+            {
+                "name": "Feint Attack Fast",
+                "id": "FEINT_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SNEASEL",
+            "name": "Sneasel"
+        },
+        "stats": {
+            "baseAttack": 243,
+            "baseDefense": 171,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            },
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 4,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Sneasel",
+                "id": "SNEASEL"
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "WEAVILE",
+        "forms": []
+    },
+    {
+        "dex": 462,
+        "name": "Magnezone",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.2,
+        "modelHeight": 1.56,
+        "kmBuddyDistance": 3,
+        "weight": 180,
+        "modelScale": 1.26,
+        "maxCP": 3205,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Zap Cannon",
+                "id": "ZAP_CANNON"
+            },
+            {
+                "name": "Wild Charge",
+                "id": "WILD_CHARGE"
+            },
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            },
+            {
+                "name": "Charge Beam Fast",
+                "id": "CHARGE_BEAM_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MAGNEMITE",
+            "name": "Magnemite"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 205,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 6,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.3,
+            "cylinderRadius": 1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "MAGNEZONE",
+        "forms": []
+    },
+    {
+        "dex": 463,
+        "name": "Lickilicky",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.7,
+        "modelHeight": 1.7,
+        "kmBuddyDistance": 3,
+        "weight": 140,
+        "modelScale": 1.26,
+        "maxCP": 2467,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Lick Fast",
+                "id": "LICK_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_LICKITUNG",
+            "name": "Lickitung"
+        },
+        "stats": {
+            "baseAttack": 161,
+            "baseDefense": 181,
+            "baseStamina": 242
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 6,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.7,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "LICKILICKY",
+        "forms": []
+    },
+    {
+        "dex": 464,
+        "name": "Rhyperior",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.4,
+        "modelHeight": 2.7,
+        "kmBuddyDistance": 3,
+        "weight": 282.8,
+        "modelScale": 1.26,
+        "maxCP": 3733,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Surf",
+                "id": "SURF"
+            },
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Smack Down Fast",
+                "id": "SMACK_DOWN_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_RHYHORN",
+            "name": "Rhyhorn"
+        },
+        "stats": {
+            "baseAttack": 241,
+            "baseDefense": 190,
+            "baseStamina": 251
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            },
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 6,
+            "collisionRadius": 0.7,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1.8,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Rhydon",
+                "id": "RHYDON",
+                "pastBranch": {
+                    "name": "Rhyhorn",
+                    "id": "RHYHORN"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "RHYPERIOR",
+        "forms": []
+    },
+    {
+        "dex": 465,
+        "name": "Tangrowth",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2,
+        "modelHeight": 2.05,
+        "kmBuddyDistance": 3,
+        "weight": 128.6,
+        "modelScale": 1.26,
+        "maxCP": 3030,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Sludge Bomb",
+                "id": "SLUDGE_BOMB"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Vine Whip Fast",
+                "id": "VINE_WHIP_FAST"
+            },
+            {
+                "name": "Infestation Fast",
+                "id": "INFESTATION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_TANGELA",
+            "name": "Tangela"
+        },
+        "stats": {
+            "baseAttack": 207,
+            "baseDefense": 184,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "TANGROWTH",
+        "forms": []
+    },
+    {
+        "dex": 466,
+        "name": "Electivire",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.8,
+        "modelHeight": 1.75,
+        "kmBuddyDistance": 3,
+        "weight": 138.6,
+        "modelScale": 1.26,
+        "maxCP": 3079,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Thunder Punch",
+                "id": "THUNDER_PUNCH"
+            },
+            {
+                "name": "Wild Charge",
+                "id": "WILD_CHARGE"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            },
+            {
+                "name": "Low Kick Fast",
+                "id": "LOW_KICK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ELECTABUZZ",
+            "name": "Electabuzz"
+        },
+        "stats": {
+            "baseAttack": 249,
+            "baseDefense": 163,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 5,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.75,
+                "femalePercent": 0.25
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Electabuzz",
+                "id": "ELECTABUZZ",
+                "pastBranch": {
+                    "name": "Elekid",
+                    "id": "ELEKID"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "ELECTIVIRE",
+        "forms": []
+    },
+    {
+        "dex": 467,
+        "name": "Magmortar",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.6,
+        "modelHeight": 1.75,
+        "kmBuddyDistance": 3,
+        "weight": 68,
+        "modelScale": 1,
+        "maxCP": 3132,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Brick Break",
+                "id": "BRICK_BREAK"
+            },
+            {
+                "name": "Fire Punch",
+                "id": "FIRE_PUNCH"
+            },
+            {
+                "name": "Fire Blast",
+                "id": "FIRE_BLAST"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Fire Spin Fast",
+                "id": "FIRE_SPIN_FAST"
+            },
+            {
+                "name": "Karate Chop Fast",
+                "id": "KARATE_CHOP_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MAGMAR",
+            "name": "Magmar"
+        },
+        "stats": {
+            "baseAttack": 247,
+            "baseDefense": 172,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.15,
+            "cameraDistance": 5,
+            "collisionRadius": 0.4,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.75,
+                "femalePercent": 0.25
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Magmar",
+                "id": "MAGMAR",
+                "pastBranch": {
+                    "name": "Magby",
+                    "id": "MAGBY"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "MAGMORTAR",
+        "forms": []
+    },
+    {
+        "dex": 468,
+        "name": "Togekiss",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.5,
+        "modelHeight": 1.25,
+        "kmBuddyDistance": 3,
+        "weight": 38,
+        "modelScale": 1.26,
+        "maxCP": 3332,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "id": "DAZZLING_GLEAM"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Air Slash Fast",
+                "id": "AIR_SLASH_FAST"
+            },
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_TOGEPI",
+            "name": "Togepi"
+        },
+        "stats": {
+            "baseAttack": 225,
+            "baseDefense": 217,
+            "baseStamina": 198
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FAIRY",
+                "name": "Fairy"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.01,
+            "cameraDistance": 5,
+            "collisionRadius": 0.35,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.35,
+            "cylinderRadius": 1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Togetic",
+                "id": "TOGETIC",
+                "pastBranch": {
+                    "name": "Togepi",
+                    "id": "TOGEPI"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "TOGEKISS",
+        "forms": []
+    },
+    {
+        "dex": 469,
+        "name": "Yanmega",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.9,
+        "modelHeight": 1.8,
+        "kmBuddyDistance": 3,
+        "weight": 51.5,
+        "modelScale": 1.26,
+        "maxCP": 2946,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            },
+            {
+                "name": "Bug Buzz",
+                "id": "BUG_BUZZ"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            },
+            {
+                "name": "Wing Attack Fast",
+                "id": "WING_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_YANMA",
+            "name": "Yanma"
+        },
+        "stats": {
+            "baseAttack": 231,
+            "baseDefense": 156,
+            "baseStamina": 200
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.175,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Electric",
+                "id": "MOVEMENT_ELECTRIC"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "YANMEGA",
+        "forms": []
+    },
+    {
+        "dex": 470,
+        "name": "Leafeon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1,
+        "modelHeight": 0.91,
+        "kmBuddyDistance": 3,
+        "weight": 25.5,
+        "modelScale": 1.26,
+        "maxCP": 2944,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Leaf Blade",
+                "id": "LEAF_BLADE"
+            },
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Razor Leaf Fast",
+                "id": "RAZOR_LEAF_FAST"
+            },
+            {
+                "name": "Quick Attack Fast",
+                "id": "QUICK_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_EEVEE",
+            "name": "Eevee"
+        },
+        "stats": {
+            "baseAttack": 216,
+            "baseDefense": 219,
+            "baseStamina": 163
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 4,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "LEAFEON",
+        "forms": []
+    },
+    {
+        "dex": 471,
+        "name": "Glaceon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.8,
+        "modelHeight": 0.8,
+        "kmBuddyDistance": 3,
+        "weight": 25.9,
+        "modelScale": 1.26,
+        "maxCP": 3126,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Avalanche",
+                "id": "AVALANCHE"
+            },
+            {
+                "name": "Icy Wind",
+                "id": "ICY_WIND"
+            },
+            {
+                "name": "Ice Beam",
+                "id": "ICE_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Ice Shard Fast",
+                "id": "ICE_SHARD_FAST"
+            },
+            {
+                "name": "Frost Breath Fast",
+                "id": "FROST_BREATH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_EEVEE",
+            "name": "Eevee"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 205,
+            "baseStamina": 163
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.06,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 4,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.875,
+                "femalePercent": 0.125
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GLACEON",
+        "forms": []
+    },
+    {
+        "dex": 472,
+        "name": "Gliscor",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2,
+        "modelHeight": 1.57,
+        "kmBuddyDistance": 5,
+        "weight": 42.5,
+        "modelScale": 1.26,
+        "maxCP": 2692,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Earthquake",
+                "id": "EARTHQUAKE"
+            },
+            {
+                "name": "Aerial Ace",
+                "id": "AERIAL_ACE"
+            },
+            {
+                "name": "Night Slash",
+                "id": "NIGHT_SLASH"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Fury Cutter Fast",
+                "id": "FURY_CUTTER_FAST"
+            },
+            {
+                "name": "Wing Attack Fast",
+                "id": "WING_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GLIGAR",
+            "name": "Gligar"
+        },
+        "stats": {
+            "baseAttack": 185,
+            "baseDefense": 222,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.09,
+            "baseCaptureRate": 0.125,
+            "cameraDistance": 4,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.1,
+            "cylinderRadius": 0.65,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Gligar",
+                "id": "GLIGAR"
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "GLISCOR",
+        "forms": []
+    },
+    {
+        "dex": 473,
+        "name": "Mamoswine",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.5,
+        "modelHeight": 3.82,
+        "kmBuddyDistance": 3,
+        "weight": 291,
+        "modelScale": 1.26,
+        "maxCP": 3328,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Avalanche",
+                "id": "AVALANCHE"
+            },
+            {
+                "name": "Bulldoze",
+                "id": "BULLDOZE"
+            },
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Mud Slap Fast",
+                "id": "MUD_SLAP_FAST"
+            },
+            {
+                "name": "Powder Snow Fast",
+                "id": "POWDER_SNOW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SWINUB",
+            "name": "Swinub"
+        },
+        "stats": {
+            "baseAttack": 247,
+            "baseDefense": 146,
+            "baseStamina": 242
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            },
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 7,
+            "collisionRadius": 0.85,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "MAMOSWINE",
+        "forms": []
+    },
+    {
+        "dex": 474,
+        "name": "Porygon Z",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.9,
+        "modelHeight": 0.9,
+        "kmBuddyDistance": 3,
+        "weight": 34,
+        "modelScale": 1.26,
+        "maxCP": 3266,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Zap Cannon",
+                "id": "ZAP_CANNON"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Charge Beam Fast",
+                "id": "CHARGE_BEAM_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PORYGON",
+            "name": "Porygon"
+        },
+        "stats": {
+            "baseAttack": 264,
+            "baseDefense": 150,
+            "baseStamina": 198
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.05,
+            "cameraDistance": 3,
+            "collisionRadius": 0.12,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Porygon2",
+                "id": "PORYGON2",
+                "pastBranch": {
+                    "name": "Porygon",
+                    "id": "PORYGON"
+                },
+                "costToEvolve": {
+                    "candyCost": 25,
+                    "evolutionItem": {
+                        "id": "ITEM_UP_GRADE",
+                        "name": "Up Grade"
+                    }
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "PORYGON_Z",
+        "forms": []
+    },
+    {
+        "dex": 475,
+        "name": "Gallade",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.6,
+        "modelHeight": 1.8,
+        "kmBuddyDistance": 5,
+        "weight": 52,
+        "modelScale": 1.26,
+        "maxCP": 3093,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Close Combat",
+                "id": "CLOSE_COMBAT"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Leaf Blade",
+                "id": "LEAF_BLADE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Low Kick Fast",
+                "id": "LOW_KICK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_RALTS",
+            "name": "Ralts"
+        },
+        "stats": {
+            "baseAttack": 237,
+            "baseDefense": 195,
+            "baseStamina": 169
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            },
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.5,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 1,
+                "femalePercent": 0
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.3,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GALLADE",
+        "forms": []
+    },
+    {
+        "dex": 476,
+        "name": "Probopass",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.4,
+        "modelHeight": 1.4,
+        "kmBuddyDistance": 3,
+        "weight": 340,
+        "modelScale": 1.26,
+        "maxCP": 2080,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Magnet Bomb",
+                "id": "MAGNET_BOMB"
+            },
+            {
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Rock Throw Fast",
+                "id": "ROCK_THROW_FAST"
+            },
+            {
+                "name": "Spark Fast",
+                "id": "SPARK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_NOSEPASS",
+            "name": "Nosepass"
+        },
+        "stats": {
+            "baseAttack": 135,
+            "baseDefense": 275,
+            "baseStamina": 155
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 7,
+            "collisionRadius": 0.45,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null,
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.8,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "PROBOPASS",
+        "forms": []
+    },
+    {
+        "dex": 477,
+        "name": "Dusknoir",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.2,
+        "modelHeight": 2.2,
+        "kmBuddyDistance": 3,
+        "weight": 106.6,
+        "modelScale": 1.26,
+        "maxCP": 2388,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hex Fast",
+                "id": "HEX_FAST"
+            },
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DUSKULL",
+            "name": "Duskull"
+        },
+        "stats": {
+            "baseAttack": 180,
+            "baseDefense": 254,
+            "baseStamina": 128
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.05,
+            "baseCaptureRate": 0.1,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Dusclops",
+                "id": "DUSCLOPS",
+                "pastBranch": {
+                    "name": "Duskull",
+                    "id": "DUSKULL"
+                },
+                "costToEvolve": {
+                    "candyCost": 25
+                }
+            },
+            "costToEvolve": {
+                "candyCost": 100,
+                "evolutionItem": {
+                    "id": "ITEM_GEN4_EVOLUTION_STONE",
+                    "name": "Gen4 Evolution Stone"
+                }
+            }
+        },
+        "id": "DUSKNOIR",
+        "forms": []
+    },
+    {
+        "dex": 478,
+        "name": "Froslass",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.3,
+        "modelHeight": 1.37,
+        "kmBuddyDistance": 3,
+        "weight": 26.6,
+        "modelScale": 1.26,
+        "maxCP": 2040,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Avalanche",
+                "id": "AVALANCHE"
+            },
+            {
+                "name": "Crunch",
+                "id": "CRUNCH"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Powder Snow Fast",
+                "id": "POWDER_SNOW_FAST"
+            },
+            {
+                "name": "Hex Fast",
+                "id": "HEX_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SNORUNT",
+            "name": "Snorunt"
+        },
+        "stats": {
+            "baseAttack": 171,
+            "baseDefense": 150,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            },
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.07,
+            "baseCaptureRate": 0.2,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.3,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.3,
+            "cylinderRadius": 0.35,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "FROSLASS",
+        "forms": []
+    },
+    {
+        "dex": 479,
+        "name": "Rotom",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.27,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2031,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 185,
+            "baseDefense": 159,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 479,
+        "name": "Rotom Fan",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2579,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Air Slash Fast",
+                "id": "AIR_SLASH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 204,
+            "baseDefense": 219,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM_FAN",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 479,
+        "name": "Rotom Frost",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.39,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2579,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Blizzard",
+                "id": "BLIZZARD"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 204,
+            "baseDefense": 219,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM_FROST",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 479,
+        "name": "Rotom Heat",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.27,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2579,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Overheat",
+                "id": "OVERHEAT"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 204,
+            "baseDefense": 219,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM_HEAT",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 479,
+        "name": "Rotom Mow",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2579,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Ominous Wind",
+                "id": "OMINOUS_WIND"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 204,
+            "baseDefense": 219,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM_MOW",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 479,
+        "name": "Rotom Wash",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.35,
+        "kmBuddyDistance": 5,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2579,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Hydro Pump",
+                "id": "HYDRO_PUMP"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Astonish Fast",
+                "id": "ASTONISH_FAST"
+            },
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ROTOM",
+            "name": "Rotom"
+        },
+        "stats": {
+            "baseAttack": 204,
+            "baseDefense": 219,
+            "baseStamina": 137
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            },
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.1,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ROTOM_WASH",
+        "forms": [
+            {
+                "id": "ROTOM",
+                "name": "Rotom"
+            },
+            {
+                "id": "ROTOM_FROST",
+                "name": "Rotom Frost"
+            },
+            {
+                "id": "ROTOM_FAN",
+                "name": "Rotom Fan"
+            },
+            {
+                "id": "ROTOM_MOW",
+                "name": "Rotom Mow"
+            },
+            {
+                "id": "ROTOM_WASH",
+                "name": "Rotom Wash"
+            },
+            {
+                "id": "ROTOM_HEAT",
+                "name": "Rotom Heat"
+            }
+        ]
+    },
+    {
+        "dex": 480,
+        "name": "Uxie",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 20,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 2524,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Extrasensory Fast",
+                "id": "EXTRASENSORY_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_UXIE",
+            "name": "Uxie"
+        },
+        "stats": {
+            "baseAttack": 156,
+            "baseDefense": 270,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.05,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.18,
+            "cylinderRadius": 0.1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "UXIE",
+        "forms": []
+    },
+    {
+        "dex": 481,
+        "name": "Mesprit",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 20,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 3058,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            },
+            {
+                "name": "Blizzard",
+                "id": "BLIZZARD"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Extrasensory Fast",
+                "id": "EXTRASENSORY_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MESPRIT",
+            "name": "Mesprit"
+        },
+        "stats": {
+            "baseAttack": 212,
+            "baseDefense": 212,
+            "baseStamina": 190
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.05,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.2,
+            "cylinderRadius": 0.14,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "MESPRIT",
+        "forms": []
+    },
+    {
+        "dex": 482,
+        "name": "Azelf",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 20,
+        "weight": 0.3,
+        "modelScale": 1.26,
+        "maxCP": 3210,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Swift",
+                "id": "SWIFT"
+            },
+            {
+                "name": "Fire Blast",
+                "id": "FIRE_BLAST"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            },
+            {
+                "name": "Extrasensory Fast",
+                "id": "EXTRASENSORY_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_AZELF",
+            "name": "Azelf"
+        },
+        "stats": {
+            "baseAttack": 270,
+            "baseDefense": 151,
+            "baseStamina": 181
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.05,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.04,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.2,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.2,
+            "cylinderRadius": 0.1,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "AZELF",
+        "forms": []
+    },
+    {
+        "dex": 483,
+        "name": "Dialga",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 5.4,
+        "modelHeight": 5.6,
+        "kmBuddyDistance": 20,
+        "weight": 683,
+        "modelScale": 1.26,
+        "maxCP": 4038,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Draco Meteor",
+                "id": "DRACO_METEOR"
+            },
+            {
+                "name": "Iron Head",
+                "id": "IRON_HEAD"
+            },
+            {
+                "name": "Thunder",
+                "id": "THUNDER"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Breath Fast",
+                "id": "DRAGON_BREATH_FAST"
+            },
+            {
+                "name": "Metal Claw Fast",
+                "id": "METAL_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DIALGA",
+            "name": "Dialga"
+        },
+        "stats": {
+            "baseAttack": 275,
+            "baseDefense": 211,
+            "baseStamina": 205
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            },
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 6,
+            "collisionRadius": 0.7,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "DIALGA",
+        "forms": []
+    },
+    {
+        "dex": 484,
+        "name": "Palkia",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 4.2,
+        "modelHeight": 3.68,
+        "kmBuddyDistance": 20,
+        "weight": 336,
+        "modelScale": 1.26,
+        "maxCP": 3991,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Draco Meteor",
+                "id": "DRACO_METEOR"
+            },
+            {
+                "name": "Fire Blast",
+                "id": "FIRE_BLAST"
+            },
+            {
+                "name": "Hydro Pump",
+                "id": "HYDRO_PUMP"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Breath Fast",
+                "id": "DRAGON_BREATH_FAST"
+            },
+            {
+                "name": "Dragon Tail Fast",
+                "id": "DRAGON_TAIL_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PALKIA",
+            "name": "Palkia"
+        },
+        "stats": {
+            "baseAttack": 280,
+            "baseDefense": 215,
+            "baseStamina": 189
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            },
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 6,
+            "collisionRadius": 0.7,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "PALKIA",
+        "forms": []
+    },
+    {
+        "dex": 485,
+        "name": "Heatran",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.7,
+        "modelHeight": 2.36,
+        "kmBuddyDistance": 20,
+        "weight": 430,
+        "modelScale": 1.26,
+        "maxCP": 3754,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Fire Blast",
+                "id": "FIRE_BLAST"
+            },
+            {
+                "name": "Iron Head",
+                "id": "IRON_HEAD"
+            },
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Fire Spin Fast",
+                "id": "FIRE_SPIN_FAST"
+            },
+            {
+                "name": "Bug Bite Fast",
+                "id": "BUG_BITE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_HEATRAN",
+            "name": "Heatran"
+        },
+        "stats": {
+            "baseAttack": 251,
+            "baseDefense": 213,
+            "baseStamina": 209
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            },
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 4,
+            "collisionRadius": 0.7,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.05,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            },
+            "gender": {
+                "malePercent": 0.5,
+                "femalePercent": 0.5
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "HEATRAN",
+        "forms": []
+    },
+    {
+        "dex": 486,
+        "name": "Regigigas",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.7,
+        "modelHeight": 3.24,
+        "kmBuddyDistance": 20,
+        "weight": 420,
+        "modelScale": 1.26,
+        "maxCP": 4346,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Stone Edge",
+                "id": "STONE_EDGE"
+            },
+            {
+                "name": "Avalanche",
+                "id": "AVALANCHE"
+            },
+            {
+                "name": "Heavy Slam",
+                "id": "HEAVY_SLAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            },
+            {
+                "name": "Rock Smash Fast",
+                "id": "ROCK_SMASH_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_REGIGIGAS",
+            "name": "Regigigas"
+        },
+        "stats": {
+            "baseAttack": 287,
+            "baseDefense": 210,
+            "baseStamina": 221
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 6,
+            "collisionRadius": 0.8,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.05,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": null
+        },
+        "camera": {
+            "cylinderRadius": 1.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "REGIGIGAS",
+        "forms": []
+    },
+    {
+        "dex": 487,
+        "name": "Giratina",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 4.5,
+        "modelHeight": 5.8,
+        "kmBuddyDistance": 20,
+        "weight": 750,
+        "modelScale": 1.26,
+        "maxCP": 3379,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dragon Claw",
+                "id": "DRAGON_CLAW"
+            },
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Shadow Sneak",
+                "id": "SHADOW_SNEAK"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Breath Fast",
+                "id": "DRAGON_BREATH_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIRATINA",
+            "name": "Giratina"
+        },
+        "stats": {
+            "baseAttack": 187,
+            "baseDefense": 225,
+            "baseStamina": 284
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 5,
+            "collisionRadius": 1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.05,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GIRATINA",
+        "forms": [
+            {
+                "id": "GIRATINA_ALTERED",
+                "name": "Giratina Altered"
+            },
+            {
+                "id": "GIRATINA_ORIGIN",
+                "name": "Giratina Origin"
+            }
+        ]
+    },
+    {
+        "dex": 487,
+        "name": "Giratina Altered",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 4.5,
+        "modelHeight": 5.38,
+        "kmBuddyDistance": 20,
+        "weight": 750,
+        "modelScale": 1.26,
+        "maxCP": 3379,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dragon Claw",
+                "id": "DRAGON_CLAW"
+            },
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Shadow Sneak",
+                "id": "SHADOW_SNEAK"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Breath Fast",
+                "id": "DRAGON_BREATH_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIRATINA",
+            "name": "Giratina"
+        },
+        "stats": {
+            "baseAttack": 187,
+            "baseDefense": 225,
+            "baseStamina": 284
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 6,
+            "collisionRadius": 1,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.05,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 1.5,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GIRATINA_ALTERED",
+        "forms": [
+            {
+                "id": "GIRATINA_ALTERED",
+                "name": "Giratina Altered"
+            },
+            {
+                "id": "GIRATINA_ORIGIN",
+                "name": "Giratina Origin"
+            }
+        ]
+    },
+    {
+        "dex": 487,
+        "name": "Giratina Origin",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 4.5,
+        "modelHeight": 5.8,
+        "kmBuddyDistance": 20,
+        "weight": 750,
+        "modelScale": 1.26,
+        "maxCP": 3683,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Dragon Claw",
+                "id": "DRAGON_CLAW"
+            },
+            {
+                "name": "Ancient Power",
+                "id": "ANCIENT_POWER"
+            },
+            {
+                "name": "Shadow Sneak",
+                "id": "SHADOW_SNEAK"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Dragon Breath Fast",
+                "id": "DRAGON_BREATH_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_GIRATINA",
+            "name": "Giratina"
+        },
+        "stats": {
+            "baseAttack": 225,
+            "baseDefense": 187,
+            "baseStamina": 284
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            },
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.2,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.05,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "GIRATINA_ORIGIN",
+        "forms": [
+            {
+                "id": "GIRATINA_ALTERED",
+                "name": "Giratina Altered"
+            },
+            {
+                "id": "GIRATINA_ORIGIN",
+                "name": "Giratina Origin"
+            }
+        ]
+    },
+    {
+        "dex": 488,
+        "name": "Cresselia",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.5,
+        "modelHeight": 1.5,
+        "kmBuddyDistance": 20,
+        "weight": 85.6,
+        "modelScale": 1.26,
+        "maxCP": 2857,
+        "buddySize": {
+            "id": "BUDDY_FLYING",
+            "name": "Flying"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Aurora Beam",
+                "id": "AURORA_BEAM"
+            },
+            {
+                "name": "Moonblast",
+                "id": "MOONBLAST"
+            },
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Psycho Cut Fast",
+                "id": "PSYCHO_CUT_FAST"
+            },
+            {
+                "name": "Confusion Fast",
+                "id": "CONFUSION_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_CRESSELIA",
+            "name": "Cresselia"
+        },
+        "stats": {
+            "baseAttack": 152,
+            "baseDefense": 258,
+            "baseStamina": 260
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_LEGENDARY",
+            "name": "Legendary"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseFleeRate": 0.04,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 4,
+            "collisionRadius": 0.37,
+            "dodgeDistance": 0.5,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            },
+            "gender": {
+                "malePercent": 0,
+                "femalePercent": 1
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.3,
+            "cylinderRadius": 0.6,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "CRESSELIA",
+        "forms": []
+    },
+    {
+        "dex": 489,
+        "name": "Phione",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.4,
+        "modelHeight": 0.36,
+        "kmBuddyDistance": 20,
+        "weight": 3.1,
+        "modelScale": 1.26,
+        "maxCP": 2105,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Water Pulse",
+                "id": "WATER_PULSE"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_PHIONE",
+            "name": "Phione"
+        },
+        "stats": {
+            "baseAttack": 162,
+            "baseDefense": 162,
+            "baseStamina": 190
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.06,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.15,
+            "cylinderRadius": 0.18,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "PHIONE",
+        "forms": []
+    },
+    {
+        "dex": 490,
+        "name": "Manaphy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.3,
+        "modelHeight": 0.35,
+        "kmBuddyDistance": 20,
+        "weight": 1.4,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Bubble Beam",
+                "id": "BUBBLE_BEAM"
+            },
+            {
+                "name": "Psychic",
+                "id": "PSYCHIC"
+            },
+            {
+                "name": "Surf",
+                "id": "SURF"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Waterfall Fast",
+                "id": "WATERFALL_FAST"
+            },
+            {
+                "name": "Bubble Fast",
+                "id": "BUBBLE_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MANAPHY",
+            "name": "Manaphy"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Flying",
+                "id": "MOVEMENT_FLYING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "MANAPHY",
+        "forms": []
+    },
+    {
+        "dex": 491,
+        "name": "Darkrai",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 1.5,
+        "modelHeight": 1.66,
+        "kmBuddyDistance": 20,
+        "weight": 50.5,
+        "modelScale": 1.26,
+        "maxCP": 3739,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Focus Blast",
+                "id": "FOCUS_BLAST"
+            },
+            {
+                "name": "Shadow Ball",
+                "id": "SHADOW_BALL"
+            },
+            {
+                "name": "Dark Pulse",
+                "id": "DARK_PULSE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Snarl Fast",
+                "id": "SNARL_FAST"
+            },
+            {
+                "name": "Feint Attack Fast",
+                "id": "FEINT_ATTACK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_DARKRAI",
+            "name": "Darkrai"
+        },
+        "stats": {
+            "baseAttack": 285,
+            "baseDefense": 198,
+            "baseStamina": 172
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.3,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderGround": 0.4,
+            "cylinderRadius": 0.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "DARKRAI",
+        "forms": []
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.39,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.08,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.12,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin Land",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.3,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3265,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 210,
+            "baseDefense": 210,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN_LAND",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 492,
+        "name": "Shaymin Sky",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.39,
+        "kmBuddyDistance": 20,
+        "weight": 2.1,
+        "modelScale": 1.26,
+        "maxCP": 3592,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Energy Ball",
+                "id": "ENERGY_BALL"
+            },
+            {
+                "name": "Grass Knot",
+                "id": "GRASS_KNOT"
+            },
+            {
+                "name": "Solar Beam",
+                "id": "SOLAR_BEAM"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Hidden Power Fast",
+                "id": "HIDDEN_POWER_FAST"
+            },
+            {
+                "name": "Zen Headbutt Fast",
+                "id": "ZEN_HEADBUTT_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_SHAYMIN",
+            "name": "Shaymin"
+        },
+        "stats": {
+            "baseAttack": 261,
+            "baseDefense": 166,
+            "baseStamina": 225
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            },
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "SHAYMIN_SKY",
+        "forms": [
+            {
+                "id": "SHAYMIN_LAND",
+                "name": "Shaymin Land"
+            },
+            {
+                "id": "SHAYMIN_SKY",
+                "name": "Shaymin Sky"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_NORMAL",
+                "name": "Normal"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Bug",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_BUG",
+                "name": "Bug"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_BUG",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Dark",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DARK",
+                "name": "Dark"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_DARK",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Dragon",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_DRAGON",
+                "name": "Dragon"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_DRAGON",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Electric",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ELECTRIC",
+                "name": "Electric"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ELECTRIC",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fairy",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FAIRY",
+                "name": "Fairy"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FAIRY",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fighting",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIGHTING",
+                "name": "Fighting"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FIGHTING",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Fire",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FIRE",
+                "name": "Fire"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FIRE",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Flying",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_FLYING",
+                "name": "Flying"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_FLYING",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ghost",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GHOST",
+                "name": "Ghost"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GHOST",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Grass",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GRASS",
+                "name": "Grass"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GRASS",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ground",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_GROUND",
+                "name": "Ground"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_GROUND",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Ice",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ICE",
+                "name": "Ice"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ICE",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Poison",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_POISON",
+                "name": "Poison"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_POISON",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Psychic",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_PSYCHIC",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Rock",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_ROCK",
+                "name": "Rock"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_ROCK",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Steel",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_STEEL",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 493,
+        "name": "Arceus Water",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 3.2,
+        "modelHeight": 3.3,
+        "kmBuddyDistance": 20,
+        "weight": 320,
+        "modelScale": 1.26,
+        "maxCP": 3989,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Futuresight",
+                "id": "FUTURESIGHT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Outrage",
+                "id": "OUTRAGE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Iron Tail Fast",
+                "id": "IRON_TAIL_FAST"
+            },
+            {
+                "name": "Shadow Claw Fast",
+                "id": "SHADOW_CLAW_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_ARCEUS",
+            "name": "Arceus"
+        },
+        "stats": {
+            "baseAttack": 238,
+            "baseDefense": 238,
+            "baseStamina": 237
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_WATER",
+                "name": "Water"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.02,
+            "cameraDistance": 2.25,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Hovering",
+                "id": "MOVEMENT_HOVERING"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.252,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {},
+        "id": "ARCEUS_WATER",
+        "forms": [
+            {
+                "id": "ARCEUS",
+                "name": "Arceus"
+            },
+            {
+                "id": "ARCEUS_FIGHTING",
+                "name": "Arceus Fighting"
+            },
+            {
+                "id": "ARCEUS_FLYING",
+                "name": "Arceus Flying"
+            },
+            {
+                "id": "ARCEUS_POISON",
+                "name": "Arceus Poison"
+            },
+            {
+                "id": "ARCEUS_GROUND",
+                "name": "Arceus Ground"
+            },
+            {
+                "id": "ARCEUS_ROCK",
+                "name": "Arceus Rock"
+            },
+            {
+                "id": "ARCEUS_BUG",
+                "name": "Arceus Bug"
+            },
+            {
+                "id": "ARCEUS_GHOST",
+                "name": "Arceus Ghost"
+            },
+            {
+                "id": "ARCEUS_STEEL",
+                "name": "Arceus Steel"
+            },
+            {
+                "id": "ARCEUS_FIRE",
+                "name": "Arceus Fire"
+            },
+            {
+                "id": "ARCEUS_WATER",
+                "name": "Arceus Water"
+            },
+            {
+                "id": "ARCEUS_GRASS",
+                "name": "Arceus Grass"
+            },
+            {
+                "id": "ARCEUS_ELECTRIC",
+                "name": "Arceus Electric"
+            },
+            {
+                "id": "ARCEUS_PSYCHIC",
+                "name": "Arceus Psychic"
+            },
+            {
+                "id": "ARCEUS_ICE",
+                "name": "Arceus Ice"
+            },
+            {
+                "id": "ARCEUS_DRAGON",
+                "name": "Arceus Dragon"
+            },
+            {
+                "id": "ARCEUS_DARK",
+                "name": "Arceus Dark"
+            },
+            {
+                "id": "ARCEUS_FAIRY",
+                "name": "Arceus Fairy"
+            }
+        ]
+    },
+    {
+        "dex": 808,
+        "name": "Meltan",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 0.2,
+        "modelHeight": 0.95,
+        "kmBuddyDistance": 20,
+        "weight": 8,
+        "modelScale": 1.02,
+        "maxCP": 1068,
+        "buddySize": {
+            "id": "BUDDY_MEDIUM",
+            "name": "Medium"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MELTAN",
+            "name": "Meltan"
+        },
+        "stats": {
+            "baseAttack": 118,
+            "baseDefense": 99,
+            "baseStamina": 130
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 1.89,
+            "collisionRadius": 0.25,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 1.1,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 0.125,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "futureBranches": [
+                {
+                    "name": "Melmetal",
+                    "id": "MELMETAL",
+                    "costToEvolve": {
+                        "candyCost": 400
+                    }
+                }
+            ]
+        },
+        "id": "MELTAN",
+        "forms": []
+    },
+    {
+        "dex": 809,
+        "name": "Melmetal",
+        "animationTime": [
+            1.9,
+            0.6667,
+            1.8,
+            1.7667,
+            0,
+            2.4,
+            0.8667,
+            0
+        ],
+        "height": 2.5,
+        "modelHeight": 3.82,
+        "kmBuddyDistance": 20,
+        "weight": 800,
+        "modelScale": 1.26,
+        "maxCP": 3599,
+        "buddySize": {
+            "id": "BUDDY_BIG",
+            "name": "Big"
+        },
+        "cinematicMoves": [
+            {
+                "name": "Flash Cannon",
+                "id": "FLASH_CANNON"
+            },
+            {
+                "name": "Thunderbolt",
+                "id": "THUNDERBOLT"
+            },
+            {
+                "name": "Hyper Beam",
+                "id": "HYPER_BEAM"
+            },
+            {
+                "name": "Rock Slide",
+                "id": "ROCK_SLIDE"
+            }
+        ],
+        "quickMoves": [
+            {
+                "name": "Thunder Shock Fast",
+                "id": "THUNDER_SHOCK_FAST"
+            }
+        ],
+        "family": {
+            "id": "FAMILY_MELTAN",
+            "name": "Meltan"
+        },
+        "stats": {
+            "baseAttack": 226,
+            "baseDefense": 190,
+            "baseStamina": 264
+        },
+        "types": [
+            {
+                "id": "POKEMON_TYPE_STEEL",
+                "name": "Steel"
+            }
+        ],
+        "rarity": {
+            "id": "POKEMON_RARITY_MYTHIC",
+            "name": "Mythic"
+        },
+        "encounter": {
+            "attackProbability": 0.1,
+            "attackTimer": 29,
+            "baseCaptureRate": 0.3,
+            "cameraDistance": 3.2,
+            "collisionRadius": 0.189,
+            "dodgeDistance": 1,
+            "dodgeProbability": 0.15,
+            "jumpTime": 0.9,
+            "maxPokemonActionFrequency": 1.6,
+            "minPokemonActionFrequency": 0.2,
+            "movementType": {
+                "name": "Movement Jump",
+                "id": "MOVEMENT_JUMP"
+            }
+        },
+        "camera": {
+            "cylinderRadius": 2.4,
+            "diskRadius": 0.378,
+            "shoulderModeScale": 0.5
+        },
+        "evolution": {
+            "pastBranch": {
+                "name": "Meltan",
+                "id": "MELTAN"
+            },
+            "costToEvolve": {
+                "candyCost": 400
+            }
+        },
+        "id": "MELMETAL",
+        "forms": []
     }
 ];
