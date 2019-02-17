@@ -9,9 +9,23 @@
 
 		<title>Pokemon Go Viewer</title>
 
+		<!-- vendor styles -->
+		<link href="https://unpkg.com/tabulator-tables@4.2.0/dist/css/tabulator.min.css" rel="stylesheet">
+
+		<!-- vendor scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+		<script src="https://unpkg.com/tabulator-tables@4.2.0/dist/js/tabulator.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- data scripts -->
+		<script src="data/pokemon.js"></script>
+		<script src="data/moves.js"></script>
+		<script src="data/types.js"></script>
+		<script src="data/flavors.js"></script>
+
 		<!-- styles -->
 		<style>
-			* { font-size: 8pt; }
+			/** { font-size: 8pt; }*/
 
 			td.indent { padding-left:40px; }
 
@@ -53,235 +67,86 @@
 				height: auto;
 			}
 		</style>
+
+		<!-- app scripts -->
+		<script>
+			$(() => {
+
+				pokemon = _.take(pokemon, 15);
+
+				pokemon = _.map(pokemon, p => ({
+					dex         : p.dex,
+					name        : p.name,
+					buddy       : p.kmBuddyDistance,
+					maxCP       : p.maxCP,
+					quickMoves  : _.map(p.quickMoves, m => m.name),
+					chargeMoves : _.map(p.cinematicMoves, m => m.name),
+					family      : p.family.name,
+					attack      : p.stats.baseAttack,
+					defense     : p.stats.baseDefense,
+					stamina     : p.stats.baseStamina,
+					types       : _.map(p.types, t => t.name),
+					fleeRate    : p.encounter.baseFleeRate,
+					captureRate : p.encounter.baseCaptureRate,
+					male        : p.encounter.gender.malePercent,
+					female      : p.encounter.gender.femalePercent,
+					// evolutions: null,
+					// forms: null,
+				}));
+
+				console.table(pokemon);
+
+				var table = new Tabulator("#tabulator", {
+					data: pokemon,
+					columns: [
+						{ title: "#", field: "dex", align: "right" },
+						{ title: "Name", field: "name" },
+						{ title: "Buddy", field: "buddy", align: "right" },
+						{ title: "Max CP", field: "maxCP", align: "right" },
+						{ title: "Quick", field: "quickMoves" },
+						{ title: "Charge", field: "chargeMoves" },
+						{ title: "Family", field: "family" },
+						{ title: "Attack", field: "attack", align: "right" },
+						{ title: "Defense", field: "defense", align: "right" },
+						{ title: "Stamina", field: "stamina", align: "right" },
+						{ title: "Name", field: "name" },
+						{ title: "Flee", field: "fleeRate", align: "right" },
+						{ title: "Capture", field: "captureRate", align: "right" },
+						{ title: "Male", field: "malePercent", align: "right" },
+						{ title: "Female", field: "femalePercent", align: "right" },
+					],
+					height: 300,
+				});
+
+			});
+// 			var paddedDex = ("00"+monster.dex).slice(-3);
+// 			var image = `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`;
+
+
+// var move: _.find(moves, { id: this.moveID })
+// 		var monster = _.find(pokemon, { id: this.monsterID });
+// 		var effects = _(this.monster.types)
+// 			.map(type => _.find(types, { id: type.id }).damage)
+// 			.flatten()
+// 			.groupBy('id')
+// 			.map((group, key) => ({
+// 				// id: key,
+// 				name:			_.find(types, { id: key }).name,
+// 				attackScalar:	_.multiply.apply(null, _.map(group, 'attackScalar')).toFixed(3),
+// 			}))
+// 			.orderBy(['attackScalar', 'name'], ['desc', 'asc'])
+// 			.groupBy('attackScalar')
+// 			.value();
+
+
+
+		</script>
 	</head>
 
 	<body>
 
-		<!-- main app -->
-		<div id="app">
-			<pokemon />
-		</div>
-
-		<!-- scripts -->
-		<script src="client/vue.min.js"></script>
-		<script src="client/lodash.min.js"></script>
-		<script src="client/jquery.min.js"></script>
-		<script src="data/pokemon.js"></script>
-		<script src="data/moves.js"></script>
-		<script src="data/types.js"></script>
-
-		<!-- item template -->
-		<script type="text/x-template" id="pokemon-template">
-
-			<table border="1">
-				<tr>
-					<th>#</th>
-					<th>Name</th>
-					<th>Image</th>
-					<th>Egg</th>
-					<th>Max CP</th>
-					<th>Quick Move</th>
-					<th>Charge Move</th>
-					<th>Family</th>
-					<th>Types</th>
-					<th>ATK</th>
-					<th>DEF</th>
-					<th>STA</th>
-					<th>Rarity</th>
-					<th>Flee</th>
-					<th>Capture</th>
-					<th>Effectiveness</th>
-					<th>Gender M/F</th>
-				</tr>
-				<monster
-					v-for="monster in topXpokemon"
-					:key="monster.id"
-					:monster="monster"
-				>
-				</tr>
-			</table>
-
-		</script>
-
-		<script type="text/x-template" id="monster-template">
-
-			<!-- <tbody> is sort-of a hack so we can output multiple <tr>s in a template (yes, multiple tbody in a table is fine) -->
-
-			<tbody>
-				<tr>
-					<td style="position:relative;">
-						<a :name="monster.dex" style="position:absolute;top:0;left:0;"></a>
-						{{monster.dex}}
-					</td>
-					<td>{{monster.name}}</td>
-					<td>
-						<photo :monsterID="monster.id" />
-					</td>
-					<td>{{monster.kmBuddyDistance}}km</td>
-					<td>{{monster.maxCP}}</td>
-					<td>
-						<move v-for="move in monster.quickMoves"
-							:key="move.id"
-							:moveID="move.id"
-						/>
-					</td>
-					<td>
-						<move v-for="move in monster.cinematicMoves"
-							:key="move.id"
-							:moveID="move.id"
-						/>
-					</td>
-					<td>{{monster.family.name}}</td>
-					<td>
-						<div v-for="type in monster.types">
-							<type-tag :name="type.name" />
-						</div>
-					</td>
-					<td>{{monster.stats.baseAttack}}</td>
-					<td>{{monster.stats.baseDefense}}</td>
-					<td>{{monster.stats.baseStamina}}</td>
-					<td>{{monster.rarity && monster.rarity.name || ''}}</td>
-					<td>{{Math.floor(monster.encounter.baseFleeRate * 100)}}%</td>
-					<td>{{Math.floor(monster.encounter.baseCaptureRate * 100)}}%</td>
-					<td>
-						<effectiveness :monster="monster" />
-					</td>
-					<td>
-						<div v-if="monster.encounter.gender">
-							{{monster.encounter.gender && monster.encounter.gender.malePercent}} /
-							{{monster.encounter.gender && monster.encounter.gender.femalePercent}}
-						</div>
-						<div v-else>
-							generless
-						</div>
-					</td>
-				</tr>
-				<tr v-if="monster.evolution && monster.evolution.futureBranches">
-					<td colspan="17" class="indent">
-						<div style="text-align:center;" @click="toggleEvolution()">show evolutions</div>
-						<div v-show="showEvolution">
-							<evolution v-for="evolution in monster.evolution.futureBranches"
-								:key="evolution.id"
-								:monsterID="evolution.id"
-								:evolution="evolution" />
-						</div>
-					</td>
-				</tr>
-			</tbody>
-
-		</script>
-
-		<script type="text/x-template" id="move-template">
-
-			<div>
-				{{move.name}}
-				<type-tag :name="move.pokemonType.name" />
-				{{move.power}} {{move.criticalChance}}
-			</div>
-
-		</script>
-
-		<script type="text/x-template" id="evolution-template">
-
-			<table border="1">
-				<tr>
-					<td>{{monster.dex}}</td>
-					<td>{{monster.name}}</td>
-					<td>
-						<a :href="anchor">
-							<photo :monsterID="monster.id" />
-						</a>
-					</td>
-					<td>
-						{{evolution.costToEvolve.candyCost || ''}}
-						<span v-if="evolution.costToEvolve.evolutionItem">
-							{{evolution.costToEvolve.evolutionItem.name}}
-						</span>
-					</td>
-				</tr>
-				<tr v-if="monster.evolution && monster.evolution.futureBranches">
-					<td colspan="3" class="indent">
-						<evolution v-for="evolution in monster.evolution.futureBranches"
-							:key="evolution.id"
-							:monsterID="evolution.id"
-							:evolution="evolution" />
-					</td>
-				</tr>
-			</table>
-
-		</script>
-
-		<script type="text/x-template" id="effectiveness-template">
-
-			<div>
-				<template v-for="(group, power) in effects">
-					<div v-if="power >= 1.96">
-						Super Effective
-					</div>
-					<div v-else-if="power >= 1.4">
-						Effective
-					</div>
-					<div v-else-if="power >= 1">
-						Neutral
-					</div>
-					<div v-else-if="power >= 0.714">
-						Ineffective
-					</div>
-					<div v-else-if="power >= 0.51">
-						Immune
-					</div>
-					<div v-else-if="power >= 0.364">
-						Super Ineffective
-					</div>
-					<div v-else-if="power >= 0.26">
-						Super Immune
-					</div>
-					<type-tag v-for="attack in group"
-						:name="attack.name" />
-				</template>
-			</div>
-
-		</script>
-
-		<script type="text/x-template" id="type-tag-template">
-
-			<span :class="`type type-${name.toLowerCase()}`">
-				{{name}}
-			</span>
-
-		</script>
-
-		<script type="text/x-template" id="photo-template">
-
-			<img class="photo" :src="image" />
-
-		</script>
-
-		<!-- Vue scripts -->
-		<script src="client/components.js"></script>
-
-		<script>
-
-			// main app
-			var app = new Vue({
-				el: '#app',
-				data: {
-					pokemon,
-				},
-				mounted() {
-				},
-				methods: {
-				},
-				created: function () {
-				},
-				// filters: {
-				// 	top: function (array, count) {
-				// 	    return _.take(array, count);
-				// 	}
-				// }
-			});
-
-		</script>
+		<div id="tabulator"></div>
+		asdf
 
 	</body>
 </html>
