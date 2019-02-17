@@ -94,7 +94,7 @@
 					<th>Gender M/F</th>
 				</tr>
 				<monster
-					v-for="monster in top5pokemon"
+					v-for="monster in topXpokemon"
 					:key="monster.id"
 					:monster="monster"
 				>
@@ -109,7 +109,10 @@
 
 			<tbody>
 				<tr>
-					<td>{{monster.dex}}</td>
+					<td style="position:relative;">
+						<a :name="monster.dex" style="position:absolute;top:0;left:0;"></a>
+						{{monster.dex}}
+					</td>
 					<td>{{monster.name}}</td>
 					<td>
 						<photo :monsterID="monster.id" />
@@ -185,7 +188,9 @@
 					<td>{{monster.dex}}</td>
 					<td>{{monster.name}}</td>
 					<td>
-						<photo :monsterID="monster.id" />
+						<a :href="anchor">
+							<photo :monsterID="monster.id" />
+						</a>
 					</td>
 					<td>
 						{{evolution.costToEvolve.candyCost || ''}}

@@ -2,8 +2,8 @@
 Vue.component('pokemon', {
 	template: '#pokemon-template',
 	computed: {
-		top5pokemon: function() {
-			return _.take(pokemon, 5);
+		topXpokemon: function() {
+			return _.take(pokemon, 15);
 		},
 	},
 });
@@ -51,6 +51,7 @@ Vue.component('evolution', {
 		return {
 			monster,
 			image: `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`,
+			anchor: `#${monster.dex}`,
 		};
 	},
 });
