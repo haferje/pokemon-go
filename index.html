@@ -70,7 +70,27 @@
 
 		<!-- app scripts -->
 		<script>
-			$(() => {
+
+Tabulator.prototype.extendModule('format', 'formatters', {
+	list: function(cell, formatterParams) {
+		return cell.getValue().join('<br/>');
+	},
+	percent: function(cell, formatterParams) {
+		return (cell.getValue() * 100).toFixed(1) + ' %';
+	},
+	// photo:  function(cell, formatterParams) {
+	// 	var imageFormatter = Tabulator.prototype.moduleBindings.format.prototype.formatters.image;
+	// 	var formatterParams = { height:"50px", width:"50px" };
+
+	// 	var dex = cell.getValue();
+	// 	var paddedDex = ('00'+dex).slice(-3);
+	// 	var url = `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`;
+
+	// 	cell._cell.value = url;
+
+	// 	return imageFormatter(cell, formatterParams);
+	// },
+});
 
 				pokemon = _.take(pokemon, 15);
 
@@ -79,7 +99,7 @@
 					name        : p.name,
 					buddy       : p.kmBuddyDistance,
 					maxCP       : p.maxCP,
-					quickMoves  : _.map(p.quickMoves, m => m.name),
+					quickMoves  : _.map(p.quickMoves, m => m.name.replace(' Fast', '')),
 					chargeMoves : _.map(p.cinematicMoves, m => m.name),
 					family      : p.family.name,
 					attack      : p.stats.baseAttack,
@@ -92,34 +112,39 @@
 					female      : p.encounter.gender.femalePercent,
 					// evolutions: null,
 					// forms: null,
+					photo       : `https://www.serebii.net/pokemongo/pokemon/${('00'+p.dex).slice(-3)}.png`,
 				}));
 
 				console.table(pokemon);
 
-				var table = new Tabulator("#tabulator", {
+			$(() => {
+
+				var table = new Tabulator('#tabulator', {
 					data: pokemon,
 					columns: [
-						{ title: "#", field: "dex", align: "right" },
-						{ title: "Name", field: "name" },
-						{ title: "Buddy", field: "buddy", align: "right" },
-						{ title: "Max CP", field: "maxCP", align: "right" },
-						{ title: "Quick", field: "quickMoves" },
-						{ title: "Charge", field: "chargeMoves" },
-						{ title: "Family", field: "family" },
-						{ title: "Attack", field: "attack", align: "right" },
-						{ title: "Defense", field: "defense", align: "right" },
-						{ title: "Stamina", field: "stamina", align: "right" },
-						{ title: "Name", field: "name" },
-						{ title: "Flee", field: "fleeRate", align: "right" },
-						{ title: "Capture", field: "captureRate", align: "right" },
-						{ title: "Male", field: "malePercent", align: "right" },
-						{ title: "Female", field: "femalePercent", align: "right" },
+						{ title: '#', field: 'dex', align: 'right' },
+						{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
+						{ title: 'Name', field: 'name' },
+						{ title: 'Buddy', field: 'buddy', align: 'right' },
+						{ title: 'Max CP', field: 'maxCP', align: 'right' },
+						{ title: 'Quick', field: 'quickMoves', formatter: 'list' },
+						{ title: 'Charge', field: 'chargeMoves', formatter: 'list' },
+						{ title: 'Family', field: 'family' },
+						{ title: 'Attack', field: 'attack', align: 'right' },
+						{ title: 'Defense', field: 'defense', align: 'right' },
+						{ title: 'Stamina', field: 'stamina', align: 'right' },
+						{ title: 'Types', field: 'types', formatter: 'list' },
+						{ title: 'Flee', field: 'fleeRate', align: 'right', formatter: 'percent' },
+						{ title: 'Capture', field: 'captureRate', align: 'right', formatter: 'percent' },
+						{ title: 'Male', field: 'male', align: 'right', formatter: 'percent' },
+						{ title: 'Female', field: 'female', align: 'right', formatter: 'percent' },
+						// { title: 'Photo', field: 'dex', align: 'right', formatter: 'photo' },
 					],
 					height: 300,
 				});
 
 			});
-// 			var paddedDex = ("00"+monster.dex).slice(-3);
+// 			var paddedDex = ('00'+monster.dex).slice(-3);
 // 			var image = `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`;
 
 
@@ -146,7 +171,6 @@
 	<body>
 
 		<div id="tabulator"></div>
-		asdf
 
 	</body>
 </html>
