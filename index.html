@@ -22,13 +22,14 @@
 		<script src="data/moves.js"></script>
 		<script src="data/types.js"></script>
 		<script src="data/flavors.js"></script>
+		<script src="data/released.js"></script>
+		<script src="data/shinies.js"></script>
+		<script src="data/exclusives.js"></script>
+		<script src="data/dittos.js"></script>
+		<script src="data/weathers.js"></script>
 
 		<!-- styles -->
 		<style>
-			/** { font-size: 8pt; }*/
-
-			td.indent { padding-left:40px; }
-
 			.type {
 				display: inline-block;
 				padding: 3px;
@@ -72,23 +73,26 @@
 
 		<!-- app scripts -->
 		<script>
+
 			/* TODO
 				- no sorting on list columns
 				- writer filter matcher for list columns
 				- try combining all data into super object, first
+				- nested tables / row formatter for evolutions
+				- Tabulator BUG: in row grouping, you have to click exactly on the icon to expand/contract
 
-regional
-shiny
-found in egg ?
-mega
-baby
-series
-generation
-released ?
-evolve cost
-evolve item
-forms
-attack type matrix
+	regional
+-	shiny
+	found in egg ?
+	mega
+	baby
+	series
+	generation
+-	released ?
+-	evolve cost
+-	evolve item
+	forms
+-	attack type matrix
 
 pokemon
 	"animationTime":
@@ -188,18 +192,10 @@ flavors
 				distance: function(cell, formatterParams) {
 					return cell.getValue() + ' km';
 				},
-				// photo:  function(cell, formatterParams) {
-				// 	var imageFormatter = Tabulator.prototype.moduleBindings.format.prototype.formatters.image;
-				// 	var formatterParams = { height:"50px", width:"50px" };
-
-				// 	var dex = cell.getValue();
-				// 	var paddedDex = ('00'+dex).slice(-3);
-				// 	var url = `https://www.serebii.net/pokemongo/pokemon/${paddedDex}.png`;
-
-				// 	cell._cell.value = url;
-
-				// 	return imageFormatter(cell, formatterParams);
-				// },
+				types: function(cell, formatterParams) {
+					var types = cell.getValue();
+					return _.map(types, 'name').join('<br/>');
+				},
 			});
 
 
@@ -207,9 +203,6 @@ var Pokedex = {
 	pokemon (poke) {
 		if (!poke)
 			return;
-
-		var evolutions = _.map(_.get(poke, 'evolution.futureBranches', []), b => Pokedex.pokemonByID(b.id));
-		var flavor = Pokedex.flavor(poke);
 
 		return {
 			id          : poke.id,
@@ -221,64 +214,101 @@ var Pokedex = {
 			attack      : poke.stats.baseAttack,
 			defense     : poke.stats.baseDefense,
 			stamina     : poke.stats.baseStamina,
-			photo       : Pokedex.photo(poke),
-			category    : flavor && flavor.category,
-			description : flavor && flavor.description,
-			evolutions  : evolutions.length ? evolutions : undefined, // BUG : cannot be null or empty array
+			photo       : `https://www.serebii.net/pokemongo/pokemon/${('00'+poke.dex).slice(-3)}.png`,
 			flee        : _.get(poke, 'encounter.baseFleeRate', 0),
 			capture     : _.get(poke, 'encounter.baseCaptureRate', 0),
 			male        : _.get(poke, 'encounter.gender.malePercent', 0),
 			female      : _.get(poke, 'encounter.gender.femalePercent', 0),
 			rarity      : _.get(poke, 'rarity.name'),
-			types       : _.map(poke.types, t => t.name),
-			quick       : _.map(poke.quickMoves, m => ({ name : m.name.replace(' Fast', ''), legacy : m.legacy || false })),
-			charge      : _.map(poke.cinematicMoves, m => ({ name : m.name, legacy : m.legacy || false })),
+			// added
+			types       : poke.types,
+			quick       : poke.quickMoves,
+			charge      : poke.cinematicMoves,
+			category    : poke.category,
+			description : poke.description,
+			ditto       : poke.ditto,
+			exclusive   : poke.exclusive,
+			released    : poke.released,
+			shiny       : poke.shiny,
+			weather     : poke.weather,
+			evolutions  : poke.evolution, // BUG : cannot be null or empty array
 		};
 	},
-
-	pokemonByID (pokeID) {
-		var poke = _.find(pokemon, { id: pokeID });
-
-		if (!poke)
-			return;
-
-		return Pokedex.pokemon(poke);
-	},
-
-	photo (poke) {
-		return `https://www.serebii.net/pokemongo/pokemon/${('00'+poke.dex).slice(-3)}.png`;
-	},
-
-	flavor (poke) {
-		return Pokedex.flavorByID(poke.id);
-	},
-
-	flavorByID (pokeID) {
-		return flavors[pokeID];
-	},
-
-	typeByID (typeID) {
-		return _.find(types, { id: typeID });
-	},
-
-	moveByID (moveID) {
-		return _.find(moves, { id: typeID });
-	},
-
 };
 
-			// var pokemon = null;
-			// pokemon = _.take(pokemon, 15);
-// console.table(pokemon);
+			// combine all data
+			_.each(pokemon, poke => {
+				// types
+				_.each(poke.types, type => {
+					// console.log(_.find(types, { id: type.id }));
+					// console.log(type.id, types);
+					_.assign(type, _.find(types, { id: type.id }));
+				});
 
-			// from pokedex
-			var uncaught = [201,214,235,254,257,272,282,291,313,321,324,326,330,352,357,362,366,367,368,369,373,376,380,385,389,391,392,394,395,397,398,400,402,404,405,407,409,410,411,412,413,414,416,417,419,420,421,422,423,424,426,428,429,430,431,433,435,437,438,439,440,441,443,444,445,446,447,448,449,452,454,455,456,457,458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,486,809];
-			// from https://serebii.net/pokemongo/pokemon.shtml
-			//var unreleased = [235,352,366,367,368,385,412,413,414,420,421,422,423,439,443,444,445,449,450,462,470,471,476,479,480,481,482,483,486,489,490,491,492,493];
-			var gens = [1,152,252,387,494,650,722,766];
+				// moves
+				_.each(poke.quickMoves, move => {
+					_.assign(move, _.find(moves, { id: move.id }));
+				});
+				_.each(poke.cinematicMoves, move => {
+					_.assign(move, _.find(moves, { id: move.id }));
+				});
 
-			var poke = _.filter(pokemon, p => _.includes(uncaught, p.dex));
-			poke = _.map(poke, Pokedex.pokemon);
+				// flavors
+				_.assign(poke, flavors[poke.id]);
+
+				// dittos
+				poke.ditto = _.has(dittos, poke.dex);
+
+				// exclusive to raids
+				poke.exclusive = _.defaultTo(exclusives[poke.dex], null);
+
+				// released
+				poke.released = _.has(released, poke.dex);
+
+				// shiny
+				poke.shiny = _.defaultTo(shinies[poke.dex], null);
+
+				// weather
+				var typeNames = _.map(poke.types, 'name');
+				poke.weather = _(weathers).pickBy(types => typeNames.some(tn => types.includes(tn))).keys().value();
+			});
+
+			// evolutions
+			// rewrite for single depth and pointer references
+			_.each(pokemon, poke => {
+				// _.each(poke.evolution.futureBranches, branch => {
+				// 	//// delete branch.futureBranches;
+				// 	// branch = _.pick(branch, 'costToEvolve');
+				// 	// branch.pokemon = _.find(pokemon, { id: branch.id });
+				// 	branch = _.extend({}, {
+				// 		costToEvolve: branch.costToEvolve,
+				// 		pokemon: _.find(pokemon, { id: branch.id }),
+				// 	});
+				// });
+
+				// poke.evolution.futureBranches = _.map(poke.evolution.futureBranches, branch => {
+				// 	return _(branch).pick('costToEvolve').extend({ pokemon: _.find(pokemon, { id: branch.id }) }).value();
+				// });
+				_.each(poke.evolution.futureBranches, (branch, idx, branches) => {
+					branches[idx] = {
+						costToEvolve: branch.costToEvolve,
+						pokemon: _.find(pokemon, { id: branch.id }),
+					};
+				});
+			});
+
+			// throw '';
+
+			// // from pokedex
+			// var uncaught = [201,214,235,254,257,272,282,291,313,321,324,326,330,352,357,362,366,367,368,369,373,376,380,385,389,391,392,394,395,397,398,400,402,404,405,407,409,410,411,412,413,414,416,417,419,420,421,422,423,424,426,428,429,430,431,433,435,437,438,439,440,441,443,444,445,446,447,448,449,452,454,455,456,457,458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,486,809];
+			// // from https://serebii.net/pokemongo/pokemon.shtml
+			// //var unreleased = [235,352,366,367,368,385,412,413,414,420,421,422,423,439,443,444,445,449,450,462,470,471,476,479,480,481,482,483,486,489,490,491,492,493];
+			// var gens = [1,152,252,387,494,650,722,766,Infinity];
+
+			// var poke = _.filter(pokemon, p => _.includes(uncaught, p.dex));
+			// poke = _.map(poke, Pokedex.pokemon);
+
+			var poke = _.map(pokemon, Pokedex.pokemon);
 
 // console.table(pokemon);
 
@@ -286,7 +316,7 @@ var Pokedex = {
 
 				var columns = [
 					{ title: '', field: '', width: 50, headerFilter: false },
-					{ title: '#', field: 'dex', align: 'right' },
+					{ title: 'Dex', field: 'dex', align: 'right' },
 					{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
 					{ title: 'Name', field: 'name' },
 					{ title: 'Buddy', field: 'buddy', align: 'right', formatter: 'distance' },
@@ -297,15 +327,19 @@ var Pokedex = {
 					{ title: 'Attack', field: 'attack', align: 'right' },
 					{ title: 'Defense', field: 'defense', align: 'right' },
 					{ title: 'Stamina', field: 'stamina', align: 'right' },
-					{ title: 'Types', field: 'types', formatter: 'list' },
 					{ title: 'Flee', field: 'flee', align: 'right', formatter: 'percent' },
 					{ title: 'Capture', field: 'capture', align: 'right', formatter: 'percent' },
 					{ title: 'Male', field: 'male', align: 'right', formatter: 'percent' },
 					{ title: 'Female', field: 'female', align: 'right', formatter: 'percent' },
 					{ title: 'Rarity', field: 'rarity' },
-					{ title: 'Types', field: 'types', formatter: 'list' },
+					{ title: 'Types', field: 'types', formatter: 'types' },
 					{ title: 'Category', field: 'category' },
 					{ title: 'Description', field: 'description', width: 200 },
+					{ title: 'Ditto', field: 'ditto', align: 'center', formatter: 'tickCross', formatterParams: { crossElement: false } },
+					{ title: 'Exclusive', field: 'exclusive', align: 'center', formatter: 'tickCross', formatterParams: { crossElement: false } },
+					{ title: 'Released', field: 'released', align: 'center', formatter: 'tickCross', formatterParams: { crossElement: false } },
+					{ title: 'Shiny', field: 'released', align: 'center', formatter: 'tickCross', formatterParams: { crossElement: false } },
+					{ title: 'Weather', field: 'weather', formatter: 'list' },
 				];
 
 				_.each(columns, column => _.defaults(column, { headerFilter: true }));
