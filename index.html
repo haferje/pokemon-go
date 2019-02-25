@@ -14,7 +14,7 @@
 
 		<!-- vendor scripts -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
-		<script src="https://unpkg.com/tabulator-tables@4.2.0/dist/js/tabulator.min.js"></script>
+		<script src="https://unpkg.com/tabulator-tables@4.2.1/dist/js/tabulator.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<!-- data scripts -->
@@ -75,24 +75,24 @@
 		<script>
 
 			/* TODO
+				# try combining all data into super object, first
 				- no sorting on list columns
 				- writer filter matcher for list columns
-				- try combining all data into super object, first
 				- nested tables / row formatter for evolutions
-				- Tabulator BUG: in row grouping, you have to click exactly on the icon to expand/contract
 
-	regional
+
 #	shiny
-	found in egg ?
-	mega
-	baby
-	series
-	generation
+#	region
+#	generation
 #	released ?
 -	evolve cost
 -	evolve item
-	forms
 -	attack type matrix
+	regional
+	found in egg ?
+	mega
+	baby
+	forms
 
 pokemon
 -	"candyCost":
@@ -150,6 +150,16 @@ moves
 				},
 			});
 
+			var regions = [
+				{ name: "Kanto", gen: 1, start: 1, end: 151 },
+				{ name: "Johto", gen: 2, start: 152, end: 251 },
+				{ name: "Hoenn", gen: 3, start: 252, end: 386 },
+				{ name: "Sinnoh", gen: 4, start: 387, end: 493 },
+				{ name: "Unova", gen: 5, start: 494, end: 649 },
+				{ name: "Kalos", gen: 6, start: 650, end: 721 },
+				{ name: "Alola", gen: 7, start: 722, end: 809 },
+			];
+
 			pokemon = _.map(pokemon, poke => {
 				// TODO: damage
 				var pokeTypes = _.filter(types, t => _.includes(_.map(poke.types, 'id'), t.id));
@@ -161,6 +171,7 @@ moves
 				var pokeFlavor = _.defaultTo(flavors[poke.id], null);
 				var pokeExclusive = _.defaultTo(exclusives[poke.dex], null);
 				var pokeShiny = _.defaultTo(shinies[poke.dex], null);
+				var pokeRegion = _.find(regions, r => r.start <= poke.dex && poke.dex <= r.end);
 
 				return {
 					id          : poke.id,
@@ -178,6 +189,8 @@ moves
 					female      : _.get(poke, 'encounter.gender.femalePercent', 0),
 					rarity      : _.get(poke, 'rarity.name'),
 					photo       : `img/${('00'+poke.dex).slice(-3)}.png`,
+					region      : pokeRegion.name,
+					gen         : pokeRegion.gen,
 					// external
 					category    : _.get(flavors, [poke.id, 'category'], null),
 					description : _.get(flavors, [poke.id, 'description'], null),
@@ -193,6 +206,8 @@ moves
 					charges     : pokeCharge,
 					evolutions  : poke.evolution, // will be overwritten after pokemon are established
 					// BUG : cannot be null or empty array
+					candy       : 0,
+					item        : null,
 				};
 			});
 
@@ -202,28 +217,23 @@ moves
 				if (!poke.evolutions.futureBranches)
 					return poke.evolutions = undefined;
 
-				_.each(poke.evolutions.futureBranches, (branch, idx, branches) => {
-					branches[idx] = {
-						pokemon: _.find(pokemon, { id: branch.id }),
-						candy: branch.costToEvolve,
-						item: _.get('branch.costToEvolve.evolutionItem.name', null),
-					};
+				var evos = _.map(poke.evolutions.futureBranches, (branch, idx, branches) => {
+					var p = _.find(pokemon, { id: branch.id });
+					p.candy = branch.costToEvolve.candyCost;
+					p.item = _.get('branch.costToEvolve.evolutionItem.name', null);
+					return p;
+					// return {
+					// 	pokemon: _.find(pokemon, { id: branch.id }),
+					// 	candy: branch.costToEvolve,
+					// 	item: _.get('branch.costToEvolve.evolutionItem.name', null),
+					// };
 				});
+
+				poke.evolutions = (evos.length) ? evos : undefined;
 			});
 
 			// // from pokedex
 			// var uncaught = [201,214,235,254,257,272,282,291,313,321,324,326,330,352,357,362,366,367,368,369,373,376,380,385,389,391,392,394,395,397,398,400,402,404,405,407,409,410,411,412,413,414,416,417,419,420,421,422,423,424,426,428,429,430,431,433,435,437,438,439,440,441,443,444,445,446,447,448,449,452,454,455,456,457,458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,486,809];
-			// // from https://serebii.net/pokemongo/pokemon.shtml
-			// //var unreleased = [235,352,366,367,368,385,412,413,414,420,421,422,423,439,443,444,445,449,450,462,470,471,476,479,480,481,482,483,486,489,490,491,492,493];
-			// var gens = [1,152,252,387,494,650,722,766,Infinity];
-			// kanto 1-151
-			// johto 152-251
-			// hoenn 252-386
-			// sinnoh 387-493
-			// unova 494-649
-			// kalos 650-721
-			// alola 722-809
-
 			// var poke = _.filter(pokemon, p => _.includes(uncaught, p.dex));
 
 			var gridColumns = [
@@ -231,6 +241,8 @@ moves
 				{ title: 'Dex', field: 'dex', align: 'right' },
 				{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
 				{ title: 'Name', field: 'name' },
+				{ title: 'Region', field: 'region' },
+				{ title: 'Gen', field: 'gen', align: 'center' },
 				{ title: 'Buddy', field: 'buddy', align: 'right', formatter: 'distance' },
 				{ title: 'Max CP', field: 'maxCP', align: 'right' },
 				{ title: 'Quick', field: 'quicks', formatter: 'moves' },
@@ -252,22 +264,106 @@ moves
 				{ title: 'Exclusive', field: 'exclusive' },
 				{ title: 'Shiny', field: 'shiny' },
 				{ title: 'Weather', field: 'weather', formatter: 'list' },
+				// { title: 'Candy', field: 'candy', align: 'right' },
+				// { title: 'Item', field: 'item' },
 			];
 			_.each(gridColumns, column => _.defaults(column, { headerFilter: true }));
 
-
+			// pokemon = _.take(pokemon, 350);
+			// pokemon = [_.nth(pokemon, 150)]; // Eevee
+			pokemon = [_.nth(pokemon, 0)]; // Bulbasaur
 			$(() => {
 
+				function evolutionTable(row) {
+					console.log(row.getPosition(), row.getIndex(), row);
+
+					// skip if not a child/nested data row
+					if (!row.getTreeParent())
+						return;
+
+					var rowEl = row.getElement();
+					var parentChildData = row.getTreeParent().getData().evolutions;
+					// var indexField = row.getTable().options.index;
+
+					// if (row.getPosition() < 0) {
+					// 	rowEl.remove();
+					// 	row.delete();
+					// 	return;
+					// }
+
+
+					// only generate a new table for the first row of child data
+					// if (_.findIndex(parentChildData, { [indexField]: row.getIndex() }) > 0)
+					// if (row.getPosition() != 0)
+					if (row.getPrevRow().getIndex() !== row.getTreeParent().getIndex()) {
+						// row._row.wipe();
+						// row._row.detachElement();
+						rowEl.remove();
+						// set to empty element
+						row._row.element = document.createElement('span');
+						// row.delete();
+						return;
+					}
+
+					// remove generated row elements
+					while (rowEl.firstChild)
+						rowEl.firstChild.remove();
+						// rowEl.removeChild(rowEl.firstChild);
+
+					var holderEl = document.createElement("div");
+					var tableEl = document.createElement("div");
+
+					//create and style holder elements
+					holderEl.style.boxSizing = "border-box";
+					holderEl.style.padding = "10px 30px 10px 10px";
+					// holderEl.style.borderTop = "1px solid #333";
+					// holderEl.style.borderBotom = "1px solid #333";
+					holderEl.style.background = "#ddd";
+
+					// tableEl.style.border = "1px solid #333";
+
+					holderEl.appendChild(tableEl);
+
+
+					// replace with holder
+					rowEl.appendChild(holderEl);
+
+					// create the new table
+					var subTable = new Tabulator(tableEl, {
+						index: 'id',
+						// data: [ row.getData() ],
+						data: parentChildData,
+						columns: [
+							{ title: '', field: '', width: 50, headerFilter: false },
+							{ title: 'Dex', field: 'dex', align: 'right' },
+							{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
+							{ title: 'Name', field: 'name' },
+							{ title: 'Region', field: 'region' },
+							{ title: 'Gen', field: 'gen', align: 'center' },
+							{ title: 'Types', field: 'types', formatter: 'types' },
+							{ title: 'Candy', field: 'candy', align: 'right' },
+							{ title: 'Item', field: 'item' },
+						],
+						layout: 'fitDataFill',
+						dataTree: true,
+						dataTreeChildField: 'evolutions',
+						movableColumns: true,
+						rowFormatter: evolutionTable,
+					});
+				}
+
 				var table = new Tabulator('#tabulator', {
+					index: 'id',
 					data: pokemon,
 					columns: gridColumns,
-					height: 300,
-					dataTree: true, // BUG: if childField is null or empty array, still shows indicators
+					layout: 'fitDataFill',
+					height: 500,
+					dataTree: true, // BUG: if childField is null or empty array, still shows indicators (Issue #1827)
 					dataTreeChildField: 'evolutions',
-					// dataTreeElementColumn: 'name',  // BUG: if elementColumn is undefined, moving dataTree column moves indicators with it until you click on them individually
-					// dataTreeChildIndent: 20, // BUG: if defined, resizing row to larger then smaller has issues
+					// dataTreeChildIndent: 20, // BUG: if defined, resizing row to larger then smaller has issues (Issue #1828)
 					movableColumns: true,
 					headerFilterPlaceholder: 'filter...',
+					rowFormatter: evolutionTable,
 				});
 
 			});
