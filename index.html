@@ -275,7 +275,13 @@ moves
 			$(() => {
 
 				function evolutionTable(row) {
-					console.log(row.getPosition(), row.getIndex(), row);
+					// console.log([
+					// 	row.getPosition(),
+					// 	row.getIndex(),
+					// 	row.getPrevRow() && row.getPrevRow().getIndex(),
+					// 	row.getTreeParent() && row.getTreeParent().getIndex(),
+					// 	row
+					// ]);
 
 					// skip if not a child/nested data row
 					if (!row.getTreeParent())
@@ -295,20 +301,25 @@ moves
 					// only generate a new table for the first row of child data
 					// if (_.findIndex(parentChildData, { [indexField]: row.getIndex() }) > 0)
 					// if (row.getPosition() != 0)
-					if (row.getPrevRow().getIndex() !== row.getTreeParent().getIndex()) {
+					if (row.getPrevRow().getIndex() !== row.getTreeParent().getIndex() || row.getPrevRow().getPosition()<0) {
 						// row._row.wipe();
 						// row._row.detachElement();
 						rowEl.remove();
 						// set to empty element
 						row._row.element = document.createElement('span');
+						// row._row.deleteCells();
 						// row.delete();
 						return;
 					}
 
 					// remove generated row elements
-					while (rowEl.firstChild)
-						rowEl.firstChild.remove();
+					// row._row.element = document.createElement('span');
+					row._row.deleteCells();
+					// row._row.delete();
+					// while (rowEl.firstChild)
+					// 	rowEl.firstChild.remove();
 						// rowEl.removeChild(rowEl.firstChild);
+					// row._row.wipe();
 
 					var holderEl = document.createElement("div");
 					var tableEl = document.createElement("div");
@@ -347,6 +358,7 @@ moves
 						layout: 'fitDataFill',
 						dataTree: true,
 						dataTreeChildField: 'evolutions',
+						dataTreeStartExpanded: true,
 						movableColumns: true,
 						rowFormatter: evolutionTable,
 					});
@@ -360,6 +372,7 @@ moves
 					height: 500,
 					dataTree: true, // BUG: if childField is null or empty array, still shows indicators (Issue #1827)
 					dataTreeChildField: 'evolutions',
+					dataTreeStartExpanded: true,
 					// dataTreeChildIndent: 20, // BUG: if defined, resizing row to larger then smaller has issues (Issue #1828)
 					movableColumns: true,
 					headerFilterPlaceholder: 'filter...',
