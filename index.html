@@ -76,10 +76,9 @@
 
 			/* TODO
 				# try combining all data into super object, first
+				# nested tables / row formatter for evolutions
 				- no sorting on list columns
-				- writer filter matcher for list columns
-				- nested tables / row formatter for evolutions
-
+				- write filter matcher for list columns
 
 #	shiny
 #	region
@@ -95,12 +94,8 @@
 	forms
 
 pokemon
--	"candyCost":
--	"costToEvolve":
--	"evolutionItem":
 -	"forms":
 #	"legacy":
-#	"rarity":
 
 types
 	"attackScalar":
@@ -205,7 +200,6 @@ moves
 					quicks      : pokeQuick,
 					charges     : pokeCharge,
 					evolutions  : poke.evolution, // will be overwritten after pokemon are established
-					// BUG : cannot be null or empty array
 					candy       : 0,
 					item        : null,
 				};
@@ -221,20 +215,78 @@ moves
 					var p = _.find(pokemon, { id: branch.id });
 					p.candy = branch.costToEvolve.candyCost;
 					p.item = _.get('branch.costToEvolve.evolutionItem.name', null);
+
 					return p;
-					// return {
-					// 	pokemon: _.find(pokemon, { id: branch.id }),
-					// 	candy: branch.costToEvolve,
-					// 	item: _.get('branch.costToEvolve.evolutionItem.name', null),
-					// };
 				});
 
 				poke.evolutions = (evos.length) ? evos : undefined;
 			});
 
-			// // from pokedex
-			// var uncaught = [201,214,235,254,257,272,282,291,313,321,324,326,330,352,357,362,366,367,368,369,373,376,380,385,389,391,392,394,395,397,398,400,402,404,405,407,409,410,411,412,413,414,416,417,419,420,421,422,423,424,426,428,429,430,431,433,435,437,438,439,440,441,443,444,445,446,447,448,449,452,454,455,456,457,458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,486,809];
-			// var poke = _.filter(pokemon, p => _.includes(uncaught, p.dex));
+			function nestedTable(row) {
+				// console.log([
+				// 	row.getPosition(),
+				// 	row.getIndex(),
+				// 	row.getPrevRow() && row.getPrevRow().getIndex(),
+				// 	row.getTreeParent() && row.getTreeParent().getIndex(),
+				// 	row
+				// ]);
+
+				// skip if not a child/nested data row - let main table rows render as usual
+				if (!row.getTreeParent())
+					return;
+
+				var rowEl = row.getElement();
+				var parentChildData = row.getTreeParent().getData().evolutions;
+
+				// only generate a new table for the first row of child data
+				if (
+					row.getPrevRow().getIndex() !== row.getTreeParent().getIndex() ||
+					row.getPrevRow().getPosition() < 0
+				) {
+					rowEl.remove();
+					// set row element to empty element without size
+					row._row.element = document.createElement('span');
+					return;
+				}
+
+				// remove generated cell elements
+				row._row.deleteCells();
+
+				// create and style holder elements
+				var holderEl = document.createElement("div");
+				var tableEl = document.createElement("div");
+
+				holderEl.style.boxSizing = "border-box";
+				holderEl.style.padding = "10px 30px 10px 10px";
+				holderEl.style.background = "#ddd";
+				holderEl.appendChild(tableEl);
+
+				// replace with holder
+				rowEl.appendChild(holderEl);
+
+				// create the new table
+				var subTable = new Tabulator(tableEl, {
+					index: 'id',
+					data: parentChildData,
+					columns: [
+						{ title: '', field: '', width: 50, headerFilter: false },
+						{ title: 'Dex', field: 'dex', align: 'right' },
+						{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
+						{ title: 'Name', field: 'name' },
+						{ title: 'Region', field: 'region' },
+						{ title: 'Gen', field: 'gen', align: 'center' },
+						{ title: 'Types', field: 'types', formatter: 'types' },
+						{ title: 'Candy', field: 'candy', align: 'right' },
+						{ title: 'Item', field: 'item' },
+					],
+					layout: 'fitDataFill',
+					dataTree: true,
+					dataTreeChildField: 'evolutions',
+					dataTreeStartExpanded: true,
+					movableColumns: true,
+					rowFormatter: nestedTable,
+				});
+			}
 
 			var gridColumns = [
 				{ title: '', field: '', width: 50, headerFilter: false },
@@ -264,105 +316,20 @@ moves
 				{ title: 'Exclusive', field: 'exclusive' },
 				{ title: 'Shiny', field: 'shiny' },
 				{ title: 'Weather', field: 'weather', formatter: 'list' },
-				// { title: 'Candy', field: 'candy', align: 'right' },
-				// { title: 'Item', field: 'item' },
+				{ title: 'Candy', field: 'candy', align: 'right' },
+				{ title: 'Item', field: 'item' },
 			];
 			_.each(gridColumns, column => _.defaults(column, { headerFilter: true }));
 
+			// from pokedex
+			var uncaught = [201,214,235,254,257,272,282,291,313,321,324,326,330,352,357,362,367,368,369,373,376,385,389,391,392,395,397,398,400,402,404,405,407,409,411,412,413,414,416,417,419,420,421,422,423,424,426,428,429,430,431,433,435,437,438,439,440,441,443,444,445,446,447,448,449,452,454,455,457,458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,486,809];
+
 			// pokemon = _.take(pokemon, 350);
 			// pokemon = [_.nth(pokemon, 150)]; // Eevee
-			pokemon = [_.nth(pokemon, 0)]; // Bulbasaur
+			// pokemon = [_.nth(pokemon, 0)]; // Bulbasaur
+			var pokemon = _.filter(pokemon, p => _.includes(uncaught, p.dex));
+
 			$(() => {
-
-				function evolutionTable(row) {
-					// console.log([
-					// 	row.getPosition(),
-					// 	row.getIndex(),
-					// 	row.getPrevRow() && row.getPrevRow().getIndex(),
-					// 	row.getTreeParent() && row.getTreeParent().getIndex(),
-					// 	row
-					// ]);
-
-					// skip if not a child/nested data row
-					if (!row.getTreeParent())
-						return;
-
-					var rowEl = row.getElement();
-					var parentChildData = row.getTreeParent().getData().evolutions;
-					// var indexField = row.getTable().options.index;
-
-					// if (row.getPosition() < 0) {
-					// 	rowEl.remove();
-					// 	row.delete();
-					// 	return;
-					// }
-
-
-					// only generate a new table for the first row of child data
-					// if (_.findIndex(parentChildData, { [indexField]: row.getIndex() }) > 0)
-					// if (row.getPosition() != 0)
-					if (row.getPrevRow().getIndex() !== row.getTreeParent().getIndex() || row.getPrevRow().getPosition()<0) {
-						// row._row.wipe();
-						// row._row.detachElement();
-						rowEl.remove();
-						// set to empty element
-						row._row.element = document.createElement('span');
-						// row._row.deleteCells();
-						// row.delete();
-						return;
-					}
-
-					// remove generated row elements
-					// row._row.element = document.createElement('span');
-					row._row.deleteCells();
-					// row._row.delete();
-					// while (rowEl.firstChild)
-					// 	rowEl.firstChild.remove();
-						// rowEl.removeChild(rowEl.firstChild);
-					// row._row.wipe();
-
-					var holderEl = document.createElement("div");
-					var tableEl = document.createElement("div");
-
-					//create and style holder elements
-					holderEl.style.boxSizing = "border-box";
-					holderEl.style.padding = "10px 30px 10px 10px";
-					// holderEl.style.borderTop = "1px solid #333";
-					// holderEl.style.borderBotom = "1px solid #333";
-					holderEl.style.background = "#ddd";
-
-					// tableEl.style.border = "1px solid #333";
-
-					holderEl.appendChild(tableEl);
-
-
-					// replace with holder
-					rowEl.appendChild(holderEl);
-
-					// create the new table
-					var subTable = new Tabulator(tableEl, {
-						index: 'id',
-						// data: [ row.getData() ],
-						data: parentChildData,
-						columns: [
-							{ title: '', field: '', width: 50, headerFilter: false },
-							{ title: 'Dex', field: 'dex', align: 'right' },
-							{ title: 'Photo', field: 'photo', align: 'center', formatter: 'image', formatterParams: { height: '50px', width: '50px' } },
-							{ title: 'Name', field: 'name' },
-							{ title: 'Region', field: 'region' },
-							{ title: 'Gen', field: 'gen', align: 'center' },
-							{ title: 'Types', field: 'types', formatter: 'types' },
-							{ title: 'Candy', field: 'candy', align: 'right' },
-							{ title: 'Item', field: 'item' },
-						],
-						layout: 'fitDataFill',
-						dataTree: true,
-						dataTreeChildField: 'evolutions',
-						dataTreeStartExpanded: true,
-						movableColumns: true,
-						rowFormatter: evolutionTable,
-					});
-				}
 
 				var table = new Tabulator('#tabulator', {
 					index: 'id',
@@ -370,13 +337,12 @@ moves
 					columns: gridColumns,
 					layout: 'fitDataFill',
 					height: 500,
-					dataTree: true, // BUG: if childField is null or empty array, still shows indicators (Issue #1827)
+					dataTree: true,
 					dataTreeChildField: 'evolutions',
 					dataTreeStartExpanded: true,
-					// dataTreeChildIndent: 20, // BUG: if defined, resizing row to larger then smaller has issues (Issue #1828)
 					movableColumns: true,
 					headerFilterPlaceholder: 'filter...',
-					rowFormatter: evolutionTable,
+					rowFormatter: nestedTable,
 				});
 
 			});
