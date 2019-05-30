@@ -603,6 +603,10 @@ var released = {
         "id": 234, 
         "name": "Stantler"
     }, 
+    "235": {
+        "id": 235, 
+        "name": "Smeargle"
+    }, 
     "236": {
         "id": 236, 
         "name": "Tyrogue"
@@ -1175,6 +1179,18 @@ var released = {
         "id": 365, 
         "name": "Walrein"
     }, 
+    "366": {
+        "id": 366, 
+        "name": "Clamperl"
+    }, 
+    "367": {
+        "id": 367, 
+        "name": "Huntail"
+    }, 
+    "368": {
+        "id": 368, 
+        "name": "Gorebyss"
+    }, 
     "369": {
         "id": 369, 
         "name": "Relicanth"
@@ -1367,6 +1383,18 @@ var released = {
         "id": 411, 
         "name": "Bastiodon"
     }, 
+    "412": {
+        "id": 412, 
+        "name": "Burmy"
+    }, 
+    "413": {
+        "id": 413, 
+        "name": "Wormadam"
+    }, 
+    "414": {
+        "id": 414, 
+        "name": "Mothim"
+    }, 
     "415": {
         "id": 415, 
         "name": "Combee"
@@ -1390,6 +1418,22 @@ var released = {
     "42": {
         "id": 42, 
         "name": "Golbat"
+    }, 
+    "420": {
+        "id": 420, 
+        "name": "Cherubi"
+    }, 
+    "421": {
+        "id": 421, 
+        "name": "Cherrim"
+    }, 
+    "422": {
+        "id": 422, 
+        "name": "Shellos"
+    }, 
+    "423": {
+        "id": 423, 
+        "name": "Gastrodon"
     }, 
     "424": {
         "id": 424, 
@@ -1459,6 +1503,10 @@ var released = {
         "id": 44, 
         "name": "Gloom"
     }, 
+    "440": {
+        "id": 440, 
+        "name": "Happiny"
+    }, 
     "441": {
         "id": 441, 
         "name": "Chatot"
@@ -1466,6 +1514,18 @@ var released = {
     "442": {
         "id": 442, 
         "name": "Spiritomb"
+    }, 
+    "443": {
+        "id": 443, 
+        "name": "Gible"
+    }, 
+    "444": {
+        "id": 444, 
+        "name": "Gabite"
+    }, 
+    "445": {
+        "id": 445, 
+        "name": "Garchomp"
     }, 
     "446": {
         "id": 446, 
@@ -1479,9 +1539,17 @@ var released = {
         "id": 448, 
         "name": "Lucario"
     }, 
+    "449": {
+        "id": 449, 
+        "name": "Hippopotas"
+    }, 
     "45": {
         "id": 45, 
         "name": "Vileplume"
+    }, 
+    "450": {
+        "id": 450, 
+        "name": "Hippowdon"
     }, 
     "451": {
         "id": 451, 
@@ -1531,6 +1599,10 @@ var released = {
         "id": 461, 
         "name": "Weavile"
     }, 
+    "462": {
+        "id": 462, 
+        "name": "Magnezone"
+    }, 
     "463": {
         "id": 463, 
         "name": "Lickilicky"
@@ -1563,9 +1635,21 @@ var released = {
         "id": 47, 
         "name": "Parasect"
     }, 
+    "470": {
+        "id": 470, 
+        "name": "Leafeon"
+    }, 
+    "471": {
+        "id": 471, 
+        "name": "Glaceon"
+    }, 
     "472": {
         "id": 472, 
         "name": "Gliscor"
+    }, 
+    "473": {
+        "id": 473, 
+        "name": "Mamoswine"
     }, 
     "474": {
         "id": 474, 
@@ -1574,6 +1658,10 @@ var released = {
     "475": {
         "id": 475, 
         "name": "Gallade"
+    }, 
+    "476": {
+        "id": 476, 
+        "name": "Probopass"
     }, 
     "477": {
         "id": 477, 
@@ -1586,6 +1674,22 @@ var released = {
     "48": {
         "id": 48, 
         "name": "Venonat"
+    }, 
+    "480": {
+        "id": 480, 
+        "name": "Uxie"
+    }, 
+    "481": {
+        "id": 481, 
+        "name": "Mesprit"
+    }, 
+    "482": {
+        "id": 482, 
+        "name": "Azelf"
+    }, 
+    "483": {
+        "id": 483, 
+        "name": "Dialga"
     }, 
     "484": {
         "id": 484, 

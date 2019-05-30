@@ -95,6 +95,46 @@ var shinies = {
         "id": 12, 
         "name": "Butterfree"
     }, 
+    "16": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 16, 
+        "name": "Pidgey"
+    }, 
+    "17": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 17, 
+        "name": "Pidgeotto"
+    }, 
+    "18": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 18, 
+        "name": "Pidgeot"
+    }, 
+    "19": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 19, 
+        "name": "Rattata"
+    }, 
+    "20": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 20, 
+        "name": "Raticate"
+    }, 
     "25": {
         "found_egg": false, 
         "found_evolution": true, 
@@ -151,6 +191,54 @@ var shinies = {
         "id": 31, 
         "name": "Nidoqueen"
     }, 
+    "35": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 35, 
+        "name": "Clefairy"
+    }, 
+    "36": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 36, 
+        "name": "Clefable"
+    }, 
+    "39": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 39, 
+        "name": "Jigglypuff"
+    }, 
+    "40": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 40, 
+        "name": "Wigglytuff"
+    }, 
+    "50": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 50, 
+        "name": "Diglett"
+    }, 
+    "51": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 51, 
+        "name": "Dugtrio"
+    }, 
     "54": {
         "found_egg": false, 
         "found_evolution": false, 
@@ -167,6 +255,22 @@ var shinies = {
         "id": 55, 
         "name": "Golduck"
     }, 
+    "56": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 56, 
+        "name": "Mankey"
+    }, 
+    "57": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 57, 
+        "name": "Primeape"
+    }, 
     "58": {
         "found_egg": true, 
         "found_evolution": false, 
@@ -182,6 +286,30 @@ var shinies = {
         "found_wild": false, 
         "id": 59, 
         "name": "Arcanine"
+    }, 
+    "66": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 66, 
+        "name": "Machop"
+    }, 
+    "67": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 67, 
+        "name": "Machoke"
+    }, 
+    "68": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 68, 
+        "name": "Machamp"
     }, 
     "74": {
         "found_egg": false, 
@@ -238,6 +366,22 @@ var shinies = {
         "found_wild": false, 
         "id": 82, 
         "name": "Magneton"
+    }, 
+    "86": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 86, 
+        "name": "Seel"
+    }, 
+    "87": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 87, 
+        "name": "Dewgong"
     }, 
     "88": {
         "found_egg": true, 
@@ -343,6 +487,22 @@ var shinies = {
         "id": 105, 
         "name": "Marowak"
     }, 
+    "123": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 123, 
+        "name": "Scyther"
+    }, 
+    "124": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 124, 
+        "name": "Jynx"
+    }, 
     "125": {
         "found_egg": false, 
         "found_evolution": true, 
@@ -382,6 +542,14 @@ var shinies = {
         "found_wild": false, 
         "id": 130, 
         "name": "Gyarados"
+    }, 
+    "131": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 131, 
+        "name": "Lapras"
     }, 
     "133": {
         "found_egg": true, 
@@ -583,6 +751,22 @@ var shinies = {
         "id": 172, 
         "name": "Pichu"
     }, 
+    "173": {
+        "found_egg": true, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 173, 
+        "name": "Cleffa"
+    }, 
+    "174": {
+        "found_egg": true, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 174, 
+        "name": "Igglybuff"
+    }, 
     "175": {
         "found_egg": true, 
         "found_evolution": false, 
@@ -654,6 +838,14 @@ var shinies = {
         "found_wild": false, 
         "id": 184, 
         "name": "Azumarill"
+    }, 
+    "190": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 190, 
+        "name": "Aipom"
     }, 
     "191": {
         "found_egg": true, 
@@ -743,6 +935,38 @@ var shinies = {
         "id": 210, 
         "name": "Granbull"
     }, 
+    "212": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 212, 
+        "name": "Scizor"
+    }, 
+    "213": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 213, 
+        "name": "Shuckle"
+    }, 
+    "220": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 220, 
+        "name": "Swinub"
+    }, 
+    "221": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 221, 
+        "name": "Piloswine"
+    }, 
     "225": {
         "found_egg": false, 
         "found_evolution": false, 
@@ -766,6 +990,14 @@ var shinies = {
         "found_wild": false, 
         "id": 229, 
         "name": "Houndoom"
+    }, 
+    "238": {
+        "found_egg": true, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 238, 
+        "name": "Smoochum"
     }, 
     "239": {
         "found_egg": true, 
@@ -823,6 +1055,30 @@ var shinies = {
         "id": 250, 
         "name": "Ho-Oh"
     }, 
+    "252": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 252, 
+        "name": "Treecko"
+    }, 
+    "253": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 253, 
+        "name": "Grovyle"
+    }, 
+    "254": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 254, 
+        "name": "Sceptile"
+    }, 
     "261": {
         "found_egg": true, 
         "found_evolution": false, 
@@ -854,6 +1110,30 @@ var shinies = {
         "found_wild": false, 
         "id": 264, 
         "name": "Linoone"
+    }, 
+    "270": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 270, 
+        "name": "Lotad"
+    }, 
+    "271": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 271, 
+        "name": "Lombre"
+    }, 
+    "272": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 272, 
+        "name": "Ludicolo"
     }, 
     "276": {
         "found_egg": false, 
@@ -1039,6 +1319,22 @@ var shinies = {
         "id": 334, 
         "name": "Altaria"
     }, 
+    "337": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 337, 
+        "name": "Lunatone"
+    }, 
+    "338": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 338, 
+        "name": "Solrock"
+    }, 
     "349": {
         "found_egg": true, 
         "found_evolution": false, 
@@ -1054,6 +1350,14 @@ var shinies = {
         "found_wild": false, 
         "id": 350, 
         "name": "Milotic"
+    }, 
+    "351": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 351, 
+        "name": "Castform"
     }, 
     "353": {
         "found_egg": true, 
@@ -1119,6 +1423,30 @@ var shinies = {
         "id": 362, 
         "name": "Glalie"
     }, 
+    "366": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 366, 
+        "name": "Clamperl"
+    }, 
+    "367": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 367, 
+        "name": "Huntail"
+    }, 
+    "368": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 368, 
+        "name": "Gorebyss"
+    }, 
     "370": {
         "found_egg": true, 
         "found_evolution": false, 
@@ -1126,6 +1454,30 @@ var shinies = {
         "found_wild": true, 
         "id": 370, 
         "name": "Luvdisc"
+    }, 
+    "371": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 371, 
+        "name": "Bagon"
+    }, 
+    "372": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 372, 
+        "name": "Shelgon"
+    }, 
+    "373": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 373, 
+        "name": "Salamence"
     }, 
     "374": {
         "found_egg": false, 
@@ -1150,6 +1502,22 @@ var shinies = {
         "found_wild": false, 
         "id": 376, 
         "name": "Metagross"
+    }, 
+    "380": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": true, 
+        "found_wild": false, 
+        "id": 380, 
+        "name": "Latias"
+    }, 
+    "381": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": true, 
+        "found_wild": false, 
+        "id": 381, 
+        "name": "Latios"
     }, 
     "382": {
         "found_egg": false, 
@@ -1207,6 +1575,14 @@ var shinies = {
         "id": 407, 
         "name": "Roserade"
     }, 
+    "424": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 424, 
+        "name": "Ambipom"
+    }, 
     "425": {
         "found_egg": false, 
         "found_evolution": false, 
@@ -1222,6 +1598,22 @@ var shinies = {
         "found_wild": false, 
         "id": 426, 
         "name": "Drifblim"
+    }, 
+    "427": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 427, 
+        "name": "Buneary"
+    }, 
+    "428": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 428, 
+        "name": "Lopunny"
     }, 
     "429": {
         "found_egg": false, 
@@ -1239,6 +1631,22 @@ var shinies = {
         "id": 430, 
         "name": "Honchkrow"
     }, 
+    "466": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 466, 
+        "name": "Electivire"
+    }, 
+    "467": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 467, 
+        "name": "Magmortar"
+    }, 
     "468": {
         "found_egg": false, 
         "found_evolution": true, 
@@ -1247,6 +1655,14 @@ var shinies = {
         "id": 468, 
         "name": "Togekiss"
     }, 
+    "473": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 473, 
+        "name": "Mamoswine"
+    }, 
     "477": {
         "found_egg": false, 
         "found_evolution": true, 
@@ -1254,5 +1670,29 @@ var shinies = {
         "found_wild": false, 
         "id": 477, 
         "name": "Dusknoir"
+    }, 
+    "478": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 478, 
+        "name": "Froslass"
+    }, 
+    "808": {
+        "found_egg": false, 
+        "found_evolution": false, 
+        "found_raid": false, 
+        "found_wild": true, 
+        "id": 808, 
+        "name": "Meltan"
+    }, 
+    "809": {
+        "found_egg": false, 
+        "found_evolution": true, 
+        "found_raid": false, 
+        "found_wild": false, 
+        "id": 809, 
+        "name": "Melmetal"
     }
 };
