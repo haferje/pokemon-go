@@ -9,11 +9,11 @@ This is a utility that helps me track the Pokemon I have yet to catch in the mob
 #### Setup
 
 1. Modify the JS array `uncaught` to list only Pokemon with those Dex values.
+2. Run `update-files.sh` to pull down current PokemonGo data from multiple sources.
 
 #### Run
 
-1. Run `update-files.sh` to pull down current PokemonGo data from multiple sources.
-2. Open `index.html` in a browser.
+1. Open `index.html` in a browser.
 
 #### Dependencies
 
