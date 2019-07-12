@@ -14,3 +14,10 @@ This is a utility that helps me track the Pokemon I have yet to catch in the mob
 
 1. Run `update-files.sh` to pull down current PokemonGo data from multiple sources.
 2. Open `index.html` in a browser.
+
+#### Dependencies
+
+- Bash
+- jQuery
+- Lodash
+- Tabulator
